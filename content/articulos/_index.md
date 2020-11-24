@@ -1,3 +1,0 @@
----
-title: Lista de artículos
----

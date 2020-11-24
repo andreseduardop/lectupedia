@@ -19,10 +19,13 @@ homeMetaContent = "Let's talk about reading."
 footer = "2020- Lectupedia by [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
 
 [taxonomies]
+# El parametro "tags" (del FM de los <articulos>.md) es invocado en la plantilla single de <articulos>
+# TODO: Cambiar por "topics" en inglés
 tag = "tags"
 
 [permalinks]
-post = "/:filename/"
+# post = "/:filename/"
+archivo = "/:filename/"
 
 [imaging]
 quality = 99
@@ -46,13 +49,13 @@ url = "/"
 weight = 1
 
 [[menu.nav]]
-name = "Artículos"
-url = "/articulos/"
+name = "Archivo"
+url = "/archivo/"
 weight = 2
 
 [[menu.nav]]
 name = "Temas"
-url = "/temas/"
+url = "/tags/"
 weight = 3
 
 [[menu.nav]]

@@ -20,7 +20,7 @@ html {
     font-family: Arial, Helvetica Neue, sans-serif;
     line-height: 1.5;
     color: #111;
-    background-color: #fefefe;
+    background-color: #fffdf0;
 }
 template {
   display: none !important;
@@ -98,7 +98,7 @@ div:not([tabindex]):focus {
     display: block;
     width: 100%;
     padding: 0.75rem;
-    color: #fefefe;
+    color: #fffdf0;
     background: #000;
     position: absolute;
     top: -3rem;
@@ -214,7 +214,7 @@ button {
     border-radius: 0.33em;
     font-family: inherit;
     background: #111;
-    color: #fefefe;
+    color: #fffdf0;
     padding: 0.75rem;
     border: 0;
 }
@@ -226,7 +226,7 @@ button {
   border-top-left-radius: 0.33rem !important;
   box-shadow: none !important;
   background: #111 !important;
-  color: #fefefe !important;
+  color: #fffdf0 !important;
   position: absolute !important;
   right: 0 !important;
   bottom: 0 !important;
@@ -240,7 +240,7 @@ label {
 [for="themer"] {
   background: #111;
   border-radius: 0.33em;
-  color: #fefefe;
+  color: #fffdf0;
   padding: 0.25em 0.75em;
   margin: 0.5rem;
 }
@@ -290,7 +290,7 @@ th:empty {
 .tested th {
     width: 100%;
     background-color: #111;
-    color: #fefefe;
+    color: #fffdf0;
     outline-color: #111;
 }
 .tested img {
@@ -408,7 +408,7 @@ caption {
 .pattern [aria-current] {
   background-color: #111;
   clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
-  color: #fefefe;
+  color: #fffdf0;
 }
 
 /* Menu button */
@@ -632,7 +632,7 @@ pre[class*=language-] code * {
     overflow-y: hidden;
 }
 .file-tree li {
-    background: #fefefe;
+    background: #fffdf0;
     position: relative;
     white-space: nowrap;
 }
@@ -779,7 +779,7 @@ h1 svg {
 .colors span {
     line-height: 1;
     background-color: #111;
-    color: #fefefe;
+    color: #fffdf0;
     font-size: 0.75rem;
     padding: 0.25rem;
     position: absolute;
@@ -1010,7 +1010,7 @@ h1 svg {
 }
 @media (-ms-high-contrast: active) {
   img[src*=".svg"] {
-    background: #fefefe;
+    background: #fffdf0;
     padding: 0.5rem;
   }
   .ticks li::before {
@@ -1027,10 +1027,10 @@ h1 svg {
 
 ::-moz-selection { /* Code for Firefox */
     background: rgba(0,0,0,.8);
-    color: #fefefe;
+    color: #fffdf0;
 }
   
 ::selection {
   background: rgba(0,0,0,.8);
-  color: #fefefe;
+  color: #fffdf0;
 }
