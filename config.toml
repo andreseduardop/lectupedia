@@ -1,11 +1,22 @@
 baseURL = "https://example.com"
-languageCode = "en-us"
-defaultContentLanguage = "en"
+languageCode = "es-co"
+defaultContentLanguage = "es"
 title = "Lectupedia"
 theme = "cupper-hugo-theme"
 googleAnalytics = "UA-123456789-1"
 disqusShortname = "yourdiscussshortname"
 enableGitInfo = true
+
+[languages.es]
+languageName = "Spanish"
+weight = 1
+
+[languages.en]
+languageName = "English"
+weight = 2
+description = "Let's talk about reading."
+homeMetaContent = "Let's talk about reading."
+footer = "2020- Lectupedia by [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
 
 [taxonomies]
 tag = "tags"
@@ -17,9 +28,9 @@ post = "/:filename/"
 quality = 99
 
 [params]
-description = "An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project."
-homeMetaContent = "An accessibility-friendly Hugo theme, ported from the original Cupper project."
-footer = "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/)."
+description = "Hablemos sobre lectura."
+homeMetaContent = "Todo acerca de la lectura."
+footer = "2020- Lectupedia por [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) está disponible bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es)."
 dateFormat = "Jan 2, 2006"
 codePenUser = "someUser"
 katex = true
@@ -30,29 +41,29 @@ customCss = [ "css/custom_01.css", "css/custom_02.css" ]
 customJs = [ "js/custom_01.js", "js/custom_02.js" ]
 
 [[menu.nav]]
-name = "Home"
+name = "Inicio"
 url = "/"
 weight = 1
 
 [[menu.nav]]
-name = "Blog"
-url = "/post/"
+name = "Artículos"
+url = "/articulos/"
 weight = 2
 
 [[menu.nav]]
-name = "Tags"
-url = "/tags/"
+name = "Temas"
+url = "/temas/"
 weight = 3
 
 [[menu.nav]]
-name = "About"
-url = "/about/"
+name = "Acerca de"
+url = "/acerca-de/"
 weight = 4
 
-[[menu.nav]]
-name = "RSS"
-url = "/index.xml"
-weight = 5
+# [[menu.nav]]
+# name = "RSS"
+# url = "/index.xml"
+# weight = 5
 
 [markup]
 defaultMarkdownHandler = "goldmark"

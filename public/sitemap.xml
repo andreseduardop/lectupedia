@@ -1,170 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
-  <url>
-    <loc>https://example.com/cmd-test/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>https://example.com/es/sitemap.xml</loc>
+    
+      <lastmod>2020-08-04T21:05:05-05:00</lastmod>
+    
+  </sitemap>
   
-  <url>
-    <loc>https://example.com/tags/issue/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
+  <sitemap>
+    <loc>https://example.com/en/sitemap.xml</loc>
+    
+      <lastmod>2020-08-04T21:05:05-05:00</lastmod>
+    
+  </sitemap>
   
-  <url>
-    <loc>https://example.com/tags/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/multiple-expandable-test/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/special-character-test/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/hugo/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/katex/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/katex-math-typesetting/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/math/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/typesetting/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/cupper-typography/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/markdown/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/cupper-shortcodes/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/shortcodes/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/nasa/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/nasa-images/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/quotes/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/quotes-by-carl-jung/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/command-line/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/creating-a-new-theme/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/theme/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/about/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/goisforlovers/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/fun/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/hugoisforlovers/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/git/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/go/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/templates/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/jekyll/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/migrate-from-jekyll/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/tags/migration/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://example.com/post/</loc>
-    <lastmod>2020-11-21T12:08:22-05:00</lastmod>
-  </url>
-  
-</urlset>
+</sitemapindex>
