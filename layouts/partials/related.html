@@ -27,8 +27,9 @@
 		</header>
 		<section class="related-summary-text">
 			<p>{{ .Summary | markdownify | plainify | htmlUnescape }}..</p>
-			<p><a href="{{ .RelPermalink }}" aria-label="post link to {{ .Title | plainify }}">Leer más...</a></p>
+			<p><a href="{{ .RelPermalink }}" aria-label="post link to {{ .Title | plainify }}">{{ T "read_more" }}</a>...</p>
 		</section>
 	</article>
 	{{ end }}	
 {{ end }}
+<hr>

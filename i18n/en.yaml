@@ -30,3 +30,5 @@
   translation: Related Posts
 - id: texto_disponible_en_idiomas
   translation: "Also available in:"
+- id: read_more
+  translation: Read more

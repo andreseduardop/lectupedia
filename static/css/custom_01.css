@@ -1,3 +1,11 @@
+.intro-and-nav > div {
+  padding-top: 1rem;
+}
+
+.main-and-footer > div {
+  padding-top: 0.5rem;
+}
+
 .div-themer-nav {
   text-align: right;
 }
@@ -10,7 +18,7 @@
   border-style: outset;
   border-width: thin;
   font-weight: normal;
-  font-size: 0.7rem;
+  font-size: 0.85rem;
 }
 
 .related-header-title {

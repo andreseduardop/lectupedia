@@ -1,6 +1,7 @@
 baseURL = "https://lectupedia.netlify.app"
 languageCode = "es-co"
 defaultContentLanguage = "es"
+defaultContentLanguageInSubdir = true
 title = "Lectupedia"
 theme = "cupper-hugo-theme"
 googleAnalytics = "UA-123456789-1"
@@ -22,7 +23,7 @@ summaryLength = 35
 
     [[languages.en.menu.nav]]
     name = "Sitio en Español"
-    url = "../"
+    url = "../es/"
     weight = 1
 
     [[languages.en.menu.nav]]
@@ -44,6 +45,19 @@ tag = "tags"
 # post = "/:filename/"
 archive = "/:filename/"
 
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = true
+  
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+
+    [[related.indices]]
+    name = "date"
+    weight = 50
+
 [imaging]
 quality = 85
 
@@ -62,7 +76,7 @@ customJs = [ "js/custom_01.js", "js/custom_02.js" ]
 
 [[menu.nav]]
 name = "English Site"
-url = "/en/"
+url = "../en/"
 weight = 1
 
 [[menu.nav]]

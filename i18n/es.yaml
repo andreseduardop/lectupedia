@@ -30,3 +30,5 @@
   translation: Artículos Realacionados
 - id: texto_disponible_en_idiomas
   translation: "También disponible en:"
+- id: read_more
+  translation: Leer más
