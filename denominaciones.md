@@ -1,6 +1,6 @@
 name: es, en
 
-archivo: archivo, archivo
+archivo: archivo, archive
 
 tags: temas, topics
 tag: tema, topic

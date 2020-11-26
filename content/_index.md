@@ -1,14 +1,15 @@
 ---
-date: "2017-06-26T18:27:58+01:00"
-title: "Inicio"
+date: "2020-11-21"
+title: ""
 ---
 
-Bienvenido a **Lecturopedia**:
+**Lectupedia** es un sitio para hablar sobre lectura.  
+Tendremos información sobre:
 
 {{< ticks >}}
-* Screen reader and keyboard accessible
-* Responsive
-* Numerous shortcodes
-* Toggleable dark theme
-* Toggleable table of contents per blog post
+* Indicadores de lectura por país.
+* Bienestar Humano y Lectura.
+* Desarrollo Económico y Lectura.
+* Neurología y Lectura.
+* Mucho más.
 {{< /ticks >}}

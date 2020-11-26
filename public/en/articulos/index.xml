@@ -1,21 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Lectupedia</title>
-    <link>https://example.com/en/articulos/</link>
-    <description>Recent content in Posts on Lectupedia</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-co</language>
-    <lastBuildDate>Tue, 04 Aug 2020 21:05:05 -0500</lastBuildDate><atom:link href="https://example.com/en/articulos/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>cmd Test</title>
-      <link>https://example.com/en/articulos/cmd-test/</link>
-      <pubDate>Tue, 04 Aug 2020 21:05:05 -0500</pubDate>
-      
-      <guid>https://example.com/en/articulos/cmd-test/</guid>
-      <description>Testing out GitHub issue https://github.com/zwbetz-gh/cupper-hugo-theme/issues/42
-Line 1Line 2Line 3</description>
-    </item>
-    
-  </channel>
-</rss>

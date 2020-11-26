@@ -1,3 +1,47 @@
-.your-custom-class-01 {
-  display: block;
+.div-themer-nav {
+  text-align: right;
+}
+
+.boton-themer-nav {
+  /*border-radius: 0.33em;*/
+  background: transparent;
+  color: #00020f;
+  margin: 0.5rem 0rem;
+  border-style: outset;
+  border-width: thin;
+  font-weight: normal;
+  font-size: 0.7rem;
+}
+
+.related-header-title {
+  border: 0;
+  line-height: 1.25;
+}
+
+.related-tag {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+}
+
+.related-summary-text {
+  padding-left: 1rem;
+  margin: 0.25rem;
+  font-size: .85rem;
+}
+
+.available-languages {
+  margin-top: 0;
+  font-size: 0.85rem;
+}
+
+.active-language-tag {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  border-bottom: 0px; 
+}
+
+.available-language-tag {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid;
 }

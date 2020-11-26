@@ -6,29 +6,46 @@ theme = "cupper-hugo-theme"
 googleAnalytics = "UA-123456789-1"
 disqusShortname = "yourdiscussshortname"
 enableGitInfo = true
+summaryLength = 35
 
-[languages.es]
-languageName = "Spanish"
-weight = 1
+[languages]
+  [languages.es]
+  languageName = "Español"
+  weight = 1
 
-[languages.en]
-languageName = "English"
-weight = 2
-description = "Let's talk about reading."
-homeMetaContent = "Let's talk about reading."
-footer = "2020- Lectupedia by [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
+  [languages.en]
+  languageName = "English"
+  weight = 2
+  description = "Let's talk about reading."
+  homeMetaContent = "Let's talk about reading."
+  footer = "2020- Lectupedia by [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
+
+    [[languages.en.menu.nav]]
+    name = "Sitio en Español"
+    url = "../"
+    weight = 1
+
+    [[languages.en.menu.nav]]
+    name = "Archive"
+    url = "/archive/"
+    weight = 2
+
+    [[languages.en.menu.nav]]
+    name = "Topics"
+    url = "/tags/"
+    weight = 3
 
 [taxonomies]
 # El parametro "tags" (del FM de los <articulos>.md) es invocado en la plantilla single de <articulos>
-# TODO: Cambiar por "topics" en inglés
+# Al cambiar "tags" el layout single fallará.
 tag = "tags"
 
 [permalinks]
 # post = "/:filename/"
-archivo = "/:filename/"
+archive = "/:filename/"
 
 [imaging]
-quality = 99
+quality = 85
 
 [params]
 description = "Hablemos sobre lectura."
@@ -44,13 +61,13 @@ customCss = [ "css/custom_01.css", "css/custom_02.css" ]
 customJs = [ "js/custom_01.js", "js/custom_02.js" ]
 
 [[menu.nav]]
-name = "Inicio"
-url = "/"
+name = "English Site"
+url = "/en/"
 weight = 1
 
 [[menu.nav]]
 name = "Archivo"
-url = "/archivo/"
+url = "/archive/"
 weight = 2
 
 [[menu.nav]]
@@ -58,15 +75,20 @@ name = "Temas"
 url = "/tags/"
 weight = 3
 
-[[menu.nav]]
-name = "Acerca de"
-url = "/acerca-de/"
-weight = 4
+# [[menu.nav]]
+# name = "Acerca de"
+# url = "/acerca-de/"
+# weight = 4
 
 # [[menu.nav]]
 # name = "RSS"
 # url = "/index.xml"
 # weight = 5
+
+[[menu.nav]]
+name = "Blog"
+url = "/post/"
+weight = 6
 
 [markup]
 defaultMarkdownHandler = "goldmark"
