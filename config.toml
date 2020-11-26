@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://lectupedia.netlify.app"
 languageCode = "es-co"
 defaultContentLanguage = "es"
 title = "Lectupedia"
