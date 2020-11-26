@@ -9,6 +9,38 @@ disqusShortname = "yourdiscussshortname"
 enableGitInfo = true
 summaryLength = 35
 
+[menu]
+
+  [[menu.nav]]
+    name = "English Site"
+    url = "..//en/"
+    weight = 1
+
+  [[menu.nav]]
+    name = "Archivo"
+    url = "/archive/"
+    weight = 2
+
+  [[menu.nav]]
+    name = "Temas"
+    url = "/tags/"
+    weight = 3
+
+  # [[menu.nav]]
+  # name = "Acerca de"
+  # url = "/acerca-de/"
+  # weight = 4
+
+  # [[menu.nav]]
+  # name = "RSS"
+  # url = "/index.xml"
+  # weight = 5
+
+  [[menu.nav]]
+    name = "Blog"
+    url = "/post/"
+    weight = 6
+
 [languages]
   [languages.es]
   languageName = "Español"
@@ -23,7 +55,7 @@ summaryLength = 35
 
     [[languages.en.menu.nav]]
     name = "Sitio en Español"
-    url = "../es/"
+    url = "..//es/"
     weight = 1
 
     [[languages.en.menu.nav]]
@@ -73,36 +105,6 @@ hideHeaderLinks = false
 search = true
 customCss = [ "css/custom_01.css", "css/custom_02.css" ]
 customJs = [ "js/custom_01.js", "js/custom_02.js" ]
-
-[[menu.nav]]
-name = "English Site"
-url = "../en/"
-weight = 1
-
-[[menu.nav]]
-name = "Archivo"
-url = "/archive/"
-weight = 2
-
-[[menu.nav]]
-name = "Temas"
-url = "/tags/"
-weight = 3
-
-# [[menu.nav]]
-# name = "Acerca de"
-# url = "/acerca-de/"
-# weight = 4
-
-# [[menu.nav]]
-# name = "RSS"
-# url = "/index.xml"
-# weight = 5
-
-[[menu.nav]]
-name = "Blog"
-url = "/post/"
-weight = 6
 
 [markup]
 defaultMarkdownHandler = "goldmark"
