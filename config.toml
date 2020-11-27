@@ -5,7 +5,7 @@ defaultContentLanguageInSubdir = true
 title = "Lectupedia"
 theme = "cupper-hugo-theme"
 googleAnalytics = "UA-123456789-1"
-disqusShortname = "yourdiscussshortname"
+disqusShortname = "lectupedia"
 enableGitInfo = true
 summaryLength = 35
 
