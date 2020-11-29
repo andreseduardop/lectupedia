@@ -7,6 +7,7 @@ theme = "cupper-hugo-theme"
 googleAnalytics = "UA-123456789-1"
 disqusShortname = "lectupedia"
 enableGitInfo = true
+pluralizeListTitles = false
 summaryLength = 35
 
 [menu]
@@ -99,12 +100,12 @@ summaryLength = 35
   footer = "2020- Lectupedia por [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) está disponible bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es)."
   dateFormat = "Jan 2, 2006"
   codePenUser = "someUser"
-  katex = true
+  katex = false
   darkThemeAsDefault = false
   hideHeaderLinks = false
   search = true
-  customCss = [ "css/custom_01.css", "css/custom_02.css" ]
-  customJs = [ "js/custom_01.js", "js/custom_02.js" ]
+  customCss = [ "css/custom_01.css" ]
+  # customJs = [ "js/custom_01.js", "js/custom_02.js" ]
 
 [markup]
   defaultMarkdownHandler = "goldmark"

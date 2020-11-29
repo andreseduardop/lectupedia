@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lectupedia.netlify.app/en/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://lectupedia.netlify.app/es/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/issue/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lectupedia.netlify.app/en/tags/issue/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://lectupedia.netlify.app/es/tags/issue/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/multiple-expandable-test/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lectupedia.netlify.app/en/multiple-expandable-test/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://lectupedia.netlify.app/es/multiple-expandable-test/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/post/special-character-test/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lectupedia.netlify.app/en/post/special-character-test/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://lectupedia.netlify.app/es/post/special-character-test/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/katex/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/post/katex-math-typesetting/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/math/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/typesetting/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/post/cupper-typography/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/markdown/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/post/cupper-shortcodes/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/shortcodes/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/nasa/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/post/nasa-images/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/quotes/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lectupedia.netlify.app/en/tags/quotes/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://lectupedia.netlify.app/es/tags/quotes/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/post/quotes-by-carl-jung/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lectupedia.netlify.app/en/post/quotes-by-carl-jung/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://lectupedia.netlify.app/es/post/quotes-by-carl-jung/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/command-line/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/post/creating-a-new-theme/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/theme/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/acerca-de/</loc>
+    <lastmod>2020-11-24T06:34:40-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lectupedia.netlify.app/en/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://lectupedia.netlify.app/es/acerca-de/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/post/goisforlovers/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/fun/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lectupedia.netlify.app/en/tags/fun/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://lectupedia.netlify.app/es/tags/fun/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/git/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lectupedia.netlify.app/en/tags/git/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://lectupedia.netlify.app/es/tags/git/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/go/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/post/hugoisforlovers/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lectupedia.netlify.app/en/post/hugoisforlovers/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://lectupedia.netlify.app/es/post/hugoisforlovers/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/templates/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/jekyll/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/post/migrate-from-jekyll/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/migration/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/archive/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lectupedia.netlify.app/en/archive/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://lectupedia.netlify.app/es/archive/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/hugo/</loc>
+    <lastmod>2020-11-24T16:32:33-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lectupedia.netlify.app/en/tags/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://lectupedia.netlify.app/es/tags/hugo/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/post/</loc>
+    <lastmod>2020-11-26T13:16:42-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lectupedia.netlify.app/en/post/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://lectupedia.netlify.app/es/post/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://lectupedia.netlify.app/es/tags/</loc>
+    <lastmod>2020-11-24T16:32:33-05:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://lectupedia.netlify.app/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://lectupedia.netlify.app/es/tags/"
+                />
+  </url>
+  
+</urlset>

@@ -49,40 +49,40 @@
 /* cambio a color crema */
 
 html {
-  background-color: #fffdf0;
+  background-color: #fffdf3;
 }
 [href="#main"] {
-  color: #fffdf0;
+  color: #fffdf3;
 }
 .cmd code {
-  color: #fffdf0;
+  color: #fffdf3;
 }
 button {
-  color: #fffdf0;
+  color: #fffdf3;
 }
 [data-launch] {
-  color: #fffdf0 !important;
+  color: #fffdf3 !important;
 }
 [for="themer"] {
-  color: #fffdf0;
+  color: #fffdf3;
 }
 .tested th {
     color: #fefefe;
 }
 .pattern [aria-current] {
-  color: #fffdf0;
+  color: #fffdf3;
 }
 .code-annotated.numbered + ol li::before  {
-  color: #fffdf0;
+  color: #fffdf3;
 }
 .file-tree li {
-  background: #fffdf0;
+  background: #fffdf3;
 }
 .colors span {
-  color: #fffdf0;
+  color: #fffdf3;
 }
 ::-moz-selection {  /* Code for Firefox */
-  color: #fffdf0;
+  color: #fffdf3;
 }
 
 /* end Cambio de color */

@@ -6,5 +6,5 @@ tags: temas, topics
 tag: tema, topic
 
 
-background: #fefefe(original), #fffdf0(cream.modificado)
+background: #fefefe(original), #fffdf3(Floral white .modificado)
 

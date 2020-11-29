@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lectupedia</title>
+    <link>https://lectupedia.netlify.app/es/</link>
+    <description>Recent content on Lectupedia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-co</language>
+    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lectupedia.netlify.app/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prueba de expandibles seguidos</title>
+      <link>https://lectupedia.netlify.app/es/multiple-expandable-test/</link>
+      <pubDate>Wed, 17 Jun 2020 22:01:14 -0500</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/es/multiple-expandable-test/</guid>
+      <description>Probando GitHub issue https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36 &amp;ndash; Varios códigos cortos expandibles no funcionan si tienen el mismo texto interno.
+expandable 1Un texto interior.expandable 2Un texto interior.</description>
+    </item>
+    
+    <item>
+      <title>Prueba de caracteres especiales</title>
+      <link>https://lectupedia.netlify.app/es/post/special-character-test/</link>
+      <pubDate>Tue, 10 Sep 2019 20:26:08 -0500</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/es/post/special-character-test/</guid>
+      <description>Probando GitHub issue https://github.com/zwbetz-gh/cupper-hugo-theme/issues/16
+Estè textö tiene carácteres especîales.</description>
+    </item>
+    
+    <item>
+      <title>Katex Math Typesetting</title>
+      <link>https://lectupedia.netlify.app/es/post/katex-math-typesetting/</link>
+      <pubDate>Thu, 28 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/es/post/katex-math-typesetting/</guid>
+      <description>Enable Katex in the config file by setting the katex param to true. This will import the necessary Katex CSS/JS.
+Note: Use the online reference of supported TeX functions.
+Some math:
+$$ \varphi = \dfrac{1+\sqrt5}{2}= 1.</description>
+    </item>
+    
+    <item>
+      <title>Cupper Typography</title>
+      <link>https://lectupedia.netlify.app/es/post/cupper-typography/</link>
+      <pubDate>Thu, 14 Feb 2019 15:36:09 -0600</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/es/post/cupper-typography/</guid>
+      <description>Headings # Heading 1## Heading 2### Heading 3#### Heading 4##### Heading 5###### Heading 6 Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Text *This text will be italic*_This will also be italic_**This text will be bold**__This will also be bold___You **can** combine them_ This text will be italic</description>
+    </item>
+    
+    <item>
+      <title>Cupper Shortcodes</title>
+      <link>https://lectupedia.netlify.app/es/post/cupper-shortcodes/</link>
+      <pubDate>Tue, 12 Feb 2019 23:39:06 -0600</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/es/post/cupper-shortcodes/</guid>
+      <description>blockquote {{&amp;lt; blockquote author=&amp;quot;Carl Jung&amp;quot; &amp;gt;}}Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better to take things as they come along with patience and equanimity.</description>
+    </item>
+    
+    <item>
+      <title>NASA Images</title>
+      <link>https://lectupedia.netlify.app/es/post/nasa-images/</link>
+      <pubDate>Thu, 27 Dec 2018 20:46:49 -0600</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/es/post/nasa-images/</guid>
+      <description>The below images are from the NASA Image and Video Library &amp;ndash; indulge yourself, revel in their beauty.
+The Sun is the star at the center of the Solar System. It is a nearly perfect sphere of hot plasma, with internal convective motion that generates a magnetic field via a dynamo process.</description>
+    </item>
+    
+    <item>
+      <title>Quotes by Carl Jung</title>
+      <link>https://lectupedia.netlify.app/es/post/quotes-by-carl-jung/</link>
+      <pubDate>Wed, 26 Dec 2018 00:29:41 -0600</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/es/post/quotes-by-carl-jung/</guid>
+      <description>Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better to take things as they come along with patience and equanimity.</description>
+    </item>
+    
+    <item>
+      <title>Creating a New Theme</title>
+      <link>https://lectupedia.netlify.app/es/post/creating-a-new-theme/</link>
+      <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/es/post/creating-a-new-theme/</guid>
+      <description>Introduction This tutorial will show you how to create a simple theme in Hugo. I assume that you are familiar with HTML, the bash command line, and that you are comfortable using Markdown to format content.</description>
+    </item>
+    
+    <item>
+      <title>Acerca de</title>
+      <link>https://lectupedia.netlify.app/es/acerca-de/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/es/acerca-de/</guid>
+      <description>Lectupedia es un sitio para hablar sobre lectura.</description>
+    </item>
+    
+    <item>
+      <title>(Hu)go Template Primer</title>
+      <link>https://lectupedia.netlify.app/es/post/goisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/es/post/goisforlovers/</guid>
+      <description>Hugo uses the excellent Go html/template library for its template engine. It is an extremely lightweight engine that provides a very small amount of logic. In our experience that it is just the right amount of logic to be able to create a good static website.</description>
+    </item>
+    
+    <item>
+      <title>Iniciando con Hugo</title>
+      <link>https://lectupedia.netlify.app/es/post/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/es/post/hugoisforlovers/</guid>
+      <description>Paso 1. Instalar Hugo Ir a Hugo releases y descargar la versión adecauda para su SO y arquitectura.
+Guárdela en algún lugar específico, porque la usaremos en el siguiente paso.
+Una guía de instalación más completa se encuentra en Install Hugo.</description>
+    </item>
+    
+    <item>
+      <title>Migrate to Hugo from Jekyll</title>
+      <link>https://lectupedia.netlify.app/es/post/migrate-from-jekyll/</link>
+      <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/es/post/migrate-from-jekyll/</guid>
+      <description>Move static content to static Jekyll has a rule that any directory not starting with _ will be copied as-is to the _site output. Hugo keeps all static content under static. You should therefore move it all there.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lectupedia</title>
+    <link>https://lectupedia.netlify.app/en/</link>
+    <description>Recent content on Lectupedia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-co</language>
+    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lectupedia.netlify.app/en/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>cmd Test</title>
+      <link>https://lectupedia.netlify.app/en/post/cmd-test/</link>
+      <pubDate>Tue, 04 Aug 2020 21:05:05 -0500</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/en/post/cmd-test/</guid>
+      <description>Testing out GitHub issue https://github.com/zwbetz-gh/cupper-hugo-theme/issues/42
+Line 1Line 2Line 3</description>
+    </item>
+    
+    <item>
+      <title>Multiple Expandable Test</title>
+      <link>https://lectupedia.netlify.app/en/multiple-expandable-test/</link>
+      <pubDate>Wed, 17 Jun 2020 22:01:14 -0500</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/en/multiple-expandable-test/</guid>
+      <description>Testing out GitHub issue https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36 &amp;ndash; Multiple expandable shortcodes do not work if they have the same inner text.
+expandable 1Same inner text.expandable 2Same inner text.</description>
+    </item>
+    
+    <item>
+      <title>Special Character Test</title>
+      <link>https://lectupedia.netlify.app/en/post/special-character-test/</link>
+      <pubDate>Tue, 10 Sep 2019 20:26:08 -0500</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/en/post/special-character-test/</guid>
+      <description>Testing out GitHub issue https://github.com/zwbetz-gh/cupper-hugo-theme/issues/16
+Estè textö tiene carácteres especîales.</description>
+    </item>
+    
+    <item>
+      <title>Quotes by Carl Jung</title>
+      <link>https://lectupedia.netlify.app/en/post/quotes-by-carl-jung/</link>
+      <pubDate>Wed, 26 Dec 2018 00:29:41 -0600</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/en/post/quotes-by-carl-jung/</guid>
+      <description>Even a happy life cannot be without a measure of darkness, and the word happy would lose its meaning if it were not balanced by sadness. It is far better to take things as they come along with patience and equanimity.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://lectupedia.netlify.app/en/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/en/about/</guid>
+      <description>Lectupedia is a site to talk about reading.</description>
+    </item>
+    
+    <item>
+      <title>Getting Started with Hugo</title>
+      <link>https://lectupedia.netlify.app/en/post/hugoisforlovers/</link>
+      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/en/post/hugoisforlovers/</guid>
+      <description>Step 1. Install Hugo Go to Hugo releases and download the appropriate version for your OS and architecture.
+Save it somewhere specific as we will be using it in the next step.
+More complete instructions are available at Install Hugo</description>
+    </item>
+    
+  </channel>
+</rss>

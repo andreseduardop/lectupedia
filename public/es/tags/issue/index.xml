@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>issue on Lectupedia</title>
+    <link>https://lectupedia.netlify.app/es/tags/issue/</link>
+    <description>Recent content in issue on Lectupedia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>es-co</language>
+    <lastBuildDate>Wed, 17 Jun 2020 22:01:14 -0500</lastBuildDate><atom:link href="https://lectupedia.netlify.app/es/tags/issue/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Prueba de expandibles seguidos</title>
+      <link>https://lectupedia.netlify.app/es/multiple-expandable-test/</link>
+      <pubDate>Wed, 17 Jun 2020 22:01:14 -0500</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/es/multiple-expandable-test/</guid>
+      <description>Probando GitHub issue https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36 &amp;ndash; Varios códigos cortos expandibles no funcionan si tienen el mismo texto interno.
+expandable 1Un texto interior.expandable 2Un texto interior.</description>
+    </item>
+    
+    <item>
+      <title>Prueba de caracteres especiales</title>
+      <link>https://lectupedia.netlify.app/es/post/special-character-test/</link>
+      <pubDate>Tue, 10 Sep 2019 20:26:08 -0500</pubDate>
+      
+      <guid>https://lectupedia.netlify.app/es/post/special-character-test/</guid>
+      <description>Probando GitHub issue https://github.com/zwbetz-gh/cupper-hugo-theme/issues/16
+Estè textö tiene carácteres especîales.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,9 +1,13 @@
 <header class="intro-and-nav" role="banner">
   <div>
     <div class="intro">
+      <!-- Enlaza la imagen con el home
+      agregando el prefijo de idioma a la BaseURL.
+      Antes se usó / y .Site.Language.Lang 
+      La variable .LanguagePrefix incluye el / antes del código de idioma  -->
       <a
         class="logo"
-        href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}/"
+        href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/"
         aria-label="{{ .Site.Title }} home page"
       >
         <img src="{{ "images/logo.svg" | absURL }}" alt="">
