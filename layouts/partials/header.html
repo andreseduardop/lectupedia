@@ -1,21 +1,46 @@
 <header class="intro-and-nav" role="banner">
   <div>
     <div class="intro">
+      <!-- Logo -->
       <!-- Enlaza la imagen con el home
       agregando el prefijo de idioma a la BaseURL.
       Antes se usó / y .Site.Language.Lang 
       La variable .LanguagePrefix incluye el / antes del código de idioma  -->
       <a
         class="logo"
-        href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/"
-        aria-label="{{ .Site.Title }} home page"
-      >
-        <img src="{{ "images/logo.svg" | absURL }}" alt="">
+        href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/" aria-label="{{ .Site.Title }} home page">
+        <img class="logo" src="{{ "images/logo.svg" | absURL }}" alt="logo lectupedia">
       </a>
       <p class="library-desc">
-        {{ with .Site.Params.description }} {{ . | markdownify }} {{ end }}
+        <!-- Descripción -->
+        <!-- {{ with .Site.Params.description }} {{ . | markdownify }} {{ end }} -->
       </p>
     </div>
+    <!-- end Logo -->
+    
+    <!-- Lista de idiomas -->
+    <div class="translations-list">
+      {{ $home := .Site.Home }}
+      {{ range $home.Translations }}
+        {{ $isCurrentLang := eq $home.Language .Language }}
+          <span><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></span>
+          <!-- <span> | </span> -->
+          <br>
+      {{ end }}
+          <span>{{ $home.Language.LanguageName }} </span>
+    </div>
+    <!-- end Lista de idiomas -->
+    
     {{ partial "nav.html" . }}
+
+    <!-- Botón para Themer -->
+    <div class="div-themer-nav">
+      <label for="themer" class="boton-themer-nav">
+        {{ T "dark_theme" }}: <input type="checkbox" id="themer" class="vh">
+        <span aria-hidden="true"></span>
+      </label>
+    </div>
+    <!-- end Botón -->
+
   </div>
 </header>

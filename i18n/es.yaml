@@ -11,7 +11,7 @@
 - id: discuss_js_disabled
   translation: Habilite JavaScript para ver comentarios Disqus.
 - id: dark_theme
-  translation: " modo oscuro: "
+  translation: " modo oscuro"
 - id: table_of_contents
   translation: Tabla de contenido
 - id: publish_date
@@ -32,3 +32,6 @@
   translation: "También disponible en:"
 - id: read_more
   translation: Leer más
+- id: activate
+  translation: activar
+  

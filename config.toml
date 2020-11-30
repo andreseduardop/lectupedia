@@ -12,10 +12,10 @@ summaryLength = 35
 
 [menu]
 
-  [[menu.nav]]
-    name = "English Site"
-    url = "../en/"
-    weight = 1
+  # [[menu.nav]]
+  #   name = "English Site"
+  #   url = "../en/"
+  #   weight = 1
 
   [[menu.nav]]
     name = "Archivo"
@@ -54,10 +54,10 @@ summaryLength = 35
     homeMetaContent = "Let's talk about reading."
     footer = "2020- Lectupedia by [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
 
-    [[languages.en.menu.nav]]
-      name = "Sitio en Español"
-      url = "../es/"
-      weight = 1
+    # [[languages.en.menu.nav]]
+    #   name = "Sitio en Español"
+    #   url = "../es/"
+    #   weight = 1
 
     [[languages.en.menu.nav]]
       name = "Archive"
@@ -96,7 +96,7 @@ summaryLength = 35
 
 [params]
   description = "Hablemos sobre lectura."
-  homeMetaContent = "Todo acerca de la lectura."
+  homeMetaContent = "Hablemos sobre lectura."
   footer = "2020- Lectupedia por [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) está disponible bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es)."
   dateFormat = "Jan 2, 2006"
   codePenUser = "someUser"
@@ -139,5 +139,5 @@ summaryLength = 35
     tabWidth = 4
 
   [markup.tableOfContents]
-    endLevel = 6
+    endLevel = 3
     startLevel = 2

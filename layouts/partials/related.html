@@ -1,6 +1,6 @@
 <br>
 <hr>
-{{ $related := .Site.RegularPages.Related . | first 5 }}
+{{ $related := .Site.RegularPages.Related . | first 4 }}
 {{ with $related }}
 <h2>{{ T "related_articles_title" }}</h2>
 	{{ range . }}

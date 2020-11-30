@@ -1,21 +1,33 @@
+:root {
+  --main-bg-color: #fffdf3;
+}
 .intro-and-nav > div {
   padding-top: 1rem;
 }
 .main-and-footer > div {
   padding-top: 0.5rem;
 }
+.translations-list {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.75;
+  /*  flex: 0 0 auto;*/
+  margin-top: 0.5rem;
+}
 .div-themer-nav {
   text-align: right;
+  margin-top: 0rem;
+  flex: 20 0 auto;
 }
 .boton-themer-nav {
-  /*border-radius: 0.33em;*/
   background: transparent;
   color: #00020f !important;
-  margin: 0.5rem 0rem;
+  margin: 1rem 0rem 0rem;
   border-style: outset;
   border-width: thin;
   font-weight: normal;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 .related-header-title {
   border: 0;
@@ -49,41 +61,57 @@
 /* cambio a color crema */
 
 html {
-  background-color: #fffdf3;
+  background-color: var(--main-bg-color);
 }
 [href="#main"] {
-  color: #fffdf3;
+  color: var(--main-bg-color);
 }
 .cmd code {
-  color: #fffdf3;
+  color: var(--main-bg-color);
 }
 button {
-  color: #fffdf3;
+  color: var(--main-bg-color);
 }
 [data-launch] {
-  color: #fffdf3 !important;
+  color: var(--main-bg-color) !important;
 }
 [for="themer"] {
-  color: #fffdf3;
+  color: var(--main-bg-color);
 }
 .tested th {
     color: #fefefe;
 }
 .pattern [aria-current] {
-  color: #fffdf3;
+  color: var(--main-bg-color);
 }
 .code-annotated.numbered + ol li::before  {
-  color: #fffdf3;
+  color: var(--main-bg-color);
 }
 .file-tree li {
-  background: #fffdf3;
+  background: var(--main-bg-color);
 }
 .colors span {
-  color: #fffdf3;
+  color: var(--main-bg-color);
 }
 ::-moz-selection {  /* Code for Firefox */
-  color: #fffdf3;
+  color: var(--main-bg-color);
 }
 
 /* end Cambio de color */
 /* =================== */
+
+/* Botón ir arriba */
+/*Flecha para hacer la pagina hacia arriba*/
+.ir-arriba{
+  display:none;
+  background-repeat:no-repeat;
+  font-size:2rem;
+  color:black;
+  cursor:pointer;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  z-index:2;
+}
+/* end Botón ir arriba*/
+
