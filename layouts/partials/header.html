@@ -20,16 +20,29 @@
     
     <!-- Lista de idiomas -->
     <div class="translations-list">
+      {{ $currentPage := . }}
       {{ $home := .Site.Home }}
       {{ range $home.Translations }}
-        {{ $isCurrentLang := eq $home.Language .Language }}
-          <span><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></span>
-          <!-- <span> | </span> -->
-          <br>
+        {{ $homeTranslation := .Language }}
+        {{ $hayTraduccion := false }}
+        {{ $paginaTraducida := .Permalink }}
+        {{ range $currentPage.Translations }} 
+          {{ $isSame := eq $homeTranslation .Language }} 
+          {{ if $isSame }}
+            {{ $hayTraduccion = true }}
+            {{ $paginaTraducida = .Permalink }}
+          {{ end }}
+        {{ end }}  
+          {{ if $hayTraduccion }}
+            <span><a href="{{ $paginaTraducida }}">{{ .Language.LanguageName }}</a></span><br>
+          {{ else }}
+            <span><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></span><br>
+          {{ end }}
+
       {{ end }}
           <span>{{ $home.Language.LanguageName }} </span>
     </div>
-    <!-- end Lista de idiomas -->
+    <!-- end Lista de idiomas -->    
     
     {{ partial "nav.html" . }}
 

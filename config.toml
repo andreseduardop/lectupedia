@@ -47,6 +47,10 @@ summaryLength = 35
   languageName = "Español"
   weight = 1
 
+  [languages.fr]
+  languageName = "Français"
+  weight = 3
+
   [languages.en]
     languageName = "English"
     weight = 2

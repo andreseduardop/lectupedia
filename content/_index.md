@@ -1,6 +1,6 @@
 ---
 date: "2020-11-21"
-title: ""
+title: "Español"
 ---
 
 **Lectupedia** es un sitio para hablar sobre lectura.  

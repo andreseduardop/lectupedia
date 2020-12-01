@@ -1,20 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Archivo de publicaciones on Lectupedia</title>
-    <link>https://lectupedia.netlify.app/es/archive/</link>
-    <description>Recent content in Archivo de publicaciones on Lectupedia</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-co</language><atom:link href="https://lectupedia.netlify.app/es/archive/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Prueba de expandibles seguidos</title>
-      <link>https://lectupedia.netlify.app/es/multiple-expandable-test/</link>
-      <pubDate>Wed, 17 Jun 2020 22:01:14 -0500</pubDate>
-      
-      <guid>https://lectupedia.netlify.app/es/multiple-expandable-test/</guid>
-      <description>Probando GitHub issue https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36 &amp;ndash; Varios códigos cortos expandibles no funcionan si tienen el mismo texto interno.
-expandable 1Un texto interior.expandable 2Un texto interior.</description>
-    </item>
-    
-  </channel>
-</rss>
