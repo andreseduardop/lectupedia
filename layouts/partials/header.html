@@ -21,26 +21,18 @@
     <!-- Lista de idiomas -->
     <div class="translations-list">
       {{ $currentPage := . }}
-      {{ $home := .Site.Home }}
-      {{ range $home.Translations }}
+      {{ range .Site.Home.Translations }}
         {{ $homeTranslation := .Language }}
-        {{ $hayTraduccion := false }}
-        {{ $paginaTraducida := .Permalink }}
+        {{ $linkToTranslation := .Permalink }}
         {{ range $currentPage.Translations }} 
-          {{ $isSame := eq $homeTranslation .Language }} 
-          {{ if $isSame }}
-            {{ $hayTraduccion = true }}
-            {{ $paginaTraducida = .Permalink }}
+          {{ $sameLanguage := eq $homeTranslation .Language }} 
+          {{ if $sameLanguage }}
+            {{ $linkToTranslation = .Permalink }}
           {{ end }}
         {{ end }}  
-          {{ if $hayTraduccion }}
-            <span><a href="{{ $paginaTraducida }}">{{ .Language.LanguageName }}</a></span><br>
-          {{ else }}
-            <span><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></span><br>
-          {{ end }}
-
+        <span><a href="{{ $linkToTranslation }}">{{ .Language.LanguageName }}</a></span><br>
       {{ end }}
-          <span>{{ $home.Language.LanguageName }} </span>
+          <span>{{ .Site.Home.Language.LanguageName }} </span>
     </div>
     <!-- end Lista de idiomas -->    
     
