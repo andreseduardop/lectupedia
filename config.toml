@@ -56,7 +56,7 @@ summaryLength = 35
     weight = 2
     description = "Let's talk about reading."
     homeMetaContent = "Let's talk about reading."
-    footer = "2020- Lectupedia by [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
+    footer = "2020· Lectupedia by [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)."
 
     # [[languages.en.menu.nav]]
     #   name = "Sitio en Español"
@@ -101,7 +101,8 @@ summaryLength = 35
 [params]
   description = "Hablemos sobre lectura."
   homeMetaContent = "Hablemos sobre lectura."
-  footer = "2020- Lectupedia por [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) está disponible bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es)."
+  footer = "2020· Lectupedia, por [Andrés Peña](https://www.linkedin.com/in/andreseduardop/), está disponible bajo licencia [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.es)."
+  footer2 = "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/)."
   dateFormat = "Jan 2, 2006"
   codePenUser = "someUser"
   katex = false

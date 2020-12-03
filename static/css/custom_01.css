@@ -56,9 +56,15 @@
   text-transform: uppercase;
   border-bottom: 1px solid;
 }
+.footer2 {
+  font-size: 0.75rem;
+  color: #ddd;
+  margin-top: 0rem;
+}
 
 /* ==================== */
 /* cambio a color crema */
+/* modifica css de cupper */
 
 html {
   background-color: var(--main-bg-color);
@@ -99,19 +105,3 @@ button {
 
 /* end Cambio de color */
 /* =================== */
-
-/* Botón ir arriba */
-/*Flecha para hacer la pagina hacia arriba*/
-.ir-arriba{
-  display:none;
-  background-repeat:no-repeat;
-  font-size:2rem;
-  color:black;
-  cursor:pointer;
-  position:fixed;
-  bottom:10px;
-  right:10px;
-  z-index:2;
-}
-/* end Botón ir arriba*/
-
