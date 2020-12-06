@@ -1,9 +1,20 @@
 ---
 title: "Prueba de caracteres especiales"
-date: 2019-09-10T20:26:08-05:00
-tags: ["issue", "artículos"]
+date: 2020-10-16
+lastmod: 2020-12-05
+tags:
+- issue
+- artículos
+- tema 3
+
+images:
+- gato.svg
+- gato.png
+- gato.jpg
+
+description: Se verifican caracteres latinos especiales como acéntos, tildes y diéresis, entre otros.
 ---
 
-Probando GitHub issue https://github.com/zwbetz-gh/cupper-hugo-theme/issues/16
+## Español
 
 Estè textö tiene carácteres especîales.

@@ -105,13 +105,18 @@ removePathAccents = true
   footer = "2020· Lectupedia, por [Andrés Peña](https://www.linkedin.com/in/andreseduardop/), está disponible bajo licencia [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.es) <img style='height:22px!important;margin-left:3px;vertical-align:text-bottom;' src='https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1' /><img style='height:22px!important;margin-left:3px;vertical-align:text-bottom;' src='https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1' /><img style='height:22px!important;margin-left:3px;vertical-align:text-bottom;' src='https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1' />"
   footer2 = "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/)."
   dateFormat = "Jan 2, 2006"
-  codePenUser = "someUser"
+  author = "Andrés Peña"
+  images = "images/site-feature-image.jpg"
+  # codePenUser = "someUser"
   katex = false
   darkThemeAsDefault = false
   hideHeaderLinks = false
   search = true
   customCss = [ "css/custom_01.css" ]
   # customJs = [ "js/custom_01.js", "js/custom_02.js" ]
+  facebook = "Lectupedia"
+  twitter = "andreseduardop_"
+  linkedin = "andreseduardop"
 
 [markup]
   defaultMarkdownHandler = "goldmark"

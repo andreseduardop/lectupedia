@@ -1,7 +1,8 @@
 ---
 title: "Prueba de expandibles seguidos"
 date: 2020-06-17T22:01:14-05:00
-tags: [issue]
+tags:
+- issue
 ---
 
 Probando GitHub issue https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36 -- Varios códigos cortos expandibles no funcionan si tienen el mismo texto interno.

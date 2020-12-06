@@ -1,0 +1,48 @@
+<script type="application/ld+json">
+{{- if eq .Section "archive" }}
+{
+  {{- $featuredImage := .Site.Params.images | absURL }}
+  {{- with .Params.images }}
+    {{- $featuredImage = index . 0 | absURL }}
+  {{- end }}
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": {{ .Title }},
+  "image": {{ $featuredImage }},
+  "datePublished": {{ .PublishDate }},
+  "dateModified": {{ .Lastmod }},
+  "author": {
+    "@type": "Person",
+    "name": {{ .Site.Params.author }}
+  },
+  "mainEntityOfPage": { "@type": "WebPage" },
+  "publisher": {
+    "@type": "Organization",
+    "name": {{ .Site.Title }},
+    "logo": {
+      "@type": "ImageObject",
+      "url": {{ "images/logo.svg" | absURL }}
+      }
+  },
+  "description": {{ .Params.description | plainify | safeHTML }},
+  "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
+}
+{{ end -}}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": {{ .Site.Title }},
+  "url": {{ .Site.BaseURL }},
+  "logo": {
+    "@type": "ImageObject",
+    "url": {{ "images/logo.svg" | absURL }}
+    },
+  "sameAs": [
+    {{ with .Site.Params.facebook }}"https://www.facebook.com/{{ . }}",{{ end }}
+    {{ with .Site.Params.twitter }}"https://twitter.com/{{ . }}",{{ end }}
+    {{ with .Site.Params.linkedin }}"https://www.linkedin.com/in/{{ . }}"{{ end }}
+    ]
+}
+</script>
