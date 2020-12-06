@@ -34,4 +34,7 @@
   translation: Read more
 - id: activate
   translation: activate
-  
+- id: go_to_home
+  translation: Go to home.
+- id: page_no_found
+  translation: We are sorry. We have not found what you were looking for.

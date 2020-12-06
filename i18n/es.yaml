@@ -34,4 +34,7 @@
   translation: Leer más
 - id: activate
   translation: activar
-  
+- id: go_to_home
+  translation: Ir al inicio.
+- id: page_no_found
+  translation: Lo sentimos. No hemos encontrado lo que  buscabas.

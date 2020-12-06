@@ -1,0 +1,11 @@
+{{ define "main"}}
+    <main id="main">
+      <br>
+      <div>
+      	{{ T "page_no_found" }}
+      </div>
+      <div>
+       <h1 id="title"><a href="{{ .Site.BaseURL | relLangURL }}">{{ T "go_to_home" }}</a></h1>
+      </div>
+    </main>
+{{ end }}

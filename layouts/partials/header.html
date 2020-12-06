@@ -8,7 +8,7 @@
       La variable .LanguagePrefix incluye el / antes del código de idioma  -->
       <a
         class="logo"
-        href="{{ .Site.BaseURL }}{{ .Site.LanguagePrefix }}/" aria-label="{{ .Site.Title }} home page">
+        href="{{ .Site.BaseURL | relLangURL }}" aria-label="{{ .Site.Title }} home page">
         <img class="logo" src="{{ "images/logo.svg" | absURL }}" alt="logo lectupedia">
       </a>
       <p class="library-desc">
