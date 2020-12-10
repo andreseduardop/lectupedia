@@ -1,5 +1,6 @@
 :root {
   --main-bg-color: #fffdf3;
+  --resalted-color: #ff4800;
 }
 .intro-and-nav > div {
   padding-top: 1rem;
@@ -85,7 +86,7 @@ button {
   color: var(--main-bg-color);
 }
 .tested th {
-    color: #fefefe;
+  color: var(--main-bg-color);
 }
 .pattern [aria-current] {
   color: var(--main-bg-color);
