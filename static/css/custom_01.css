@@ -1,6 +1,6 @@
 :root {
   --main-bg-color: #fffdf3;
-  --resalted-color: #ff4800;
+  --resalted-color: #d07d40;
 }
 .intro-and-nav > div {
   padding-top: 1rem;
@@ -64,8 +64,13 @@
 }
 
 /* ==================== */
-/* cambio a color crema */
-/* modifica css de cupper */
+/* modifica colores css de cupper */
+
+h1 {
+  color: var(--resalted-color);
+}
+
+/* cambio a color de fondo crema */
 
 html {
   background-color: var(--main-bg-color);
@@ -104,5 +109,5 @@ button {
   color: var(--main-bg-color);
 }
 
-/* end Cambio de color */
+/* end mofifica css cupper */
 /* =================== */

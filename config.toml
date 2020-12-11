@@ -133,10 +133,11 @@ removePathAccents = true
   [markup.goldmark.parser]
     attribute = true
     autoHeadingID = true
+    autoHeadingIDType = "github"
 
   [markup.goldmark.renderer]
     hardWraps = false
-    unsafe = true
+    unsafe = false
     xHTML = false
 
   [markup.highlight]
