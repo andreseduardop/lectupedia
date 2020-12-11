@@ -1,7 +1,8 @@
 ---
 title: "Multiple Expandable Test"
 date: 2020-06-17T22:01:14-05:00
-tags: [issue]
+tags:
+- issue
 ---
 
 Testing out GitHub issue https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36 -- Multiple expandable shortcodes do not work if they have the same inner text.

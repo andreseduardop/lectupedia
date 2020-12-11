@@ -1,13 +1,14 @@
 :root {
   --main-bg-color: #fffdf3;
-  --resalted-color: #d07d40;
+  --resalted-color: #b67f58;
 }
 .intro-and-nav > div {
   padding-top: 1rem;
 }
 .main-and-footer > div {
-  padding-top: 0.5rem;
+  padding: 0.75rem;
 }
+/* Header > Idiomas disponibles */
 .translations-list {
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -16,6 +17,15 @@
   /*  flex: 0 0 auto;*/
   margin-top: 0.5rem;
 }
+a.available-language-item {
+  color: inherit;
+}
+/* end Idiomas disponibles */
+/* Nav > Menú */
+a.menu-item {
+  color: inherit;
+}
+/* end Nav > Menú */
 .div-themer-nav {
   text-align: right;
   margin-top: 0rem;
@@ -30,6 +40,7 @@
   font-weight: normal;
   font-size: 0.8rem;
 }
+/* aplicable a sección de Artículos Relacionados */
 .related-header-title {
   border: 0;
   line-height: 1.25;
@@ -43,6 +54,9 @@
   margin: 0.25rem;
   font-size: .85rem;
 }
+/* end sección de Artículos Relacionados */
+/* aplicable al item de traduccione disponibles */
+/* para el layout single.html */
 .available-languages {
   margin-top: 0;
   font-size: 0.85rem;
@@ -56,17 +70,19 @@
   font-size: 0.75rem;
   text-transform: uppercase;
   border-bottom: 1px solid;
+  /*color: #111;*/
 }
+/* end item de traduccione disponibles */
 .footer2 {
   font-size: 0.75rem;
-  color: #ddd;
+  color: #777;
   margin-top: 0rem;
 }
 
 /* ==================== */
 /* modifica colores css de cupper */
 
-h1 {
+a {
   color: var(--resalted-color);
 }
 

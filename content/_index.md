@@ -12,14 +12,14 @@ y escucho con mis ojos a los muertos.
 Si no siempre entendidos, siempre abiertos,  
 o enmiendan, o fecundan mis asuntos;  
 y en músicos callados contrapuntos  
-al sueño de la vida hblan despiertos.
+al sueño de la vida hablan despiertos.
 
 Las grandes almas que la muerte ausenta,  
-de ijurias de los años, vengadora,  
-libra, oh gran don Joseph, docta la imprenta.
+de injurias de los años, vengadora,  
+libra, ¡oh gran don Joseph!, docta la imprenta.
 
 En fuga irrevocable huye la hora;  
-pero aquella el mejor Cálculo cuenta,  
+pero aquélla el mejor Cálculo cuenta  
 que en la lección y estudios nos mejora.
 
 _(1936, Francisco de Quevedo)_

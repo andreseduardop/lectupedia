@@ -82,19 +82,20 @@ removePathAccents = true
 [permalinks]
   # post = "/:filename/"
   archive = "/:filename/"
+  # post  = "/:filename/"
 
 [related]
   includeNewer = true
-  threshold = 80
+  threshold = 100
   toLower = true
   
   [[related.indices]]
     name = "tags"
     weight = 100
 
-    [[related.indices]]
-    name = "date"
-    weight = 50
+  # [[related.indices]]
+  # name = "date"
+  # weight = 50
 
 [imaging]
   quality = 85
