@@ -26,8 +26,8 @@ _(1936, Francisco de Quevedo)_
   
   
 {{< blockquote >}}
-_Ella no detiene el tiempo;  
-dejándolo pasar, lo aprovecha._
+_Aquella que no detiene el tiempo;  
+más dejándolo pasar, lo aprovecha._
 {{< /blockquote >}}
 
 [^Johnson]: https://poetrysociety.org/features/readinginthedark/pedro-serrano-on)
