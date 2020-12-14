@@ -5,7 +5,7 @@
 /* Fonts */
 @font-face {
     font-family: 'Oswald';
-    src: url('{{ "css/fonts/Oswald-Regular.ttf" | absURL }}') format('ttf');
+    src: url('{{ "css/fonts/Oswald-Regular.ttf" | absURL }}') format('truetype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -101,7 +101,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: Oswald, 'Trebuchet MS', Helvetica, sans-serif;
+    font-family: Oswald, sans-serif;
     font-weight: 400;
     line-height: 1.125;
 }
