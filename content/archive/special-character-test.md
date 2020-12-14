@@ -6,6 +6,7 @@ tags:
 - issue
 - artículos
 - tema 3
+- hugo
 
 images:
 - gato.svg

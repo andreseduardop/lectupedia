@@ -5,7 +5,7 @@
 /* Fonts */
 @font-face {
     font-family: 'Oswald';
-    src: url('{{ "css/fonts/Oswald-Regular.ttf" | absURL }}') format('woff2'), url('{{ "css/fonts/miriamlibre-bold.woff" | absURL }}') format('woff');
+    src: url('{{ "css/fonts/Oswald-Regular.ttf" | absURL }}') format('ttf');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
