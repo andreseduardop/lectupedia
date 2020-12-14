@@ -4,14 +4,13 @@
       <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
         <use xlink:href="#bookmark"></use>
       </svg>
-      {{ .Title }}
+      {{ .Title | markdownify }}
     </h1>
-
     <!-- Se adicionan opciones para cambiar de idioma -->
     <!-- se crean clases para personalizarlo -->
     <div class="available-languages">
       {{ if .IsTranslated}}
-        <strong>{{ T "texto_disponible_en_idiomas" }} </strong>
+        <!-- <strong>{{ T "texto_disponible_en_idiomas" }} </strong> -->
         {{ range .Translations }}
         <!-- Escribe idiomas de traducciones disponibles -->
           <span><a class="available-language-tag" href="{{ .Permalink }}" class=""> {{ .Language.LanguageName }}</a>. </span>
@@ -19,7 +18,7 @@
       {{ end }}
     </div>
     <!-- end idiomas disponibles -->
-
+    <hr style="margin-top: 1rem">
     <div class="date">
       {{ $dateFormat := $.Site.Params.dateFormat | default "Jan 2, 2006" }}
       {{ $publishDate := .PublishDate }}
