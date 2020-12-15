@@ -34,9 +34,11 @@
   {{ $templateStyles := resources.Get "css/template-styles.css" }}
   {{ $styles := $templateStyles | resources.ExecuteAsTemplate "css/styles.css" . }}
   <link rel="stylesheet" type="text/css" href="{{ $styles.RelPermalink }}">
-
+  {{ $customStyles := resources.Get "css/custom_01.css" }}
+  {{ $styles01 := $customStyles | resources.ExecuteAsTemplate "css/custom_01.css" . }}
+  <link rel="stylesheet" type="text/css" href="{{ $styles01.RelPermalink }}">
   {{ range .Site.Params.customCss }}
-    <link rel="stylesheet" href="{{ . | relURL }}">
+    <link rel="stylesheet" type="text/css" href="{{ . | relURL }}">
   {{ end }}
 
   {{ $title := print .Title " | " .Site.Title }}
