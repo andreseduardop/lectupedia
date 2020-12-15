@@ -30,8 +30,8 @@
             {{ $linkToTranslation = .Permalink }}
           {{ end }}
         {{ end }}  
-        <!-- claes CSS se define en archivo custom_01.css -->
-        <span><a class="available-language-item" href="{{ $linkToTranslation }}">{{ .Language.LanguageName }}</a></span><br>
+        <!-- clases CSS se define en archivo template-custom.css -->
+        <span><a class="available-language-item" href="{{ $linkToTranslation }}">{{ .Language.LanguageName }}</a></span><span> · </span>
       {{ end }}
           <span>{{ .Site.Home.Language.LanguageName }} </span>
     </div>

@@ -30,13 +30,15 @@
   </style>
 
   <link rel="stylesheet" href="{{ "css/prism.css" | relURL }}" media="none" onload="this.media='all';">
-
+  <!-- compila estilos del theme hugo en -->
   {{ $templateStyles := resources.Get "css/template-styles.css" }}
   {{ $styles := $templateStyles | resources.ExecuteAsTemplate "css/styles.css" . | resources.Minify }}
   <link rel="stylesheet" type="text/css" href="{{ $styles.RelPermalink }}">
-  {{ $customStyles := resources.Get "css/custom_01.css" }}
-  {{ $styles01 := $customStyles | resources.ExecuteAsTemplate "css/custom_01.css" . | resources.Minify }}
+  <!-- compilo estilos custom de /assets/ -->
+  {{ $customStyles := resources.Get "css/template-custom.css" }}
+  {{ $styles01 := $customStyles | resources.ExecuteAsTemplate "css/custom-1.css" . | resources.Minify }}
   <link rel="stylesheet" type="text/css" href="{{ $styles01.RelPermalink }}">
+  <!-- inserta, sin procesar, estilos de /static/ -->
   {{ range .Site.Params.customCss }}
     <link rel="stylesheet" type="text/css" href="{{ . | relURL }}">
   {{ end }}
