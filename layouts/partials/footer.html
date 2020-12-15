@@ -1,15 +1,13 @@
 <footer role="contentinfo">
   <div>
-    <label for="themer">
+    <!-- <label for="themer">
       {{ T "dark_theme" }}<input type="checkbox" id="themer" class="vh">
-      <!-- Shows "on" or "off" -->
-      <!-- <span aria-hidden="true"></span> -->
-    </label>
-  </div>
-  <hr>
+      <span aria-hidden="true"></span>
+    </label> -->
   {{ with .Site.Params.footer }}
     {{ . | markdownify }}
   {{ end }}
+  </div>
   <div class="footer2">
   {{ with .Site.Params.footer2 }}
     {{ . | markdownify }}    
