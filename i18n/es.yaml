@@ -17,7 +17,7 @@
 - id: publish_date
   translation: "Publicado:"
 - id: last_updated
-  translation: "Última actulización:"
+  translation: "Actualizado:"
 - id: tags
   translation: "Temas:"
 - id: aria_label_tags
