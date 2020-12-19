@@ -82,7 +82,6 @@ removePathAccents = true
 [permalinks]
   # post = "/:filename/"
   archive = "/:filename/"
-  # post  = "/:filename/"
 
 [related]
   includeNewer = true
@@ -93,9 +92,9 @@ removePathAccents = true
     name = "tags"
     weight = 100
 
-  # [[related.indices]]
-  # name = "date"
-  # weight = 50
+  [[related.indices]]
+  name = "date"
+  weight = 50
 
 [imaging]
   quality = 85
@@ -152,5 +151,6 @@ removePathAccents = true
     tabWidth = 4
 
   [markup.tableOfContents]
-    endLevel = 3
     startLevel = 2
+    endLevel = 2
+    ordered = true

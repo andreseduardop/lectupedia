@@ -4,21 +4,21 @@ title: "Español"
 ---
 
 
-Retirado en la paz de estos desiertos,  
+&nbsp; &nbsp; &nbsp; Retirado en la paz de estos desiertos,  
 con pocos, pero doctos libros juntos,  
 vivo en conversación con los difuntos  
 y escucho con mis ojos a los muertos.  
 
-Si no siempre entendidos, siempre abiertos,  
+&nbsp; &nbsp; &nbsp; Si no siempre entendidos, siempre abiertos,  
 o enmiendan, o fecundan mis asuntos;  
 y en músicos callados contrapuntos  
 al sueño de la vida hablan despiertos.
 
-Las grandes almas que la muerte ausenta,  
+&nbsp; &nbsp; &nbsp; Las grandes almas que la muerte ausenta,  
 de injurias de los años, vengadora,  
 libra, ¡oh gran don Joseph!, docta la imprenta.
 
-En fuga irrevocable huye la hora,  
+&nbsp; &nbsp; &nbsp; En fuga irrevocable huye la hora,  
 pero aquélla el mejor cálculo cuenta  
 que en la lección y estudios nos mejora.
 

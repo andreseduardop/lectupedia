@@ -1,4 +1,4 @@
-name: es, en
+name: /es /en
 
 archivo: archivo, archive
 
@@ -8,7 +8,7 @@ tag: tema, topic
 
 background: #fefefe(original), 
 background nuevo: fffdf3 (Floral white .modificado)
-highlight: #d07d40 (Bronce .modificado)
+highlight: #cc330a (Sinopia .modificado)
 
 
 

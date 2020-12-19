@@ -4,22 +4,22 @@ title: "English"
 ---
 
 
-Withdrawn to this solitary place,  
+&nbsp; &nbsp; &nbsp; Withdrawn to this solitary place,  
 With a few but learned books,  
 I live conversing with the dead,  
 listening to them with my eyes.
 
-Open always, if not always understood,  
+&nbsp; &nbsp; &nbsp; Open always, if not always understood,  
 they amend, they enrich my affairs:  
 in rhythms of contrapuntal silence,  
 awakened, they speak to the dream of life.  
 
-O Don José, for those great souls  
+&nbsp; &nbsp; &nbsp; O Don José, for those great souls  
 absconded by death, the learnéd  
 press avenges time's slanders.  
 
-In irrevocable flight the hour flees;
-but it can be counted fortunate
+&nbsp; &nbsp; &nbsp; In irrevocable flight the hour flees;  
+but it can be counted fortunate  
 when we better ourselves by reading.[^Johnson]
 
 _(1936, Francisco de Quevedo)_

@@ -31,7 +31,7 @@
 - id: texto_disponible_en_idiomas
   translation: "Also available in:"
 - id: read_more
-  translation: Read more
+  translation: Read more...
 - id: activate
   translation: activate
 - id: go_to_home

@@ -2,6 +2,9 @@
 date: "2014-04-02"
 tags: ["hugo", "git", "fun"]
 title: "Getting Started with Hugo"
+
+toc: true
+
 ---
 
 ## Step 1. Install Hugo

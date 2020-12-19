@@ -2,15 +2,20 @@
 date: "2014-04-02"
 tags: ["hugo", "git", "fun"]
 title: "Iniciando con Hugo"
+
+toc: true
+
 ---
 
 ## Paso 1. Instalar Hugo
 
-Ir a [Hugo releases](https://github.com/spf13/hugo/releases) y descargar la versión adecauda para su SO y arquitectura.
+Ir a [Hugo releases](https://github.com/spf13/hugo/releases "Releases") y descargar la versión adecauda para su SO y arquitectura.
 
 Guárdela en algún lugar específico, porque la usaremos en el siguiente paso.
 
 Una guía de instalación más completa se encuentra en [Install Hugo](https://gohugo.io/getting-started/installing/).
+
+Un enlace a [otro lugar](#step-4-have-fun "Steep 4") de este documento.
 
 ## Step 2. Build the Docs
 

@@ -12,7 +12,7 @@ images:
 
 draft: true
 
-toc: false
+toc: true
 description: <alt SEO meta description>
 summary: <alt Resumen del cotenido>
 ---

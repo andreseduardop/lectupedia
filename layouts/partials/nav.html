@@ -12,12 +12,14 @@
       <li class="pattern">
         {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
         {{ $active = or $active (eq .Name $current.Title) }}
-        {{ $active = or $active (and (eq .Name "Blog") (eq $current.Section "post")) }}
-        {{ $active = or $active (and (eq .Name "Tags") (eq $current.Section "tags")) }}
+        {{ $active = or $active (and (eq .Name "Archivo") (eq $current.Section "archive")) }}
+        {{ $active = or $active (and (eq .Name "Temas") (eq $current.Section "tags")) }}
         <!-- | AbsLangURL is added for multilingual feature compatibility. 
         As indicated in: https://gohugo.io/content-management/multilingual/#menus 
         clase menu-item definida en Custom01.css -->
-        <a class="menu-item" href="{{ .URL | absLangURL }}" {{ if $active }}aria-current="page"{{ end }}>
+        <!-- Se elimin a el sombreado en el menú, provocado por aria-current: 
+          <a class="menu-item" href="{{ .URL | absLangURL }}" {{ if $active }}aria-current="page"{{ end }}> -->
+        <a class="menu-item" href="{{ .URL | absLangURL }}">
           <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
             <use xlink:href="#bookmark"></use>
           </svg>

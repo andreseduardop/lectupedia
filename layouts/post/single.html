@@ -13,7 +13,7 @@
         <!-- <strong>{{ T "texto_disponible_en_idiomas" }} </strong> -->
         {{ range .Translations }}
         <!-- Escribe idiomas de traducciones disponibles -->
-          <span><a class="available-language-tag" href="{{ .Permalink }}" class=""> {{ .Language.LanguageName }}</a>· </span>
+          <span><a class="available-language-tag" href="{{ .Permalink }}" class=""> {{ .Language.LanguageName }}</a> · </span>
         {{ end }}
       {{ end }}
     </div>
