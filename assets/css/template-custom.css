@@ -98,6 +98,27 @@ a.menu-item {
   margin-top: 0rem;
   text-transform: uppercase;
 }
+/* Botón volver arriba ⇧ */
+#myBtn {
+  display: none;  /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 30px; /* Place the button at the bottom of the page */
+  right: 20px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  opacity: 0.7;
+  background-color: gray; /* Set a background color */
+  color: var(--main-bg-color); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px 18px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 20px; /* Increase font size */
+}
+#myBtn:hover {
+  background-color: var(--resalted-color); /* Add a dark-grey background on hover */
+}
+/* end Botón */
 /* ==================== */
 /* MODIFICO CSS DE CUPPER THEME */
 html {

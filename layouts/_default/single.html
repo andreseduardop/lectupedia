@@ -40,8 +40,7 @@
               <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
                 <use xlink:href="#tag"></use>
               </svg>
-              {{ $href := print ("tags/" | absLangURL) (. | urlize) "/" }}
-              <a href="{{ $href }}">{{ . }}</a>
+              {{- $href := print ("tags/" | absLangURL) (. | urlize) "/" -}}&nbsp;<a href="{{ $href }}">{{ . }}</a>
             </li>
           {{ end }}
         </ul>
@@ -56,4 +55,5 @@
   </main>
   {{ partial "disqus.html" . }}
   {{ partial "related.html" . }}
+  <button onclick="topFunction()" id="myBtn" title="Go to top">▲</button>
 {{ end }}

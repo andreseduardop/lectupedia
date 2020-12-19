@@ -5,7 +5,7 @@ tags:
 - issue
 ---
 
-Testing out GitHub issue https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36 -- Multiple expandable shortcodes do not work if they have the same inner text.
+Probando GitHub [issue](https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36) -- Multiple expandable shortcodes do not work if they have the same inner text.
 
 {{< expandable label="expandable 1" level="2" >}}
 Same inner text.

@@ -55,8 +55,8 @@ removePathAccents = true
   [languages.en]
     languageName = "English"
     weight = 2
-    description = "Let's talk about reading."
-    homeMetaContent = "Let's talk about reading."
+    description = "Let's talk about reading. Mundus excolitur legendo."
+    homeMetaContent = "Let's talk about reading. Mundus excolitur legendo."
     footer = "2020· Lectupedia by [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en) <img style='height:22px!important;margin-left:3px;vertical-align:text-bottom;' src='https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1' /><img style='height:22px!important;margin-left:3px;vertical-align:text-bottom;' src='https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1' /><img style='height:22px!important;margin-left:3px;vertical-align:text-bottom;' src='https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1' />"
 
     # [[languages.en.menu.nav]]
@@ -100,8 +100,8 @@ removePathAccents = true
   quality = 85
 
 [params]
-  description = "Hablemos sobre lectura."
-  homeMetaContent = "Hablemos sobre lectura."
+  description = "Hablemos sobre lectura. Mundus excolitur legendo."
+  homeMetaContent = "Hablemos sobre lectura. Mundus excolitur legendo."
   footer = "2020· Lectupedia, por [Andrés Peña](https://www.linkedin.com/in/andreseduardop/), está disponible bajo licencia [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.es) <img style='height:22px!important;margin-left:3px;vertical-align:text-bottom;' src='https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1' /><img style='height:22px!important;margin-left:3px;vertical-align:text-bottom;' src='https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1' /><img style='height:22px!important;margin-left:3px;vertical-align:text-bottom;' src='https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1' />"
   footer2 = "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/)."
   dateFormat = "Jan 2, 2006"
@@ -113,7 +113,7 @@ removePathAccents = true
   hideHeaderLinks = false
   search = true
   # customCss = [ "css/custom_01.css" ]
-  # customJs = [ "js/custom_01.js", "js/custom_02.js" ]
+  customJs = [ "js/custom_01.js" ]
   facebook = "Lectupedia"
   twitter = "andreseduardop_"
   linkedin = "andreseduardop"

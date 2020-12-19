@@ -5,7 +5,7 @@ tags:
 - issue
 ---
 
-Probando GitHub issue https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36 -- Varios códigos cortos expandibles no funcionan si tienen el mismo texto interno.
+Probando GitHub [issue](https://github.com/zwbetz-gh/cupper-hugo-theme/issues/36) -- Varios códigos cortos expandibles no funcionan si tienen el mismo texto interno.
 
 {{< expandable label="expandable 1" level="2" >}}
 Un texto interior.
