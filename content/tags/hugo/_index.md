@@ -1,5 +1,5 @@
 ---
-title: "Artículos sobre Hugo"
+title: "Hugo"
 ---
 
 Una descripción de este tema (tag).

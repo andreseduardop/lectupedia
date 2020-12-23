@@ -4,7 +4,9 @@ theme = "cupper-hugo-theme"
 googleAnalytics = "UA-123456789-1"
 languageCode = "es-co"
 defaultContentLanguage = "es"
+# Render content in Spanish within: /es
 defaultContentLanguageInSubdir = true
+disableLanguages = ["fr"]
 disqusShortname = "lectupedia"
 enableGitInfo = true
 pluralizeListTitles = false
@@ -13,20 +15,25 @@ removePathAccents = true
 
 [menu]
 
-  # [[menu.nav]]
-  #   name = "English Site"
-  #   url = "../en/"
-  #   weight = 1
+  [[menu.nav]]
+    name = "Indicadores"
+    url = "/indicators/"
+    weight = 1
 
   [[menu.nav]]
-    name = "Archivo"
-    url = "/archive/"
+    name = "Recursos"
+    url = "/resources/"
     weight = 2
 
   [[menu.nav]]
     name = "Temas"
     url = "/tags/"
     weight = 3
+
+  [[menu.nav]]
+    name = "Archivo"
+    url = "/archive/"
+    weight = 4
 
   # [[menu.nav]]
   # name = "Acerca de"
@@ -37,11 +44,6 @@ removePathAccents = true
   # name = "RSS"
   # url = "/index.xml"
   # weight = 5
-
-  # [[menu.nav]]
-  #   name = "Blog"
-  #   url = "/post/"
-  #   weight = 6
 
 [languages]
   [languages.es]
@@ -65,14 +67,25 @@ removePathAccents = true
     #   weight = 1
 
     [[languages.en.menu.nav]]
-      name = "Archive"
-      url = "/archive/"
+      name = "Indicators"
+      url = "/indicators/"
+      weight = 1
+
+    [[languages.en.menu.nav]]
+      name = "Resources"
+      url = "/resources/"
       weight = 2
 
     [[languages.en.menu.nav]]
       name = "Topics"
       url = "/tags/"
       weight = 3
+
+    [[languages.en.menu.nav]]
+      name = "Archive"
+      url = "/archive/"
+      weight = 4
+
 
 [taxonomies]
   # El parametro "tags" (del FM de los <articulos>.md) es invocado en la plantilla single de <articulos>
@@ -82,6 +95,7 @@ removePathAccents = true
 [permalinks]
   # post = "/:filename/"
   archive = "/:filename/"
+  indicators = "/:section/:slug/"
 
 [related]
   includeNewer = true

@@ -1,12 +1,19 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ .Name | humanize }}"
 date: {{ .Date }}
-slug: <alt Nombre del archivo en inglés>
-Lastmod: "aaaa-mm-dd"
-draft: true
+slug: "{{ .Name }}"
+tags: 
+- lectura
 
+# Imágenes: cant. max. 6 - min. 696px de anchura (google)
+# relación de aspecto sea 16x9, 4x3 y 1x1.
+images: 
+- post-cover.png
 
-toc: false
-summary: <alt Resumen del cotenido en inglés>
+draft: false
+
+toc: true
+description: <alt SEO meta description>
+summary: <alt Resumen del cotenido>
 ---
 
