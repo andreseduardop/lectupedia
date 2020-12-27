@@ -4,9 +4,9 @@
 }
 /* Fonts */
 @font-face {
-    font-family: 'Oswald';
-    src: url('{{ "css/fonts/Oswald-Regular.ttf" | absURL }}') format('truetype');
-    font-weight: 400;
+    font-family: 'Bitter';
+    src: url('{{ "css/fonts/Bitter-800.woff2" | absURL }}') format('woff2'), url('{{ "css/fonts/Bitter-800.woff" | absURL }}') format('woff');
+    font-weight: 800;
     font-style: normal;
     font-display: swap;
 }
@@ -132,8 +132,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: Oswald, "Arial Black", "Helvetica bold", sans-serif;
-    font-weight: 400;
+    font-family: Bitter, "Arial Black", "Helvetica bold", sans-serif;
+    font-weight: 800;
     line-height: 1.125;
 }
 h1 {

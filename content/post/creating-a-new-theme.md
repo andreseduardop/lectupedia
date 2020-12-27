@@ -66,11 +66,11 @@ Note that you can use this tutorial to create a skin in the ```layouts/``` direc
 
 The home page, or landing page, is the first page that many visitors to a site see. It is the index.html file in the root directory of the web site. Since Hugo writes files to the public/ directory, our home page is public/index.html.
 
-## Título H2
+## Título H2 como ejemplo de muestra
 
 Párrrafo normal 1.
 
-### Site Configuration File
+### Configuration h3
 
 Hugo translates Markdown files into HTML. By default, Hugo expects to find Markdown files in your ```content/``` directory and template files in your ```themes/``` directory. It will create HTML files in your ```public/``` directory. You can change this by specifying alternate locations in the configuration file.
 
