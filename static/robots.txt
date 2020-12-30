@@ -1,0 +1,7 @@
+# Group 1
+User-agent: *
+Allow: /
+
+Sitemap: https://lectupedia.com/sitemap.xml
+Sitemap: https://lectupedia.com/es/sitemap.xml
+Sitemap: https://lectupedia.com/en/sitemap.xml
