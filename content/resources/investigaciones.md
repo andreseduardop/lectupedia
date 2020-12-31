@@ -3,7 +3,8 @@ title: "Investigaciones"
 date: 2020-12-23T09:57:33-05:00
 slug: "investigaciones"
 tags: 
-- lectura
+- recursos
+- investigacion
 
 # Imágenes: cant. max. 6 - min. 696px de anchura (google)
 # relación de aspecto sea 16x9, 4x3 y 1x1.
@@ -13,8 +14,8 @@ images:
 draft: false
 
 toc: true
-description: <alt SEO meta description>
-summary: <alt Resumen del cotenido>
+description: Investigaciones acerca la lectura en cada país.
+summary: Investigaciones acerca la lectura en cada país.
 ---
 
 

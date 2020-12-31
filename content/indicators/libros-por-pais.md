@@ -12,9 +12,9 @@ images:
 
 draft: false
 
-toc: true
-description: <alt SEO meta description>
-summary: <alt Resumen del cotenido>
+toc: false
+description: Cantidad de libros leídos por habitante en cada país.
+summary: Cantidad de libros leídos por habitante en cada país.
 ---
 
 

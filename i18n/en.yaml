@@ -38,3 +38,5 @@
   translation: Go to home.
 - id: page_no_found
   translation: Oops! That’s an error. The requested URL was not found on this server.
+- id: go_to_top
+  translation: Go to top

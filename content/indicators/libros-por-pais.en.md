@@ -13,7 +13,7 @@ images:
 draft: false
 
 toc: true
-description: <alt SEO meta description>
-summary: <alt Resumen del cotenido>
+description: Number of books read per inhabitant in each country.
+summary: Number of books read per inhabitant in each country.
 ---
 

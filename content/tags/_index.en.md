@@ -1,5 +1,5 @@
 ---
 title: "Topics"
-slug: "topics"
+description: List of topics covered in lectupedia.com
 ---
 

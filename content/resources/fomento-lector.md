@@ -3,7 +3,8 @@ title: "Recursos para el fomento de la lectura"
 date: 2020-12-23T08:35:32-05:00
 slug: "recursos-fomento-lector"
 tags: 
-- lectura
+- recursos
+- fomento de lectura
 
 # Imágenes: cant. max. 6 - min. 696px de anchura (google)
 # relación de aspecto sea 16x9, 4x3 y 1x1.
@@ -13,8 +14,8 @@ images:
 draft: false
 
 toc: true
-description: <alt SEO meta description>
-summary: <alt Resumen del cotenido>
+description: Materiales y metodologías para fomentar la lectura.
+summary: Materiales y metodologías para fomentar la lectura.
 ---
 
 

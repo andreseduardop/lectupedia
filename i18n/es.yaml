@@ -38,3 +38,5 @@
   translation: Ir al inicio.
 - id: page_no_found
   translation: ¡Ups! Ha habido un error. La URL solicitada no se encontró en este servidor.
+- id: go_to_top
+  translation: Ir arriba
