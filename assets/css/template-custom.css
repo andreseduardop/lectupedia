@@ -99,7 +99,7 @@ a.menu-item {
   text-transform: uppercase;
 }
 /* Botón volver arriba ⇧ */
-#myBtn {
+#btnTop {
   display: none;  /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 30px; /* Place the button at the bottom of the page */
@@ -115,7 +115,7 @@ a.menu-item {
   border-radius: 10px; /* Rounded corners */
   font-size: 20px; /* Increase font size */
 }
-#myBtn:hover {
+#btnTop:hover {
   background-color: var(--resalted-color); /* Add a dark-grey background on hover */
 }
 /* end Botón */
