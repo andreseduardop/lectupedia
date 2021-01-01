@@ -1,7 +1,7 @@
 baseURL = "https://lectupedia.com"
 title = "Lectupedia"
 theme = "cupper-hugo-theme"
-googleAnalytics = "G-P3QZ0WPV28"
+# googleAnalytics = "G-P3QZ0WPV28"
 languageCode = "es-co"
 defaultContentLanguage = "es"
 # Render content in Spanish within: /es
