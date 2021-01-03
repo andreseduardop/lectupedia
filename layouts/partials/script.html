@@ -2,6 +2,8 @@
 {{ $domScripts := $templateDomScripts | resources.ExecuteAsTemplate "js/dom-scripts.js" . | resources.Minify }}
 <script src="{{ $domScripts.RelPermalink }}"></script>  
 
+<!-- cargar recursos para cuadro de búsqueda -->
+<!-- se activa en config.toml -->
 {{ if site.Params.search }}
 {{ $searchJs := resources.Get "js/search.js" | fingerprint }}
 <script src="{{ $searchJs.RelPermalink }}"></script>
@@ -9,13 +11,13 @@
 <link rel="stylesheet" href="{{ $searchCss.RelPermalink }}"></link>
 {{ end }}
 
+<!-- cargar Custom javascript indicado en config.toml -->
 {{ range .Site.Params.customJs }}
   <script src="{{ . | relURL }}"></script>
 {{ end }}
 
 <!-- Contador de vistas (en construcción) -->
-<!-- Colocar en la template, para reemplazar path con {{ .Name }}  -->
-{{ if not .Site.IsServer }}
+<!-- {{ if not .Site.IsServer }}
 <script type="text/javascript">
 function viewsCounter() {
   var counter = new XMLHttpRequest();
@@ -29,5 +31,5 @@ function viewsCounter() {
 }
 window.onload = viewsCounter;
 </script>
-{{ end }}
+{{ end }} -->
 <!-- fin del Contador de vistas -->

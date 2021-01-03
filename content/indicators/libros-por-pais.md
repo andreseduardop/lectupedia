@@ -16,7 +16,6 @@ toc: false
 description: Cantidad promeido de libros leídos por habitante en cada país.
 summary: Cantidad promeido de libros leídos por habitante en cada país.
 ---
-<!-- ![Vistas](https://visitor-badge.glitch.me/badge?page_id=lectupedia.libros-por-pais)  -->
 
 ## Consolidado
 
