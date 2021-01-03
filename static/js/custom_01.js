@@ -1,3 +1,4 @@
+// El siguiente código se copió en el layout script.html
 //Get the button:
 buttonTop = document.getElementById("btnTop");
 
