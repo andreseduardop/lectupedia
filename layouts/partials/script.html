@@ -1,5 +1,5 @@
 {{ $templateDomScripts := resources.Get "js/template-dom-scripts.js" }}
-{{ $domScripts := $templateDomScripts | resources.ExecuteAsTemplate "js/dom-scripts.js" . }}
+{{ $domScripts := $templateDomScripts | resources.ExecuteAsTemplate "js/dom-scripts.js" . | resources.Minify }}
 <script src="{{ $domScripts.RelPermalink }}"></script>  
 
 {{ if site.Params.search }}
