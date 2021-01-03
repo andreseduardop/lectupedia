@@ -93,9 +93,9 @@ summaryLength = 35
   tag = "tags"
 
 [permalinks]
-  # post = "/:filename/"
-  # indicators = "/:section/:slug/"
-  archive = "/:filename/"
+  indicators = "/:slug/"
+  resources = "/:slug/"
+  archive = "/:slug/"
 
 [related]
   includeNewer = true
@@ -151,7 +151,7 @@ summaryLength = 35
 
   [markup.goldmark.renderer]
     hardWraps = false
-    unsafe = false
+    unsafe = true
     xHTML = false
 
   [markup.highlight]

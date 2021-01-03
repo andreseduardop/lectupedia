@@ -46,6 +46,12 @@
         </ul>
       </div>
     {{ end }}
+
+    <!-- Contador de vistas. Se carga desde layout script.html -->
+    <div class="tags">
+      <strong>{{ T "views" }}</strong>
+      <span id="views-counter"></span>
+    </div>
       
     {{ if ne .Params.toc false }}
       {{ partial "toc" . }}

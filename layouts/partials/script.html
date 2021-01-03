@@ -12,3 +12,22 @@
 {{ range .Site.Params.customJs }}
   <script src="{{ . | relURL }}"></script>
 {{ end }}
+
+<!-- Contador de vistas (en construcción) -->
+<!-- Colocar en la template, para reemplazar path con {{ .Name }}  -->
+{{ if not .Site.IsServer }}
+<script type="text/javascript">
+function viewsCounter() {
+  var counter = new XMLHttpRequest();
+  counter.open("GET", "https://api.countapi.xyz/hit/lectupedia-{{ .File.BaseFileName }}");
+  counter.responseType = "json";
+  counter.onload = function() {
+      document.getElementById("views-counter").innerHTML = counter.response.value;
+      // alert({{ .File.BaseFileName }});
+  }
+  counter.send(); 
+}
+window.onload = viewsCounter;
+</script>
+{{ end }}
+<!-- fin del Contador de vistas -->

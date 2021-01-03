@@ -40,3 +40,5 @@
   translation: ¡Ups! Ha habido un error. La URL solicitada no se encontró en este servidor.
 - id: go_to_top
   translation: Ir arriba
+- id: views
+  translation: "Vistas:"

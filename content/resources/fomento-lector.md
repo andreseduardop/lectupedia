@@ -1,7 +1,7 @@
 ---
 title: "Recursos para el fomento de la lectura"
 date: 2020-12-23T08:35:32-05:00
-slug: "recursos-fomento-lector"
+slug: "recursos-para-el-fomento-de-la-lectura"
 tags: 
 - recursos
 - fomento de lectura

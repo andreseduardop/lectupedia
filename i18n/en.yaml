@@ -40,3 +40,5 @@
   translation: Oops! That’s an error. The requested URL was not found on this server.
 - id: go_to_top
   translation: Go to top
+- id: views
+  translation: "Views:"
