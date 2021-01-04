@@ -10,7 +10,7 @@ tags:
 images: 
 - post-cover.png
 
-draft: false
+draft: true
 
 toc: true
 description: <alt SEO meta description>

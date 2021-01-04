@@ -4,7 +4,7 @@ theme = "cupper-hugo-theme"
 googleAnalytics = "G-P3QZ0WPV28"
 languageCode = "es-co"
 defaultContentLanguage = "es"
-# Render content in Spanish within: /es
+# Render content in Spanish within: /es:
 defaultContentLanguageInSubdir = true
 disableLanguages = ["fr"]
 disqusShortname = "lectupedia"
@@ -30,10 +30,10 @@ summaryLength = 35
     url = "/tags/"
     weight = 3
 
-  [[menu.nav]]
-    name = "Archivo"
-    url = "/archive/"
-    weight = 4
+  # [[menu.nav]]
+  #   name = "Archivo"
+  #   url = "/archive/"
+  #   weight = 4
 
   # [[menu.nav]]
   # name = "Acerca de"
@@ -80,10 +80,10 @@ summaryLength = 35
       url = "/tags/"
       weight = 3
 
-    [[languages.en.menu.nav]]
-      name = "Archive"
-      url = "/archive/"
-      weight = 4
+    # [[languages.en.menu.nav]]
+    #   name = "Archive"
+    #   url = "/archive/"
+    #   weight = 4
 
 
 [taxonomies]

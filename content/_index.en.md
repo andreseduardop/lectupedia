@@ -30,4 +30,4 @@ _Aquella que no detiene el tiempo;
 más dejándolo pasar, lo aprovecha._
 {{< /blockquote >}}
 
-[^Johnson]: Traducción de [Christopher Johnson](https://poetrysociety.org/features/readinginthedark/pedro-serrano-on "Poetry Society of America")
+[^Johnson]: Translated by [Christopher Johnson](https://poetrysociety.org/features/readinginthedark/pedro-serrano-on "Poetry Society of America")
