@@ -19,7 +19,7 @@
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
-    Content-Security-Policy = "default-src 'self' 'unsafe-inline' *.googletagmanager.com *.google-analytics.com *.disqus.com *.netlify.app *.netlify.com;"
+    Content-Security-Policy = "default-src 'self' 'unsafe-inline' *.googletagmanager.com *.google-analytics.com *.disqus.com disqus.com *.disquscdn.com *.netlify.app *.netlify.com;"
     cache-control = '''
 	public,
 	max-age=43200,
