@@ -13,6 +13,14 @@
 	to = "/en/404.html"
 	status = 404
 
+[[headers]]
+  for = "/ *"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+    X-Content-Type-Options = "nosniff"
+    Content-Security-Policy = "default-src 'self' *.googletagmanager.com *.netlify.app *.netlify.com;"
+
 [build]
 publish = "public"
 command = "hugo --gc --minify"
