@@ -1,5 +1,6 @@
 ---
 title: "Temas"
+date: 2020-12-21T10:26:12-05:00
 
 description: Lista de temas abordados en lectupedia.com
 ---

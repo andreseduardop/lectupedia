@@ -15,25 +15,25 @@ summaryLength = 35
 
 [menu]
 
-  [[menu.nav]]
-    name = "Indicadores"
-    url = "/indicators/"
-    weight = 1
+  # [[menu.nav]]
+  #   name = "Indicadores"
+  #   url = "/indicators/"
+  #   weight = 1
 
-  [[menu.nav]]
-    name = "Recursos"
-    url = "/resources/"
-    weight = 2
+  # [[menu.nav]]
+  #   name = "Recursos"
+  #   url = "/resources/"
+  #   weight = 2
 
   [[menu.nav]]
     name = "Temas"
     url = "/tags/"
     weight = 3
 
-  # [[menu.nav]]
-  #   name = "Archivo"
-  #   url = "/archive/"
-  #   weight = 4
+  [[menu.nav]]
+    name = "Archivo"
+    url = "/archive/"
+    weight = 4
 
   # [[menu.nav]]
   # name = "Acerca de"
@@ -61,29 +61,24 @@ summaryLength = 35
     homeMetaContent = "Let's talk about reading. Mundus excolitur legendo."
     footer = "2020· Lectupedia by [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en)"
     # [[languages.en.menu.nav]]
-    #   name = "Sitio en Español"
-    #   url = "../es/"
+    #   name = "Indicators"
+    #   url = "/indicators/"
     #   weight = 1
 
-    [[languages.en.menu.nav]]
-      name = "Indicators"
-      url = "/indicators/"
-      weight = 1
-
-    [[languages.en.menu.nav]]
-      name = "Resources"
-      url = "/resources/"
-      weight = 2
+    # [[languages.en.menu.nav]]
+    #   name = "Resources"
+    #   url = "/resources/"
+    #   weight = 2
 
     [[languages.en.menu.nav]]
       name = "Topics"
       url = "/tags/"
       weight = 3
 
-    # [[languages.en.menu.nav]]
-    #   name = "Archive"
-    #   url = "/archive/"
-    #   weight = 4
+    [[languages.en.menu.nav]]
+      name = "Archive"
+      url = "/archive/"
+      weight = 4
 
 
 [taxonomies]
@@ -92,8 +87,8 @@ summaryLength = 35
   tag = "tags"
 
 [permalinks]
-  indicators = "/:slug/"
-  resources = "/:slug/"
+  # indicators = "/:slug/"
+  # resources = "/:slug/"
   archive = "/:slug/"
 
 [related]
@@ -119,7 +114,7 @@ summaryLength = 35
   footer2 = "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/)."
   dateFormat = "Jan 2, 2006"
   author = "Andrés Peña"
-  images = "images/site-feature-image.jpg"
+  images = ["images/site-feature-image.jpg"]
   # codePenUser = "someUser"
   katex = false
   darkThemeAsDefault = false

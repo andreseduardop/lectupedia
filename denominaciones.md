@@ -7,8 +7,9 @@ tag: tema, topic
 
 
 background: #fefefe(original), 
-background nuevo: fffdf3 (Floral white .modificado)
+background nuevo: fffdf3 (~ Floral White)
 highlight: #cc330a (Sinopia .modificado)
+
 
 
 
