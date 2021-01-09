@@ -1,7 +1,6 @@
 <script type="application/ld+json">
-{{ if .IsHome }}
-{
-  "@context": "https://schema.org",
+{{- if .IsHome }}
+{ "@context": "https://schema.org",
   "@type": "Organization",
   "name": {{ .Site.Title }},
   "url": {{ .Site.BaseURL }},
@@ -12,17 +11,14 @@
   "sameAs": [
     {{ with .Site.Params.facebook }}"https://www.facebook.com/{{ . }}",{{ end }}
     {{ with .Site.Params.twitter }}"https://twitter.com/{{ . }}",{{ end }}
-    {{ with .Site.Params.linkedin }}"https://www.linkedin.com/in/{{ . }}"{{ end }}
+    {{ with .Site.Params.linkedin }}"https://www.linkedin.com/in/{{ . }}"{{ end -}}
     ]
 }
-
-{{ else }}
-{
-
-  <!-- {{- $featuredImage := "images/logo.svg" | absURL }} -->
+{{- else }}
+{ {{ $featuredImage := "images/logo.svg" | absURL }}
   {{- with .Param "images" }}
     {{- $featuredImage = index . 0 | absURL }}
-  {{- end }}
+  {{- end -}} 
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": {{ .Title }},
@@ -45,6 +41,5 @@
   "description": {{ .Params.description | plainify | safeHTML }},
   "keywords": [{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}]
 }
-
 {{ end -}}
 </script>

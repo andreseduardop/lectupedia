@@ -20,13 +20,14 @@ summary: Number of books read in each country, per-capita.
 
 {{< figureCupper img="books-per-country-1.0.png" 
 caption="Number of books read in each country, per-capita."
+alt="World map with average reading by country."
 command="Original" >}}
 
 The average number of books read per inhabitant in a year is indicated for each country.
 
 The figures are presented based on data provided by research centers or government institutions in charge of culture and education in the respective country. Sources are indicated in the endnotes.
 
-| País                              | Promedio de libros leídos anualmente |
+| Country                              | Average number of books read in a year |
 |-----------------------------------|------|
 | Argentina [^Argentina]            | 1,6  |
 | Brazil [^Brazil]                  | 2,5  |
@@ -47,7 +48,7 @@ The figures are presented based on data provided by research centers or governme
 | Switzerland [^Switzerland]        | 6,9  |
 | Venezuela [^Venezuela]            | 2    |
 
-## Notas:
+## Endnotes:
 
 [^Argentina]: **Argentina:** Sistema de información cultural de la Argentina. "Encuesta Nacional de Consumos Culturales 2017: Libros". [https://encuestadeconsumo.sinca.gob.ar/libros](https://encuestadeconsumo.sinca.gob.ar/libros) 
 [^Brazil]: **Brazil:** Instituto Pró-Livro. IBOPE. "A 5ª edição da Retratos da Leitura no Brasil". [https://www.prolivro.org.br/5a-edicao-de-retratos-da-leitura-no-brasil-2/a-pesquisa-5a-edicao/](https://www.prolivro.org.br/5a-edicao-de-retratos-da-leitura-no-brasil-2/a-pesquisa-5a-edicao/) 
