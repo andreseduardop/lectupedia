@@ -162,3 +162,7 @@ summaryLength = 35
     startLevel = 2
     endLevel = 2
     ordered = true
+
+[minify]
+ disableJSON = true
+ 
