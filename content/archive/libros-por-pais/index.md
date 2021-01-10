@@ -5,12 +5,6 @@ slug: "cantidad-de-libros-leidos-por-pais"
 tags: 
 - indicadores
 
-# Imágenes: cant. max. 6 - min. 696px de anchura (google)
-# relación de aspecto sea 16x9, 4x3 y 1x1.
-images:
-- libros-por-pais-1.0-cover.png
-- libros-por-pais-1.0.png
-
 draft: false
 
 toc: false

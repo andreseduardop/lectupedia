@@ -15,14 +15,17 @@
     ]
 }
 {{- else }}
-{ {{ $featuredImage := "images/logo.svg" | absURL }}
-  {{- with .Param "images" }}
-    {{- $featuredImage = index . 0 | absURL }}
-  {{- end -}} 
+{ {{ $images := $.Resources.ByType "image" -}}
+  {{- $featuredImage := $images.GetMatch "*feature*" -}}
   "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": {{ .Title }},
-  "image": {{ $featuredImage }},
+  {{- with $featuredImage }}
+  "image": {{ $featuredImage.Permalink -}},
+  {{- else -}}
+  {{ with $.Site.Params.images }}
+  "image": {{ index . 0 | absURL -}},
+  {{- end -}}{{- end }}
   "datePublished": {{ .PublishDate }},
   "dateModified": {{ .Lastmod }},
   "author": {

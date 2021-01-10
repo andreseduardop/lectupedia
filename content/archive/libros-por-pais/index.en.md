@@ -1,15 +1,9 @@
 ---
-title: "Number of books read by country"
+title: "Number of books read in each country"
 date: 2020-12-21T10:26:12-05:00
-slug: "number-of-books-read-by-country"
+slug: "number-of-books-read-in-each-country"
 tags: 
 - indicators
-
-# Imágenes: cant. max. 6. mínimo 696px de anchura (google)
-# relación de aspecto: 16x9, 4x3 y 1x1.
-images:
-- books-per-country-1.0-cover.png
-- books-per-country-1.0.png
 
 draft: false
 
