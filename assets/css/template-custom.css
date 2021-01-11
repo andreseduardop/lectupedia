@@ -43,16 +43,19 @@ a.menu-item {
 }
 /* end Nav > Menú */
 .div-themer-nav {
-  text-align: right;
+  visibility: hidden;
+  text-align: left;
   margin-top: 0rem;
-  flex: 20 0 auto;
+  flex: 40 0 auto;
+  display: none;
 }
 .boton-themer-nav {
+  /*width: 50%;*/
   background: transparent;
   color: #00020f !important;
   margin: 1rem 0rem 0rem;
-  border-style: outset;
-  border-width: thin;
+  border-style: solid;
+  border-width: 2px;
   font-weight: normal;
   font-size: 0.8rem;
 }
@@ -167,7 +170,16 @@ h6 {
 a {
     border-bottom: 0px solid;
 }
-
+#menu-button {
+  /*width: 50%;*/
+  text-align: left;
+  background: transparent;
+  color: #111 !important;
+  margin: 1rem 0rem 0rem;
+  border-style: solid;
+  border-width: 2px;
+  padding: 0.25rem 0.75rem 0.5rem;
+}
 /* cambio color de fondo */
 html {
   background-color: var(--main-bg-color);
