@@ -3,7 +3,7 @@
 - id: nav_main_navigation
   translation: Navegación principal
 - id: nav_button_menu
-  translation: Menú
+  translation: MENÚ
 - id: discuss_show_comments_button
   translation: Ver comentarios
 - id: discuss_comments_disabled

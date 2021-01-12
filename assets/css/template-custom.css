@@ -1,5 +1,6 @@
 :root {
   --main-bg-color: #fffdf3;
+  --special-bg-color: #f3dac5;
   --resalted-color: #cc330a;
 }
 /* Fonts */
@@ -9,12 +10,6 @@
     font-weight: 800;
     font-style: normal;
     font-display: swap;
-}
-.intro-and-nav > div {
-  padding-top: 1rem;
-}
-.main-and-footer > div {
-  padding: 0.75rem;
 }
 a {
   color: var(--resalted-color);
@@ -28,8 +23,8 @@ a:hover {
   text-transform: uppercase;
   text-align: center;
   line-height: 1.75;
-  /*  flex: 0 0 auto;*/
-  margin-top: 0.5rem;
+  margin-top: 0rem;
+  margin-bottom: -1rem;
 }
 a.available-language-item {
   color: inherit;
@@ -44,7 +39,7 @@ a.menu-item {
 /* end Nav > Menú */
 .div-themer-nav {
   visibility: hidden;
-  text-align: left;
+  text-align: right;
   margin-top: 0rem;
   flex: 40 0 auto;
   display: none;
@@ -128,9 +123,20 @@ html {
     font-size: calc(1em + 0.2vw);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Lato, Helvetica, Arial, sans-serif;
 }
-/* cambio línea sólida del menú por una segmentada */
+/* cambio color y borde derecho del menú */
 .intro-and-nav {
-    border-right: 2px dashed;
+  /*border-right: 0px dashed;*/
+  border-right: none;
+  background: var(--special-bg-color);
+}
+.intro-and-nav > div {
+  padding: 1rem 1rem 1rem;
+}
+.main-and-footer > div {
+  padding: 0.75rem;
+}
+div.intro {
+  text-align: center;
 }
 /* Text styles */
 h1,
@@ -171,14 +177,21 @@ a {
     border-bottom: 0px solid;
 }
 #menu-button {
-  /*width: 50%;*/
-  text-align: left;
+  /*width: auto;*/
+  text-align: right;
   background: transparent;
-  color: #111 !important;
-  margin: 1rem 0rem 0rem;
-  border-style: solid;
-  border-width: 2px;
-  padding: 0.25rem 0.75rem 0.5rem;
+  color: #111;
+  border-style: none;
+  padding: 0rem;
+  font-size: 2rem;
+}
+#menu-button:focus {
+    outline: none;
+    box-shadow: none;
+}
+/* Cambiar el resaltado de borde al pulsar */
+*:focus {
+  outline: 4px solid var(--special-bg-color) !important;
 }
 /* cambio color de fondo */
 html {
@@ -192,6 +205,7 @@ html {
 }
 button {
   color: var(--main-bg-color);
+  background-color: var(--resalted-color)
 }
 [data-launch] {
   color: var(--main-bg-color) !important;
