@@ -1,6 +1,6 @@
 :root {
   --main-bg-color: #fffdf3;
-  --special-bg-color: #f3dac5;
+  --special-bg-color: #f6ead5;
   --resalted-color: #cc330a;
 }
 /* Fonts */
@@ -23,8 +23,8 @@ a:hover {
   text-transform: uppercase;
   text-align: center;
   line-height: 1.75;
-  margin-top: 0rem;
-  margin-bottom: -1rem;
+  margin-top: 0.2rem;
+  margin-bottom: -1.3rem;
 }
 a.available-language-item {
   color: inherit;
