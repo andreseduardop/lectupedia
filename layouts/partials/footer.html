@@ -1,14 +1,17 @@
 <footer role="contentinfo">
-  <div>
-    <!-- oculto botón para camibar modo oscuro
+  <button onclick="topFunction()" id="btnTop" title='{{ T "go_to_top" }}'>▲</button>
+  <div
+  {{ if eq .Site.Params.showThemeSwitcher false }}style="display: none;"{{ end }}
+  >
     <label for="themer">
-      {{ T "dark_theme" }}<input type="checkbox" id="themer" class="vh">
+      {{ T "dark_theme" }} <input type="checkbox" id="themer" class="vh">
+      <!-- Shows "on" or "off" -->      
       <span aria-hidden="true"></span>
-    </label> -->
+    </label>
+  </div>
   {{ with .Site.Params.footer }}
     {{ . | markdownify }}
   {{ end }}
-  </div>
   <div class="footer2">
   {{ with .Site.Params.footer2 }}
     {{ . | markdownify }}    

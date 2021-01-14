@@ -34,7 +34,9 @@
     <!-- end Lista de idiomas -->    
     
     {{ partial "nav.html" . }}
-
+    {{ if eq .Site.Params.moveFooterToHeader true }}
+      {{ partial "footer.html" . }}
+    {{ end }}
     <!-- Botón para Themer -->
     <!-- oculto temporalmente. Cf: custom.css -->
     <div class="div-themer-nav">
