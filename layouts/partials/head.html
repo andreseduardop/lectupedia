@@ -5,7 +5,9 @@
   <link rel="preload" href='{{ "css/fonts/Bitter-800.woff2" | relURL }}' as="font" type="font/woff2" crossorigin>
   {{ hugo.Generator }}
   <link rel="canonical" href="{{ .Permalink }}">
-
+  {{ with .Site.DisqusShortname }}
+  	<link rel="dns-prefetch" href="https://disqus.com/">
+  {{ end }}
   {{ if .IsHome }}
       {{ with .Site.Params.homeMetaContent }}
       <meta name="description" content="{{ . | plainify }}">
