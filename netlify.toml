@@ -24,6 +24,7 @@
 	public,
 	max-age=43200,
 	must-revalidate'''
+	X-DNS-Prefetch-Control = "on"
 
 [build]
 publish = "public"

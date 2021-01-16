@@ -6,7 +6,13 @@
   {{ hugo.Generator }}
   <link rel="canonical" href="{{ .Permalink }}">
   {{ with .Site.DisqusShortname }}
+  	{{ $myDisqus := print "https://" . ".disqus.com/" }}
+  	<link rel="dns-prefetch" href="{{ $myDisqus }}">
   	<link rel="dns-prefetch" href="https://disqus.com/">
+  	<link rel="dns-prefetch" href="https://referrer.disqus.com/">
+  	<link rel="dns-prefetch" href="https://links.services.disqus.com/">
+  	<link rel="dns-prefetch" href="https://c.disquscdn.com/">
+  	<link rel="dns-prefetch" href="https://cdn.viglink.com/">
   {{ end }}
   {{ if .IsHome }}
       {{ with .Site.Params.homeMetaContent }}
