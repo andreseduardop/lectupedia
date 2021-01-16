@@ -1,20 +1,22 @@
 <footer role="contentinfo">
   <button onclick="topFunction()" id="btnTop" title='{{ T "go_to_top" }}'>▲</button>
-  <div
-  {{ if eq .Site.Params.showThemeSwitcher false }}style="display: none;"{{ end }}
-  >
-    <label for="themer">
-      {{ T "dark_theme" }} <input type="checkbox" id="themer" class="vh">
-      <!-- Shows "on" or "off" -->      
-      <span aria-hidden="true"></span>
-    </label>
+  {{- if eq .Site.Params.showThemeSwitcher true -}}
+    <div>
+      <label for="themer">
+        {{ T "dark_theme" }} <input type="checkbox" id="themer" class="vh">
+        <!-- Shows "on" or "off" -->      
+        <span aria-hidden="true"></span>
+      </label>
+    </div>
+  {{- end -}}
+  <div>
+    {{- with .Site.Params.footer -}}
+      {{- . | markdownify -}}
+    {{- end -}}
   </div>
-  {{ with .Site.Params.footer }}
-    {{ . | markdownify }}
-  {{ end }}
   <div class="footer2">
-  {{ with .Site.Params.footer2 }}
-    {{ . | markdownify }}    
-  {{ end }}
+  {{- with .Site.Params.footer2 -}}
+    {{- . | markdownify -}}
+  {{- end -}}
   </div>
 </footer>
