@@ -352,6 +352,7 @@ caption {
 }
 .intro {
   flex: 0 0 auto;
+  text-align: center;
 }
 .patterns {
   flex: 1 1 auto;
