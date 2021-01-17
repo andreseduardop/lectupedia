@@ -47,14 +47,11 @@
   {{ $styles := $templateStyles | resources.ExecuteAsTemplate "css/styles.css" . | resources.Minify }}
   <link rel="stylesheet" type="text/css" href="{{ $styles.RelPermalink }}">
   <!-- compilo estilos custom de /assets/ -->
-  {{ $customStyles := resources.Get "css/template-custom.css" }}
-  {{ $styles01 := $customStyles | resources.ExecuteAsTemplate "css/custom-1.css" . | resources.Minify }}
-  <link rel="stylesheet" type="text/css" href="{{ $styles01.RelPermalink }}">
-  <!-- inserta, sin procesar, estilos de /static/ -->
-  {{ range .Site.Params.customCss }}
-    <link rel="stylesheet" type="text/css" href="{{ . | relURL }}">
+  {{ with .Site.Params.customCss }}
+    {{ $customStyles := resources.Get . }}
+      {{ $styles01 := $customStyles | resources.ExecuteAsTemplate "css/custom-1.css" . | resources.Minify }}
+        <link rel="stylesheet" type="text/css" href="{{ $styles01.RelPermalink }}">
   {{ end }}
-
   {{ $title := print .Title " | " .Site.Title }}
   {{ if .IsHome }}
     {{ $title = .Site.Title }}
