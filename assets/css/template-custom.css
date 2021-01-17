@@ -90,12 +90,6 @@ a.menu-item {
   /*color: #111;*/
 }
 /* end item de traduccione disponibles */
-.footer2 {
-  font-size: 0.5rem;
-  color: #333333;
-  margin-top: 0rem;
-  text-transform: uppercase;
-}
 /* Botón volver arriba ⇧ */
 #btnTop {
   display: none;  /* Hidden by default */
@@ -117,6 +111,22 @@ a.menu-item {
   background-color: var(--resalted-color); /* Add a dark-grey background on hover */
 }
 /* end Botón */
+/* footer */
+.footer-img {
+  margin-top: 4rem;
+  max-width: 40%;
+}
+.footer1 {
+  margin-top: 1rem;
+}
+.footer2 {
+  font-size: 0.5rem;
+  color: #333333;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+/* end footer */
 /* ==================== */
 /* MODIFICO CSS DE CUPPER THEME */
 html {
