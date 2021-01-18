@@ -387,7 +387,7 @@ caption {
 /* Patterns navigation */
 .patterns {
     overflow: auto;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
     min-width: max-content;
 }
 .patterns * {
@@ -928,7 +928,7 @@ h1 svg {
         border-right: none;
     }
     .intro-and-nav > div {
-        padding: 1.5rem;
+        padding: 1.5rem 1.5rem 0.5rem;
     }
     .main-and-footer {
         margin: 0;
@@ -1069,8 +1069,8 @@ h1 svg {
   text-transform: uppercase;
   text-align: center;
   line-height: 1.75;
-  margin-top: 0.2rem;
-  margin-bottom: -1.3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.1rem;
 }
 a.available-language-item {
   color: inherit;
