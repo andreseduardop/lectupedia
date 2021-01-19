@@ -15,16 +15,6 @@ summaryLength = 35
 
 [menu]
 
-  # [[menu.nav]]
-  #   name = "Indicadores"
-  #   url = "/indicators/"
-  #   weight = 1
-
-  # [[menu.nav]]
-  #   name = "Recursos"
-  #   url = "/resources/"
-  #   weight = 2
-
   [[menu.nav]]
     name = "Temas"
     url = "/tags/"
