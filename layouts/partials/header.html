@@ -2,10 +2,6 @@
   <div>
     <div class="intro">
       <!-- Logo -->
-      <!-- Enlaza la imagen con el home
-      agregando el prefijo de idioma a la BaseURL.
-      Antes se usó / y .Site.Language.Lang 
-      La variable .LanguagePrefix incluye el / antes del código de idioma  -->
       <a
         class="logo"
         href="{{ .Site.BaseURL | relLangURL }}" aria-label="{{ .Site.Title }} home page">
@@ -26,7 +22,6 @@
             {{ $linkToTranslation = .Permalink }}
           {{ end }}
         {{ end }}  
-        <!-- clases CSS se define en archivo template-custom.css -->
         <span><a class="available-language-item" href="{{ $linkToTranslation }}">{{ .Language.LanguageName }}</a></span><span> · </span>
       {{ end }}
           <span>{{ .Site.Home.Language.LanguageName }} </span>
@@ -37,15 +32,5 @@
     {{ if eq .Site.Params.moveFooterToHeader true }}
       {{ partial "footer.html" . }}
     {{ end }}
-    <!-- Botón para Themer -->
-    <!-- oculto temporalmente. Cf: custom.css -->
-    <div class="div-themer-nav">
-      <label for="themer" class="boton-themer-nav">
-        {{ T "dark_theme" }}: <input type="checkbox" id="themer" class="vh">
-        <span aria-hidden="true"></span>
-      </label>
-    </div>
-    <!-- end Botón -->
-
   </div>
 </header>

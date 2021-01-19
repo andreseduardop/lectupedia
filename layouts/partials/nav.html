@@ -1,29 +1,31 @@
 <nav id="patterns-nav" class="patterns" role="navigation">
   <button id="menu-button" aria-expanded="false" aria-label='{{ T "nav_button_menu" }}'>
-    <!-- {{ T "nav_button_menu" }} -->
     <svg viewBox="0 0 130 100" aria-hidden="true" focusable="false">
       <use xlink:href="#menu"></use>
     </svg>
   </button>
-  {{- $current := . }}
-  <ul id="patterns-list">
-    {{- range .Site.Menus.nav }}
-      <li class="pattern">
-        {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
-        {{ $active = or $active (eq .Name $current.Title) }}
-        {{ $active = or $active (and (eq .Name "Archivo") (eq $current.Section "archive")) }}
-        {{ $active = or $active (and (eq .Name "Temas") (eq $current.Section "tags")) }}
-        <!-- | AbsLangURL is added for multilingual feature compatibility. 
-        As indicated in: https://gohugo.io/content-management/multilingual/#menus 
-        clase menu-item definida en Custom01.css -->
-        <!-- Se elimin a el sombreado en el menú, provocado por aria-current: 
-          <a class="menu-item" href="{{ .URL | absLangURL }}" {{ if $active }}aria-current="page"{{ end }}> -->
-        <a class="menu-item" href="{{ .URL | absLangURL }}">
-          <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
-            <use xlink:href="#bookmark"></use>
-          </svg>
-          <span class="text">{{ .Name }}</span>
-        </a>
-      </li>{{ end }}
-  </ul>
+  <div id="expandable-menu">
+  	{{- $current := . }}
+	  <ul id="patterns-list">
+	    {{- range .Site.Menus.nav }}
+	      <li class="pattern">
+	        <!-- | relLangURL is added for multilingual feature compatibility. 
+	        As indicated in: https://gohugo.io/content-management/multilingual/#menus -->
+	        <a class="menu-item" href="{{ .URL | relLangURL }}">
+	          <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+	            <use xlink:href="#bookmark"></use>
+	          </svg>
+	          <span class="text">{{ .Name }}</span>
+	        </a>
+	      </li>
+	    {{ end }}
+	  </ul>
+		<div class="div-themer">
+		  <label for="themer">
+		    {{- T "dark_theme" -}}
+		    <input type="checkbox" id="themer" class="vh">
+		    <span aria-hidden="true"></span>
+		  </label>
+		</div>  
+	</div>    
 </nav>

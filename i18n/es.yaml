@@ -1,5 +1,5 @@
 - id: skip_to_content
-  translation: saltar contenido
+  translation: saltar a contenido
 - id: nav_main_navigation
   translation: Navegación principal
 - id: nav_button_menu
@@ -11,7 +11,7 @@
 - id: discuss_js_disabled
   translation: Habilite JavaScript para ver comentarios Disqus.
 - id: dark_theme
-  translation: " modo nocturno"
+  translation: "Modo oscuro"
 - id: table_of_contents
   translation: Tabla de contenido
 - id: publish_date

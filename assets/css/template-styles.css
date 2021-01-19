@@ -53,7 +53,12 @@ p + p {
   margin-top: 0;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
+  color: var(--resalted-color);
+  outline-offset: 2px;
+  border-bottom: 0px solid;
+}
+a:hover {
     border-bottom: 1px solid;
 }
 abbr {
@@ -78,17 +83,6 @@ figure p img {
 [data-expands]:focus svg,
 .patterns a:focus .text {
     outline: 4px solid var(--special-bg-color);
-}
-[for="themer"] :focus + [aria-hidden] {
-    outline: 4px solid #999;
-}
-a {
-  color: var(--resalted-color);
-  outline-offset: 2px;
-  border-bottom: 0px solid;
-}
-a:hover {
-    border-bottom: 1px solid;
 }
 
 /* Katex math typesetting */
@@ -257,17 +251,20 @@ label {
   font-weight: bold;
 }
 [for="themer"] {
-  background: #111;
-  border-radius: 0.33em;
-  color: var(--main-bg-color);
-  padding: 0.25em 0.75em;
-  margin: 0.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 0.7rem !important;
 }
 [for="themer"] [aria-hidden]::before {
-  content: 'off';
+  content: '🌓';
+  margin-right: 0.4em;
 }
 [for="themer"] :checked + [aria-hidden]::before {
-  content: 'on';
+  content: '🌑';
+}
+.div-themer {
+  background: transparent;
+  text-align: right;
 }
 
 /* Tables */
@@ -387,7 +384,7 @@ caption {
 /* Patterns navigation */
 .patterns {
     overflow: auto;
-    margin-top: 0.5rem;
+    margin-top: 3rem;
     min-width: max-content;
 }
 .patterns * {
@@ -940,6 +937,9 @@ h1 svg {
       margin-top: 0.5rem;
       border: 1px solid;
     }
+    .patterns {
+        margin-top: 0.5rem;
+    }
     .patterns h3 {
         font-size: 1.5rem;
         padding: 1.5rem 1rem 0.75rem;
@@ -967,6 +967,9 @@ h1 svg {
         border-top: 1px solid;
         margin-top: 0;
     }
+    [for="themer"] {
+        font-size: 1rem;
+    }
     #menu-button {
         display: block;
         text-align: right;
@@ -976,13 +979,13 @@ h1 svg {
         padding: 0rem;
         font-size: 2rem;
     }
-    #patterns-list {
+    #expandable-menu {
         display: none;
     }
     .toc-link {
         display: none;
     }
-    [aria-expanded="true"] + #patterns-list {
+    [aria-expanded="true"] + #expandable-menu {
         display: block;
     }
     code {
@@ -1063,6 +1066,10 @@ h1 svg {
 }
 
 /* MIS PERSONALICIACIONES ADICIONALES AL TEMA */
+/* logo */
+a.logo {
+  border-bottom: 0px solid;
+}
 /* Header > Idiomas disponibles */
 .translations-list {
   font-size: 0.75rem;
@@ -1084,26 +1091,6 @@ a.menu-item {
   border-bottom: 0px solid;
 }
 /* end Nav > Menú */
-
-/* Header > botón themer */
-.div-themer-nav {
-  visibility: hidden;
-  text-align: right;
-  margin-top: 0rem;
-  flex: 40 0 auto;
-  display: none;
-}
-.boton-themer-nav {
-  /*width: 50%;*/
-  background: transparent;
-  color: #00020f !important;
-  margin: 1rem 0rem 0rem;
-  border-style: solid;
-  border-width: 2px;
-  font-weight: normal;
-  font-size: 0.8rem;
-}
-/* end themer */
 
 /* aplicable a sección de Artículos Relacionados */
 .related-header {
@@ -1176,7 +1163,6 @@ a.menu-item {
 .footer2 {
   font-size: 0.5rem;
   color: #333333;
-  margin-top: 0rem;
-  margin-bottom: 1rem;
+  margin: 0.5rem 0rem 1rem;
   text-transform: uppercase;
 }
