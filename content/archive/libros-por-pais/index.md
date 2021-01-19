@@ -14,6 +14,8 @@ summary: Cantidad promedio anual de libros leídos por habitante en cada país.
 
 {{< figureCupper img="libros-por-pais-1.0.png" 
 caption="Cantidad promedio anual de libros leídos por habitante en cada país."
+width="1080" 
+height="1920"
 alt="Mapa del mundo con promedio de lectura por país."
 command="Original" >}}
 

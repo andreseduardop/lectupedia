@@ -14,6 +14,8 @@ summary: Number of books read in each country, per-capita.
 
 {{< figureCupper img="books-per-country-1.0.png" 
 caption="Number of books read in each country, per-capita."
+width="1080" 
+height="1920"
 alt="World map with average reading by country."
 command="Original" >}}
 

@@ -3,6 +3,8 @@
 {{ $caption := .Get "caption" }}
 {{ $command := .Get "command" }}
 {{ $options := .Get "options" }}
+{{ $width := .Get "width" }}
+{{ $height := .Get "height" }}
 
 {{ $original := .Page.Resources.GetMatch (printf "*%s*" $img) }}
 {{ $new := "" }}
@@ -21,7 +23,7 @@
 
 <figure role="group" aria-describedby="caption-{{ $caption | md5 }}">
   <a href="{{ $original.RelPermalink }}" class="img-link">
-    <img src="{{ $new.RelPermalink }}" alt="{{ $alt | plainify }}" >
+    <img class="figure-shortcode" src="{{ $new.RelPermalink }}" alt="{{ $alt | plainify }}" width="{{ $width }}" height="{{ $height }}">
   </a>
   <figcaption id="caption-{{ $caption | md5 }}">
     {{ $caption | markdownify }}
