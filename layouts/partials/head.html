@@ -2,9 +2,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="preload" href='{{ "css/fonts/Bitter-800.woff2" | relURL }}' as="font" type="font/woff2" crossorigin>
   {{ hugo.Generator }}
   <link rel="canonical" href="{{ .Permalink }}">
+  {{ if not .IsHome }}
+    <link rel="preload" href='{{ "css/fonts/Bitter-800.woff2" | relURL }}' as="font" type="font/woff2" crossorigin>
+  {{ end }}
   {{ with .Site.DisqusShortname }}
   	{{ $myDisqus := print "https://" . ".disqus.com/" }}
   	<link rel="dns-prefetch" href="{{ $myDisqus }}">
