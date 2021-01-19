@@ -130,6 +130,7 @@ h6 {
 }
 h1 {
     font-size: 1.75rem;
+    margin-top: 1rem;
 }
 h2 {
     font-size: 1.5rem;
@@ -253,7 +254,9 @@ label {
 [for="themer"] {
   font-weight: 400;
   text-transform: uppercase;
-  margin-top: 0.7rem !important;
+  margin-top: 2rem !important;
+  user-select: none;
+  cursor: pointer;
 }
 [for="themer"] [aria-hidden]::before {
   content: '🌓';
