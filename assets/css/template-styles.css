@@ -22,7 +22,7 @@
     box-sizing: border-box;
 }
 html {
-    font-size: calc(1em + 0.2vw);
+    font-size: calc(1em);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Lato, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     color: #111;
@@ -157,7 +157,7 @@ h6 {
 }
 kbd {
     line-height: 1;
-    font-size: 0.66rem;
+    font-size: 0.625rem;
     padding: 0.1rem 0.33rem;
     border-radius: 0.25rem;
     border: 2px solid;
@@ -172,7 +172,7 @@ pre,
 }
 code {
     font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-    font-size: 0.85em;
+    font-size: 0.875em;
 }
 .cmd {
     padding: 0.75rem;
@@ -224,7 +224,7 @@ blockquote {
   padding-left: 0.75rem;
 }
 blockquote .author {
-  font-size: 0.85rem;
+  font-size: 0.875rem;
 }
 
 /* Buttons */
@@ -238,7 +238,7 @@ button {
     border: 0;
 }
 [data-launch] {
-  font-size: 0.66rem !important;
+  font-size: 0.625rem !important;
   padding: 0.5rem !important;
   margin-top: 0 !important;
   border-radius: 0 !important;
@@ -259,7 +259,6 @@ label {
 [for="themer"] {
   font-weight: 400;
   text-transform: uppercase;
-  margin-top: 2rem !important;
   user-select: none;
   cursor: pointer;
 }
@@ -273,6 +272,7 @@ label {
 .div-themer {
   background: transparent;
   text-align: right;
+  margin-top: 1.5rem !important;
 }
 
 /* Tables */
@@ -340,7 +340,7 @@ caption {
     overflow-x: hidden;
 }
 .intro-and-nav {
-    font-size: 0.8rem;
+    /*font-size: 1rem;*/
     width: 15rem;
     height: 100vh;
     position: fixed;
@@ -358,9 +358,6 @@ caption {
 .intro {
   flex: 0 0 auto;
   text-align: center;
-}
-.patterns {
-  flex: 1 1 auto;
 }
 .logo {
     border: 0;
@@ -380,18 +377,19 @@ caption {
     margin-left: 15rem;
 }
 .main-and-footer > div {
-    max-width: 40rem;
+    max-width: 50rem;
     margin: 0 auto;
     padding: 0.75rem;
 }
-[role="contentinfo"] {
-    font-size: 0.85rem;
+footer {
+    font-size: 0.875rem;
     margin-top: 4rem;
     text-align: center;
 }
 
 /* Patterns navigation */
 .patterns {
+    flex: 1 1 auto;
     overflow: auto;
     margin-top: 3rem;
     min-width: max-content;
@@ -408,8 +406,6 @@ caption {
 .patterns li {
     line-height: 1.125;
     list-style: none;
-}
-.patterns li + li {
 }
 .patterns ul ul {
     margin-left: 0.75rem;
@@ -451,7 +447,7 @@ caption {
 
 /* Tables of contents */
 .toc {
-    font-size: 0.85rem;
+    font-size: 0.875rem;
     border: 1px solid;
     padding: 1.5rem;
 }
@@ -468,8 +464,8 @@ caption {
   text-align: center;
 }
 #disqus-button {
-  width: 100%;
-  padding: 0.25em 0.75em;
+  /*width: auto;*/
+  padding: 0.25em 2em 0.35em;
 }
 #disqus-comments {
   display: none; 
@@ -496,7 +492,6 @@ caption {
 /* Tags */
 .tags {
     margin-top: 0;
-    font-size: 0.85rem;
 }
 .tags * {
     display: inline;
@@ -513,13 +508,12 @@ caption {
 /* Date */
 .date {
     margin-top: 0;
-    font-size: 0.85rem;
 }
 
 /* Notes and warnings */
 .note {
     border-left: 0.5rem solid;
-    font-size: 0.85rem;
+    font-size: 0.875rem;
 }
 .note .sign {
     height: 2.25rem;
@@ -567,7 +561,7 @@ figure {
     text-align: center;
 }
 figcaption {
-    font-size: 0.85rem;
+    font-size: 0.875rem;
     font-style: italic;
     margin-top: 0.5rem;
 }
@@ -635,7 +629,7 @@ pre[class*=language-] code * {
     counter-reset: annotation;
 }
 .code-annotated.numbered + ol li::before {
-    font-size: 0.66em;
+    font-size: 0.625em;
     margin-right: 0.33em;
     vertical-align: 0.25em;
 }
@@ -834,7 +828,7 @@ h1 svg {
 /* Section links */
 .h2-container {
     position: relative;
-    font-size: 1.66rem;
+    font-size: 1.625rem;
 }
 .h2-container a {
     position: absolute;
@@ -876,7 +870,7 @@ h1 svg {
     font-size: 1rem;
 }
 .wrapper.print-version .toc h2 {
-    font-size: 1.66rem;
+    font-size: 1.625rem;
 }
 .wrapper.print-version #patterns-list h3 {
     font-size: 1.25rem;
@@ -890,17 +884,6 @@ h1 svg {
 }
 .pattern-section h1 {
     padding: 0 !important;
-}
-
-/* Custom 404 */
-.custom-404 {
-  text-align: center;
-}
-.custom-404 * {
-  margin: 0;
-}
-.custom-404 svg {
-  max-width: 100%;
 }
 
 /* Utilities */
@@ -963,7 +946,7 @@ h1 svg {
         margin-top: 0;
     }
     .pattern {
-        font-size: 1rem;
+        font-size: 1.125rem;
     }
     .pattern a {
         padding: 1rem;
@@ -1002,8 +985,7 @@ h1 svg {
     }
 }
 @media print {
-    .wrapper:not(.print-version) .intro-and-nav,
-    .wrapper:not(.print-version) [role="contentinfo"] {
+    .wrapper:not(.print-version) .intro-and-nav {
         display: none;
     }
     .main-and-footer {
@@ -1081,7 +1063,8 @@ a.logo {
 }
 /* Header > Idiomas disponibles */
 .translations-list {
-  font-size: 0.75rem;
+  flex: 0 0 auto;
+  font-size: 0.875rem;
   text-transform: uppercase;
   text-align: center;
   line-height: 1.75;
@@ -1102,9 +1085,6 @@ a.menu-item {
 /* end Nav > Menú */
 
 /* aplicable a sección de Artículos Relacionados */
-.related-header {
-  margin-bottom: -1.75rem;
-}
 .related-header-title {
   border: 0;
   line-height: 1.25;
@@ -1112,11 +1092,12 @@ a.menu-item {
 .related-tags {
   font-size: 0.75rem;
   text-transform: uppercase;
+  margin-top: 1.5rem;
 }
 .related-summary-text {
   padding-left: 1rem;
-  margin: 0.25rem;
-  font-size: .85rem;
+  margin: 0.5rem 0rem;
+  font-size: .875rem;
 }
 /* end sección de Artículos Relacionados */
 
@@ -1143,8 +1124,8 @@ a.menu-item {
 #btnTop {
   display: none;  /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
-  bottom: 30px; /* Place the button at the bottom of the page */
-  right: 20px; /* Place the button 30px from the right */
+  bottom: 2rem; /* Place the button at the bottom of the page */
+  right: 1.5rem; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
@@ -1152,12 +1133,18 @@ a.menu-item {
   background-color: gray; /* Set a background color */
   color: var(--main-bg-color); /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 10px 18px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 20px; /* Increase font size */
+  padding: 0.5rem 1rem; /* Some padding */
+  border-radius: 0rem; /* Rounded corners */
+  font-size: 1.125rem; /* Increase font size */
 }
 #btnTop:hover {
   background-color: var(--resalted-color); /* Add a dark-grey background on hover */
+}
+[title="Go to top"]:hover::before {
+    content: 'Top ';
+}
+[title="Ir arriba"]:hover::before {
+    content: 'Subir ';
 }
 /* end Botón */
 
@@ -1170,7 +1157,7 @@ a.menu-item {
   margin-top: 1rem;
 }
 .footer2 {
-  font-size: 0.5rem;
+  font-size: 0.625rem;
   color: #333333;
   margin: 0.5rem 0rem 1rem;
   text-transform: uppercase;

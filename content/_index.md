@@ -24,9 +24,6 @@ que en la lección y estudios nos mejora.
 
 _(1936, Francisco de Quevedo)_
 
-{{< expandable label="Ejemplo de expandible" level="1" >}}
-Here is some markdown including. Donec erat est, feugiat a est sed, aliquet pharetra ipsum. Vivamus in arcu leo. Praesent feugiat, purus a molestie ultrices, libero massa iaculis ante, sit amet accumsan leo eros vel ligula.
-{{< /expandable >}}
   
 {{< blockquote >}}
 _Aquella que no detiene el tiempo;  
