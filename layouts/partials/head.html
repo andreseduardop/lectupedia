@@ -7,14 +7,16 @@
   {{ if not .IsHome }}
     <link rel="preload" href='{{ "css/fonts/Bitter-800.woff2" | relURL }}' as="font" type="font/woff2" crossorigin>
   {{ end }}
-  {{ with .Site.DisqusShortname }}
-  	{{ $myDisqus := print "https://" . ".disqus.com/" }}
-  	<link rel="dns-prefetch" href="{{ $myDisqus }}">
-  	<link rel="dns-prefetch" href="https://disqus.com/">
-  	<link rel="dns-prefetch" href="https://referrer.disqus.com/">
-  	<link rel="dns-prefetch" href="https://links.services.disqus.com/">
-  	<link rel="dns-prefetch" href="https://c.disquscdn.com/">
-  	<link rel="dns-prefetch" href="https://cdn.viglink.com/">
+  {{ if .IsPage }}  
+    {{ with .Site.DisqusShortname }}
+    	{{ $myDisqus := print "https://" . ".disqus.com/" }}
+    	<link rel="dns-prefetch" href="{{ $myDisqus }}">
+    	<link rel="dns-prefetch" href="https://disqus.com/">
+    	<link rel="dns-prefetch" href="https://referrer.disqus.com/">
+    	<link rel="dns-prefetch" href="https://links.services.disqus.com/">
+    	<link rel="dns-prefetch" href="https://c.disquscdn.com/">
+    	<link rel="dns-prefetch" href="https://cdn.viglink.com/">
+    {{ end }}
   {{ end }}
   {{ if .IsHome }}
       {{ with .Site.Params.homeMetaContent }}

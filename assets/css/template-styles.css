@@ -2,6 +2,7 @@
   --main-bg-color: #fffdf3;
   --special-bg-color: #f6ead5;
   --resalted-color: #cc330a;
+  --text-color: #111;
 }
 /* Fonts */
 @font-face {
@@ -24,8 +25,8 @@
 html {
     font-size: calc(1em);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Lato, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    color: #111;
+    line-height: 1.625;
+    color: var(--text-color);
     background-color: var(--main-bg-color);
 }
 template {
@@ -161,7 +162,7 @@ kbd {
     padding: 0.1rem 0.33rem;
     border-radius: 0.25rem;
     border: 2px solid;
-    box-shadow: 0.125rem 0.125rem 0 #111;
+    box-shadow: 0.125rem 0.125rem 0 var(--text-color);
     vertical-align: 0.33em;
 }
 pre,
@@ -176,7 +177,7 @@ code {
 }
 .cmd {
     padding: 0.75rem;
-    background: #111;
+    background: var(--text-color);
 }
 .cmd code {
     color: var(--main-bg-color);
@@ -244,7 +245,7 @@ button {
   border-radius: 0 !important;
   border-top-left-radius: 0.33rem !important;
   box-shadow: none !important;
-  background: #111 !important;
+  background: var(--text-color) !important;
   color: var(--main-bg-color) !important;
   position: absolute !important;
   right: 0 !important;
@@ -299,7 +300,7 @@ th:empty {
 /* Tested using... table */
 .tested {
     text-align: center;
-    border: 1px solid #111;
+    border: 1px solid var(--text-color);
 }
 .tested tr {
     display: flex;
@@ -309,13 +310,13 @@ th:empty {
     vertical-align: middle;
     overflow: hidden;
     flex: 1 0 auto;
-    border: 1px solid #111;
+    border: 1px solid var(--text-color);
 }
 .tested th {
     width: 100%;
-    background-color: #111;
+    background-color: var(--text-color);
     color: var(--main-bg-color);
-    outline-color: #111;
+    outline-color: var(--text-color);
 }
 .tested img {
     max-width: 3rem;
@@ -379,7 +380,7 @@ caption {
 .main-and-footer > div {
     max-width: 50rem;
     margin: 0 auto;
-    padding: 0.75rem;
+    padding: 1rem;
 }
 footer {
     font-size: 0.875rem;
@@ -429,7 +430,7 @@ footer {
 
 /* After */
 .pattern [aria-current] {
-  background-color: #111;
+  background-color: var(--text-color);
   clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);
   color: var(--main-bg-color);
 }
@@ -617,7 +618,7 @@ pre[class*=language-] code * {
     content: counter(annotation);
     font-weight: bold;
     font-size: 0.5rem;
-    background: #111;
+    background: var(--text-color);
     color: var(--main-bg-color);
     border-radius: 1rem;
     margin-left: 0.25rem;
@@ -694,7 +695,7 @@ pre[class*=language-] code * {
 }
 [data-expands] {
     text-align: left;
-    color: #111;
+    color: var(--text-color);
     border: 0;
     background: none;
     width: 100%;
@@ -799,7 +800,7 @@ h1 svg {
 }
 .colors span {
     line-height: 1;
-    background-color: #111;
+    background-color: var(--text-color);
     color: var(--main-bg-color);
     font-size: 0.75rem;
     padding: 0.25rem;
@@ -966,7 +967,7 @@ h1 svg {
         display: block;
         text-align: right;
         background: transparent;
-        color: #111;
+        color: var(--text-color);
         border-style: none;
         padding: 0rem;
         font-size: 2rem;
@@ -1003,7 +1004,7 @@ h1 svg {
     }
     .cmd code {
         background: var(--main-bg-color);
-        color: #111;
+        color: var(--text-color);
     }
     pre code {
         white-space: pre-wrap !important;
@@ -1116,7 +1117,6 @@ a.menu-item {
   font-size: 0.75rem;
   text-transform: uppercase;
   border-bottom: 1px solid;
-  /*color: #111;*/
 }
 /* end item de traduccione disponibles */
 
@@ -1149,9 +1149,22 @@ a.menu-item {
 /* end Botón */
 
 /* footer */
-.footer-img {
-  margin-top: 4rem;
-  max-width: 40%;
+.badges-footer {
+  /* define after: */
+}
+.badges-footer a {
+  line-height: 2.5;
+  margin-right: 1rem;
+  padding: 0.25rem 0.5rem;
+  color: var(--text-color);
+  font-weight: normal;
+  white-space: nowrap;
+}
+.badges-gray {
+  background-color: #ccc;
+}
+.badges-green {
+  background-color: #9dd29f;
 }
 .footer1 {
   margin-top: 1rem;
