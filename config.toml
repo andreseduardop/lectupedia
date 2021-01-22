@@ -25,16 +25,6 @@ summaryLength = 35
     url = "/archive/"
     weight = 4
 
-  # [[menu.nav]]
-  # name = "Acerca de"
-  # url = "/acerca-de/"
-  # weight = 4
-
-  # [[menu.nav]]
-  # name = "RSS"
-  # url = "/index.xml"
-  # weight = 5
-
 [languages]
   [languages.es]
   languageName = "Español"
@@ -50,15 +40,6 @@ summaryLength = 35
     description = "Let's talk about reading. Mundus excolitur legendo."
     homeMetaContent = "Let's talk about reading. Mundus excolitur legendo."
     footer = "2020· Lectupedia by [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en)"
-    # [[languages.en.menu.nav]]
-    #   name = "Indicators"
-    #   url = "/indicators/"
-    #   weight = 1
-
-    # [[languages.en.menu.nav]]
-    #   name = "Resources"
-    #   url = "/resources/"
-    #   weight = 2
 
     [[languages.en.menu.nav]]
       name = "Topics"
@@ -77,8 +58,6 @@ summaryLength = 35
   tag = "tags"
 
 [permalinks]
-  # indicators = "/:slug/"
-  # resources = "/:slug/"
   archive = "/:slug/"
 
 [related]
