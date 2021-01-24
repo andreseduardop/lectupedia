@@ -11,23 +11,23 @@
 }());
 
 /* Expandable sections */
-// (function () {
-//   function toggle (button, target) {
-//     var expanded = button.getAttribute('aria-expanded') === 'true';
-//     button.setAttribute('aria-expanded', !expanded);
-//     target.hidden = !target.hidden;
-//   }
+(function () {
+  function toggle (button, target) {
+    var expanded = button.getAttribute('aria-expanded') === 'true';
+    button.setAttribute('aria-expanded', !expanded);
+    target.hidden = !target.hidden;
+  }
 
-//   var expanders = document.querySelectorAll('[data-expands]');
+  var expanders = document.querySelectorAll('[data-expands]');
 
-//   Array.prototype.forEach.call(expanders, function (expander) {
-//     var target = document.getElementById(expander.getAttribute('data-expands'));
+  Array.prototype.forEach.call(expanders, function (expander) {
+    var target = document.getElementById(expander.getAttribute('data-expands'));
 
-//     expander.addEventListener('click', function () {
-//       toggle(expander, target);
-//     })
-//   })
-// }());
+    expander.addEventListener('click', function () {
+      toggle(expander, target);
+    })
+  })
+}());
 
 /* Persist navigation scroll point */
 // (function () {
@@ -49,36 +49,6 @@
 //     }
 //   })
 // }());
-
-{{ if not .Site.Params.hideHeaderLinks }}
-  /* Add "link here" links to <h2> headings */
-  (function () {
-    var headings = document.querySelectorAll('main > h2');
-
-    Array.prototype.forEach.call(headings, function (heading) {
-      var id = heading.getAttribute('id');
-
-      if (id) {
-        var newHeading = heading.cloneNode(true);
-        newHeading.setAttribute('tabindex', '-1');
-
-        var container = document.createElement('div');
-        container.setAttribute('class', 'h2-container');
-        container.appendChild(newHeading);
-
-        heading.parentNode.insertBefore(container, heading);
-
-        var link = document.createElement('a');
-        link.setAttribute('href', '#' + id);
-        link.innerHTML = '<svg aria-hidden="true" class="link-icon" viewBox="0 0 50 50" focusable="false"> <use xlink:href="#link"></use> </svg>';
-
-        container.appendChild(link);
-
-        heading.parentNode.removeChild(heading);
-      }
-    })
-  }());
-{{ end }}
 
 /* Switch and persist theme */
 (function () {

@@ -87,7 +87,7 @@ summaryLength = 35
   # codePenUser = "someUser"
   katex = false
   darkThemeAsDefault = false
-  hideHeaderLinks = true
+  headingLinks = false  # coloca anchors al final de los h
   showThemeSwitcher = false
   moveFooterToHeader = false
   search = false
@@ -118,16 +118,6 @@ summaryLength = 35
     hardWraps = false
     unsafe = true
     xHTML = false
-
-  [markup.highlight]
-    codeFences = false
-    hl_Lines = ""
-    lineNoStart = 1
-    lineNos = false
-    lineNumbersInTable = true
-    noClasses = true
-    style = "monokai"
-    tabWidth = 4
 
   [markup.tableOfContents]
     startLevel = 2

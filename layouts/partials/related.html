@@ -1,7 +1,7 @@
 <br>
-<hr>
 {{ $related := .Site.RegularPages.Related . | first 4 }}
 {{ with $related }}
+<hr>
 <h2>{{ T "related_articles_title" }}</h2>
 	{{ range . }}
 	<article class="related-article">
@@ -32,5 +32,5 @@
 		</section>
 	</article>
 	{{ end }}	
-{{ end }}
 <hr>
+{{ end }}

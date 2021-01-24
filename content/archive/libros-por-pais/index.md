@@ -24,7 +24,7 @@ Para cada país, se indica la cantidad promedio de libros leídos al año, por h
 
 Las cifras se presentan con base en datos suministrados por centros de investigación o instituciones gubernamentales encargadas de cultura y educación en el respectivo país. Las fuentes se indican en las notas al final.
 
-| País | Promedio de libros leídos anualmente |
+| País | Promedio anual |
 |----------------------------------|------|
 | Argentina [^Argentina]           | 1,6  |
 | Brasil [^Brasil]                 | 2,5  |

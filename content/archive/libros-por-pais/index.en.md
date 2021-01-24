@@ -24,7 +24,7 @@ The average number of books read per inhabitant in a year is indicated for each 
 
 The figures are presented based on data provided by research centers or government institutions in charge of culture and education in the respective country. Sources are indicated in the endnotes.
 
-| Country | Average number of books read in a year |
+| Country | Anual average |
 |-----------------------------------|------|
 | Argentina [^Argentina]            | 1,6  |
 | Brazil [^Brazil]                  | 2,5  |

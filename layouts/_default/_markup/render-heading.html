@@ -1,0 +1,7 @@
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">{{- .Text | safeHTML -}}
+{{- $ := $.Page.Site -}}
+{{- $anchors := $.Site.Params.headingLinks -}}
+{{- if $anchors -}}
+&nbsp;&nbsp;<a href="#{{ .Anchor | safeURL }}">⚓</a>
+{{- end -}}
+</h{{ .Level }}>

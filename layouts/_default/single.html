@@ -1,11 +1,6 @@
 {{ define "main" }}
   <main id="main">
-    <h1>
-      <svg class="bookmark-icon" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-        <use xlink:href="#bookmark"></use>
-      </svg>
-      {{- .Title | markdownify -}}
-    </h1>
+    <h1>{{- .Title | markdownify -}}</h1>
     <!-- Se adicionan opciones para cambiar de idioma -->
     <!-- se crean clases para personalizarlo -->
     <div class="available-languages">

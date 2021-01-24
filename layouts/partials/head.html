@@ -25,7 +25,7 @@
     {{ else }}
       <!-- se usará el método ".Param" resolver un únivo valor para el parámetro "description", buscará en el Front Matter primero, luego en config.toml -->
       {{ with .Param "description" }}
-      <meta name="description" content="{{ . | plainify }}">
+        <meta name="description" content="{{ . | plainify }}">
       {{ end }}
   {{ end }}
 
