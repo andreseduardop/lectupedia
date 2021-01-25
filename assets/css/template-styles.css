@@ -225,31 +225,6 @@ label {
   display: inline-block;
   font-weight: bold;
 }
-/* Themer */
-[for="themer"] {
-  font-weight: 400;
-  text-transform: uppercase;
-  user-select: none;
-  cursor: pointer;
-}
-[for="themer"] [aria-hidden]::before {
-  content: '🌓';
-  margin-right: 0.4em;
-}
-[for="themer"] :checked + [aria-hidden]::before {
-  content: '🌑';
-}
-.div-themer {
-  background: transparent;
-  text-align: right;
-  margin-top: 1.5rem !important;
-}
-/* ocultar checkbox del Themer: */
-.vh {
-  opacity: 0;
-  width: 0px;
-  height: 0px;
-}
 
 /* Tables */
 table {
@@ -632,13 +607,14 @@ li > svg {
 /* auto Dakr Theme */
 @media (prefers-color-scheme: dark) {
 
-  .intro-and-nav, .main-and-footer {
+  html {
     filter: invert(100%); 
   }
   * {
     background-color: inherit;
   }
-  img:not([src*=".svg"]) {
+  img:not([src*=".svg"]),
+  .badges-footer a {
     filter: invert(100%);
   }
 }
@@ -658,7 +634,7 @@ li > svg {
         height: auto;
     }
     .intro-and-nav > div {
-        padding: 1rem 1.5rem 0.5rem;
+        padding: 1rem 1.5rem 1rem;
     }
     .main-and-footer {
         margin: 0;
@@ -699,9 +675,6 @@ li > svg {
     .pattern + .pattern {
         border-top: 1px solid;
         margin-top: 0;
-    }
-    [for="themer"] {
-        font-size: 1rem;
     }
     #menu-button {
         display: block;
@@ -884,7 +857,7 @@ a.menu-item {
   display: none;  /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 2rem; /* Place the button at the bottom of the page */
-  right: 1.5rem; /* Place the button 30px from the right */
+  right: 2rem; /* Place the button 30px from the right */
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */

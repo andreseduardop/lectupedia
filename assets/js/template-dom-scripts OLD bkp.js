@@ -30,25 +30,25 @@
 }());
 
 /* Persist navigation scroll point */
-// (function () {
-//   window.onbeforeunload = function () {
-//     var patternsNav = document.getElementById('patterns-nav');
-//     if (patternsNav) {
-//       var scrollPoint = patternsNav.scrollTop;
-//       localStorage.setItem('scrollPoint', scrollPoint);
-//     }
-//   }
+/*(function () {
+  window.onbeforeunload = function () {
+    var patternsNav = document.getElementById('patterns-nav');
+    if (patternsNav) {
+      var scrollPoint = patternsNav.scrollTop;
+      localStorage.setItem('scrollPoint', scrollPoint);
+    }
+  }
 
-//   window.addEventListener('DOMContentLoaded', function () {
-//     if (document.getElementById('patterns-nav')) {
-//       if (window.location.href.indexOf('patterns/') !== -1) {
-//         document.getElementById('patterns-nav').scrollTop = parseInt(localStorage.getItem('scrollPoint'));
-//       } else {
-//         document.getElementById('patterns-nav').scrollTop = 0;
-//       }
-//     }
-//   })
-// }());
+  window.addEventListener('DOMContentLoaded', function () {
+    if (document.getElementById('patterns-nav')) {
+      if (window.location.href.indexOf('patterns/') !== -1) {
+        document.getElementById('patterns-nav').scrollTop = parseInt(localStorage.getItem('scrollPoint'));
+      } else {
+        document.getElementById('patterns-nav').scrollTop = 0;
+      }
+    }
+  })
+}());*/
 
 /* Switch and persist theme */
 (function () {

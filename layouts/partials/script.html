@@ -1,9 +1,43 @@
-{{ $templateDomScripts := resources.Get "js/template-dom-scripts.js" }}
-{{ $domScripts := $templateDomScripts | resources.ExecuteAsTemplate "js/dom-scripts.js" . | resources.Minify }}
-<script src="{{ $domScripts.RelPermalink }}"></script>  
+<!-- Función para Botón menú  -->
+<script type="text/javascript">
+	(function () {
+	  var button = document.getElementById('menu-button');
+	  if (button) {
+	    var menu = document.getElementById('patterns-list');
+	    button.addEventListener('click', function() {
+	      var expanded = this.getAttribute('aria-expanded') === 'true';
+	      this.setAttribute('aria-expanded', !expanded);
+	    })
+	  }
+	}());
+</script>
+<!-- end Botón menú -->
+
+<!-- Botón Top -->
+<button onclick="topFunction()" id="btnTop" title='{{ T "go_to_top" }}'>▲</button>
+<script type="text/javascript">
+	// Get the button:
+	buttonTop = document.getElementById("btnTop");
+	// When the user scrolls down 300px from the top of the document, show the button
+	window.onscroll = function() {scrollFunction()};
+
+	function scrollFunction() {
+	  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+	    buttonTop.style.display = "block";
+	    // buttonTop.style.position: "fixed";
+	  } else {
+	    buttonTop.style.display = "none";
+	  }
+	}
+	// When the user clicks on the button, scroll to the top of the document
+	function topFunction() {
+	  document.body.scrollTop = 0; // For Safari
+	  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+	}
+</script>
+<!-- fin de Botón Top -->
 
 <!-- cargar recursos para cuadro de búsqueda -->
-<!-- se activa en config.toml -->
 {{ if site.Params.search }}
 	{{ $searchJs := resources.Get "js/search.js" | fingerprint }}
 	<script src="{{ $searchJs.RelPermalink }}"></script>
@@ -15,43 +49,3 @@
 {{ range .Site.Params.customJs }}
   <script src="{{ . | relURL }}"></script>
 {{ end }}
-
-<!-- Botón para volver arriba -->
-<script type="text/javascript">
-	// Get the button:
-	buttonTop = document.getElementById("btnTop");
-	// When the user scrolls down 300px from the top of the document, show the button
-	window.onscroll = function() {scrollFunction()};
-
-	function scrollFunction() {
-	  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
-	    buttonTop.style.display = "block";
-	  } else {
-	    buttonTop.style.display = "none";
-	  }
-	}
-	// When the user clicks on the button, scroll to the top of the document
-	function topFunction() {
-	  document.body.scrollTop = 0; // For Safari
-	  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-	}
-</script>
-<!-- fin de Botón -->
-
-<!-- Contador de vistas (en construcción) -->
-<!-- {{ if not .Site.IsServer }}
-<script type="text/javascript">
-function viewsCounter() {
-  var counter = new XMLHttpRequest();
-  counter.open("GET", "https://api.countapi.xyz/hit/lectupedia-{{ .File.BaseFileName }}");
-  counter.responseType = "json";
-  counter.onload = function() {
-      document.getElementById("views-counter").innerHTML = counter.response.value;
-      // alert({{ .File.BaseFileName }});
-  }
-  counter.send(); 
-}
-window.onload = viewsCounter;
-</script>
-{{ end }} -->
-<!-- fin del Contador de vistas -->

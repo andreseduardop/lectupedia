@@ -46,3 +46,5 @@
   translation: "Views:"
 - id: we-are-members
   translation: We are members of
+- id: js-disabled
+  translation: "Error: JavaScript is disabled."
