@@ -23,9 +23,9 @@
     box-sizing: border-box;
 }
 html {
-    font-size: 1em;
+    font-size: calc(1em * 1.25);
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Lato, Helvetica, Arial, sans-serif;
-    line-height: 1.625;
+    line-height: 1.6;
     color: var(--color-txt);
     background-color: var(--color-bg);
 }
@@ -630,6 +630,10 @@ li > svg {
 
 /* Media queries */
 @media screen and (max-width: 45em) {
+    html {
+      font-size: 1rem;
+      line-height: 1.625rem;
+    }
     body a {
       word-break: normal;
       overflow-wrap: anywhere;
