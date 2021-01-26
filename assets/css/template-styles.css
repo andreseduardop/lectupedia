@@ -73,6 +73,10 @@ img {
     max-height: 50vh;
     aspect-ratio: attr(width) / attr(height);
 }
+p img {
+    margin: 0.75rem 0;
+}
+/* Shorcode figure (infografías) */
 img.figure-shortcode {
     width: auto;
     height: 50vh;
@@ -80,12 +84,16 @@ img.figure-shortcode {
 .img-link {
     border-bottom: none;
 }
-p img {
-    margin: 0.75rem 0;
-}
 figure p img {
     margin: 0;
 }
+figure .img-link {
+	cursor: pointer;
+    cursor: -moz-zoom-in; 
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+}
+/* highlight selection border */
 :focus:not([tabindex="-1"]),
 [data-expands]:focus svg,
 .patterns a:focus .text {
