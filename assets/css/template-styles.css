@@ -90,7 +90,6 @@ figure .img-link {
 }
 /* highlight selection border */
 :focus:not([tabindex="-1"]),
-[data-expands]:focus svg,
 .patterns a:focus .text {
     outline: 4px solid var(--color-bg-spec);
 }
@@ -272,17 +271,11 @@ th:empty {
     max-width: 12rem;
     height: auto;
 }
-.library-desc {
-    margin-top: 0.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 25rem;
-}
 .main-and-footer {
     margin-left: 15rem;
 }
 .main-and-footer > div {
-    max-width: 50rem;
+    max-width: 40rem;
     margin: 0 auto;
     padding: 1rem;
 }
@@ -602,15 +595,15 @@ li > svg {
 }
 @media print {
     @page {
-        margin: 2cm;
+        margin: 1.5cm 2cm;
     }
     .wrapper:not(.print-version) .intro-and-nav {
         position: static;
         width: auto;
         height: auto;
     }
-    main {
-        zoom: 80%;
+    main, .intro-and-nav {
+        zoom: 60%;
     }
     * + * {
         margin-top: 1.25rem;
@@ -624,19 +617,6 @@ li > svg {
     }
     h1 {
         margin-top: 0rem;
-    }
-    .expandable-section {
-        border: 0;
-        padding: 0;
-    }
-    .expandable-section + p {
-        margin-top: 0.75rem;
-    }
-    [id^="js-expandable-"] {
-        display: block;
-    }
-    [data-expands] svg {
-        display: none;
     }
     main *:not(.with-desc) {
         break-inside: auto;
