@@ -8,19 +8,18 @@ tags:
 draft: false
 
 toc: false
-description: Porcentaje de lectores de libros en cada país.
-summary: Porcentaje de lectores de libros en cada país.
+description: Para cada país, se indica el porcentaje de adultos lectores de libros.
 ---
 
 {{< figureCupper 
-img="lectores-por-pais-1.png" 
+img="lectores-por-pais-1.0.png" 
 caption="Porcentaje de lectores de libros en cada país."
 width="1080" 
 height="1920"
 alt="Mapa del mundo con porcentaje de lectores por país."
 command="Original" >}}
 
-Para cada país, se indica el porcentaje de adultos lectores de libros.
+Para cada país, se indica el porcentaje de adultos lectores de libros. La cifra corresponde al porcentaje de personas que leen al menos un libro al año.
 
 Las cifras se presentan con base en datos suministrados por centros de investigación o instituciones gubernamentales encargadas de cultura y educación en el respectivo país. Las fuentes se indican en las notas al final.
 

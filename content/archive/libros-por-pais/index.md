@@ -9,7 +9,6 @@ draft: false
 
 toc: false
 description: Cantidad promedio anual de libros leídos por habitante en cada país.
-summary: Cantidad promedio anual de libros leídos por habitante en cada país.
 ---
 
 {{< figureCupper 

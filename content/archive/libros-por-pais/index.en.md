@@ -9,7 +9,6 @@ draft: false
 
 toc: false
 description: Number of books read in each country, per-capita.
-summary: Number of books read in each country, per-capita.
 ---
 
 {{< figureCupper 
