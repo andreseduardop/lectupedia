@@ -29,6 +29,10 @@ html {
     color: var(--color-txt);
     background-color: var(--color-bg);
 }
+body a {
+    word-break: normal;
+    overflow-wrap: anywhere;
+}
 template {
   display: none !important;
 }
