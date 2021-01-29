@@ -3,7 +3,7 @@ title: "Share of readers by country"
 date: 2021-01-28T16:00:12-05:00
 slug: "share-of-readers-by-country"
 tags: 
-- indicators
+- indicators and statistics
 
 draft: false
 

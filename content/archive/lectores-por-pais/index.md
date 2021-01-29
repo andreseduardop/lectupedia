@@ -3,7 +3,7 @@ title: "Porcentaje de lectores por país"
 date: 2021-01-28T16:00:12-05:00
 slug: "porcentaje-de-lectores-por-pais"
 tags: 
-- indicadores
+- indicadores y estadísticas
 
 draft: false
 

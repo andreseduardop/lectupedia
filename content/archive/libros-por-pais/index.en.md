@@ -3,7 +3,7 @@ title: "Number of books read in each country"
 date: 2020-12-21T10:26:12-05:00
 slug: "number-of-books-read-in-each-country"
 tags: 
-- indicators
+- indicators and statistics
 
 draft: false
 
