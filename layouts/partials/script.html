@@ -1,9 +1,10 @@
 <!-- Función para Botón menú  -->
-<script type="text/javascript">
+<script>
 	(function () {
 	  var button = document.getElementById('menu-button');
 	  if (button) {
-	    var menu = document.getElementById('patterns-list');
+	  	// Uso anterior desconocido: 
+	    // var menu = document.getElementById('patterns-list');
 	    button.addEventListener('click', function() {
 	      var expanded = this.getAttribute('aria-expanded') === 'true';
 	      this.setAttribute('aria-expanded', !expanded);
@@ -15,7 +16,7 @@
 
 <!-- Botón Top -->
 <button onclick="topFunction()" id="btnTop" title='{{ T "go_to_top" }}'>▲</button>
-<script type="text/javascript">
+<script>
 	// Get the button:
 	buttonTop = document.getElementById("btnTop");
 	// When the user scrolls down 300px from the top of the document, show the button

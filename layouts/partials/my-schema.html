@@ -18,7 +18,7 @@
 { {{ $images := $.Resources.ByType "image" -}}
   {{- $featuredImage := $images.GetMatch "*feature*" -}}
   "@context": "https://schema.org",
-  "@type": "BlogPosting",
+  "@type": "Article",
   "headline": {{ .Title }},
   {{- with $featuredImage }}
   "image": {{ $featuredImage.Permalink -}},
