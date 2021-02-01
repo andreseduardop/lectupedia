@@ -8,3 +8,6 @@ Una colección de:
 - Indicadores acerca de la lectura en cada país.
 - Análisis y comparación de indicadores.
 - Investigaciones, metodologías, materiales y recursos para el fomento de la lectura.
+  
+  
+Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme) (Mod). Deployed to [Netlify](https://www.netlify.com/).
