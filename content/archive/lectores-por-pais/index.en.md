@@ -19,7 +19,7 @@ height="1920"
 alt="World map with percentage of adults readers of books by country."
 command="Original" >}}
 
-Percentage of adults readers of books is indicated for each country. The figure corresponds to the percentage of people who read at least one book a year.
+Percentage of adult readers of books is indicated for each country. The figure corresponds to the percentage of people who read at least one book a year.
 
 The figures are presented based on data provided by research centers or government institutions in charge of culture and education in the respective country. Sources are indicated in the endnotes.
 
