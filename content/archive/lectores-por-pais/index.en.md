@@ -8,15 +8,15 @@ tags:
 draft: false
 
 toc: false
-description: Percentage of adults readers of books by country.
+description: Percentage of adult readers of books by country.
 ---
 
 {{< figureCupper 
 img="readers-per-country-1.0.png" 
-caption="Percentage of adults readers of books by country"
+caption="Percentage of adult readers of books by country"
 width="1080" 
 height="1920"
-alt="World map with percentage of adults readers of books by country."
+alt="World map with percentage of adult readers of books by country."
 command="Original" >}}
 
 Percentage of adult readers of books is indicated for each country. The figure corresponds to the percentage of people who read at least one book a year.
