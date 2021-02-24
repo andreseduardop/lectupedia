@@ -30,14 +30,14 @@ The figures are presented based on data provided by research centers or governme
 | Canada [^Canada]                  | 17   |
 | Chile [^Chile]                    | 5,3  |
 | Colombia [^Colombia]              | 1,9  |
-| South Korea [^South Korea]        | 11   |
-| Spain [^Spain]                    | 7,5  |
-| United States [^United States]    | 12   |
 | Estonia [^Estonia]                | 6    |
 | France [^France]                  | 17   |
 | Mexico [^Mexico]                  | 1,4  |
 | Peru [^Peru]                      | 3,3  |
 | Portugal [^Portugal]              | 8,5  |
+| South Korea [^South Korea]        | 11   |
+| Spain [^Spain]                    | 7,5  |
+| United States [^United States]    | 12   |
 | Venezuela [^Venezuela]            | 2    |
 
 
@@ -48,12 +48,12 @@ The figures are presented based on data provided by research centers or governme
 [^Canada]: **Canada:** Department of Canadian Heritage. Booknet Canada. "Reading and Buying Books for Pleasure: 2005 National Survey". [http://publications.gc.ca/collections/Collection/CH44-61-2005E.pdf](http://publications.gc.ca/collections/Collection/CH44-61-2005E.pdf)
 [^Chile]: **Chile:** Consejo Nacional de la Cultura y las Artes (CNCA). "Encuesta de Comportamiento Lector 2014". [http://plandelectura.gob.cl/recursos/encuesta-de-comportamiento-lector-2014/](http://plandelectura.gob.cl/recursos/encuesta-de-comportamiento-lector-2014/)
 [^Colombia]: **Colombia:** Departamento Administrativo Nacional de Estadística (DANE). "Encuesta de consumo cultural (ECC). Anexo: Lectura, Cuadro 19.". [https://www.dane.gov.co/index.php/estadisticas-por-tema/cultura/consumo-cultural](https://www.dane.gov.co/index.php/estadisticas-por-tema/cultura/consumo-cultural)
-[^South Korea]: **South Korea:** China Daily. "Reading rate falling in China". [http://www.chinadaily.com.cn/china/2013-04/19/content_16423992.htm](http://www.chinadaily.com.cn/china/2013-04/19/content_16423992.htm)
-[^Spain]: **Spain:** Federación de Gremios de Editores de España. "Hábitos de Lectura y Compra de Libros Año 2019". [https://www.federacioneditores.org/documentos.php](https://www.federacioneditores.org/documentos.php) [We have calculated the average number of books read per capita based on the data provided.]
-[^United States]: **United States:** Pew Research Center. "Book Reading 2016: Appendix A". [https://www.pewresearch.org/internet/2016/09/01/book-reading-2016-appendix-a/](https://www.pewresearch.org/internet/2016/09/01/book-reading-2016-appendix-a/)
 [^Estonia]: **Estonia:** Statistics Estonia. "Residents of Estonia continuously take a big interest in book reading". [https://www.stat.ee/en/uudised/news-release-2010-167](https://www.stat.ee/en/uudised/news-release-2010-167)
 [^France]: **France:** Ipsos pour le Centre National du livre. "Les Français et la lecture en 2019: Étude complète. p. 22". [https://centrenationaldulivre.fr/donnees-cles/les-francais-et-la-lecture-en-2019](https://centrenationaldulivre.fr/donnees-cles/les-francais-et-la-lecture-en-2019)
 [^Mexico]: **Mexico:** Instituto Nacional de Estadística y Geografía (INEGI). "Módulo sobre Lectura (MOLEC)". [https://www.inegi.org.mx/programas/molec/#Microdatos](https://www.inegi.org.mx/programas/molec/#Microdatos) [We have calculated the average number of books read per capita based on the microdata provided.]
 [^Peru]: **Peru:** Instituto de Opinión Pública de la Pontificia Universidad Católica del Perú (IOP) . "Boletín N° 137: Libros y hábitos de lectura. p. 7". [https://iop.pucp.edu.pe/publicacion/boletin-n-137-libros-y-habitos-de-lectura/](https://iop.pucp.edu.pe/publicacion/boletin-n-137-libros-y-habitos-de-lectura/)
 [^Portugal]: **Portugal:** Centro Regional para el Fomento el Libro en América Latina y el Caribe (CERLAC). "Comportamiento lector y hábitos de lectura. p. 14". [https://cerlalc.org/publicaciones/comportamiento-lector-y-habitos-de-lectura-una-comparacion-de-resultados-en-algunos-paises-de-america-latina/](https://cerlalc.org/publicaciones/comportamiento-lector-y-habitos-de-lectura-una-comparacion-de-resultados-en-algunos-paises-de-america-latina/)
+[^South Korea]: **South Korea:** China Daily. "Reading rate falling in China". [http://www.chinadaily.com.cn/china/2013-04/19/content_16423992.htm](http://www.chinadaily.com.cn/china/2013-04/19/content_16423992.htm)
+[^Spain]: **Spain:** Federación de Gremios de Editores de España. "Hábitos de Lectura y Compra de Libros Año 2019". [https://www.federacioneditores.org/documentos.php](https://www.federacioneditores.org/documentos.php) [We have calculated the average number of books read per capita based on the data provided.]
+[^United States]: **United States:** Pew Research Center. "Book Reading 2016: Appendix A". [https://www.pewresearch.org/internet/2016/09/01/book-reading-2016-appendix-a/](https://www.pewresearch.org/internet/2016/09/01/book-reading-2016-appendix-a/)
 [^Venezuela]: **Venezuela:** Centro Nacional de Libro (CENAL). "Encuesta del Comportamiento Lector, Acceso al Libro y la Lectura en Venezuela, año 2012. p. 41". [http://www.cenal.gob.ve/observatorio/investigaciones/](http://www.cenal.gob.ve/observatorio/investigaciones/)
