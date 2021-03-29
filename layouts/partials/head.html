@@ -10,12 +10,12 @@
   {{ if .IsPage }}  
     {{ with .Site.DisqusShortname }}
     	{{ $myDisqus := print "https://" . ".disqus.com/" }}
-    	<link rel="dns-prefetch" href="{{ $myDisqus }}">
-    	<link rel="dns-prefetch" href="https://disqus.com/">
-    	<link rel="dns-prefetch" href="https://referrer.disqus.com/">
-    	<link rel="dns-prefetch" href="https://links.services.disqus.com/">
-    	<link rel="dns-prefetch" href="https://c.disquscdn.com/">
-    	<link rel="dns-prefetch" href="https://cdn.viglink.com/">
+    	<link rel="preconnect" href="{{ $myDisqus }}" crossorigin>
+    	<link rel="preconnect" href="https://disqus.com/" crossorigin>
+    	<link rel="preconnect" href="https://referrer.disqus.com/" crossorigin>
+    	<link rel="preconnect" href="https://links.services.disqus.com/" crossorigin>
+    	<link rel="preconnect" href="https://c.disquscdn.com/" crossorigin>
+    	<link rel="preconnect" href="https://cdn.viglink.com/" crossorigin>
     {{ end }}
   {{ end }}
   {{ if .IsHome }}
