@@ -22,7 +22,7 @@ press avenges time's slanders.
 but it can be counted fortunate  
 when we better ourselves by reading.[^Johnson]
 
-_(1936, Francisco de Quevedo)_
+_(1639, Francisco de Quevedo)_
   
   
 {{< blockquote >}}

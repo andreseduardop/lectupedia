@@ -22,7 +22,7 @@ libra, ¡oh gran don Joseph!, docta la imprenta.
 pero aquélla el mejor cálculo cuenta  
 que en la lección y estudios nos mejora.
 
-_(1936, Francisco de Quevedo)_
+_(1639, Francisco de Quevedo)_
 
   
 {{< blockquote >}}
