@@ -1,6 +1,6 @@
 name: /es /en
 
-index: índice, index
+list: Artículo, Articles
 
 tags: temas, topics
 

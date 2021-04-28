@@ -4,9 +4,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   {{ hugo.Generator }}
   <link rel="canonical" href="{{ .Permalink }}">
+
+  <!-- Precarga de fuentes -->
   {{ if not .IsHome }}
     <link rel="preload" href='{{ "css/fonts/Bitter-800.woff2" | relURL }}' as="font" type="font/woff2" crossorigin>
   {{ end }}
+
+  <!-- Preconexión a Disqus (para comentarios)  -->
   {{ if .IsPage }}  
     {{ with .Site.DisqusShortname }}
     	{{ $myDisqus := print "https://" . ".disqus.com/" }}
@@ -18,6 +22,8 @@
     	<link rel="preconnect" href="https://cdn.viglink.com/" crossorigin>
     {{ end }}
   {{ end }}
+
+  <!-- Descripción meta -->
   {{ if .IsHome }}
       {{ with .Site.Params.homeMetaContent }}
       <meta name="description" content="{{ . | plainify }}">
@@ -38,21 +44,25 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000">
   <meta name="msapplication-TileColor" content="#fffdf3">
 
-  <!-- compila estilos del theme hugo en -->
+  <!-- Cargar estilos -->
   {{ $templateStyles := resources.Get "css/template-styles.css" }}
   {{ $styles := $templateStyles | resources.ExecuteAsTemplate "css/styles.css" . | resources.Minify }}
   <link rel="stylesheet" type="text/css" href="{{ $styles.RelPermalink }}">
-  <!-- compilo estilos custom de /assets/ -->
+
+  <!-- Cargar otros estilos custom desde /assets/ -->
   {{ with .Site.Params.customCss }}
     {{ $customStyles := resources.Get . }}
       {{ $styles01 := $customStyles | resources.ExecuteAsTemplate "css/custom-1.css" . | resources.Minify }}
         <link rel="stylesheet" type="text/css" href="{{ $styles01.RelPermalink }}">
   {{ end }}
+
+  <!-- Title -->
   {{ $title := print .Title " | " .Site.Title }}
   {{ if .IsHome }}
     {{ $title = .Site.Title }}
   {{ end }}
   <title>{{ $title }}</title>
+  
   <!-- agrego Internal Templates -->
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/twitter_cards.html" . }}

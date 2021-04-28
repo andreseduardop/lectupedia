@@ -16,8 +16,8 @@ summaryLength = 35
 [menu]
 
   [[menu.nav]]
-    name = "Índice"
-    url = "/index/"
+    name = "Artículos"
+    url = "/list/"
     weight = 2
 
   [[menu.nav]]
@@ -42,8 +42,8 @@ summaryLength = 35
     footer = "2021· Lectupedia by [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en)"
 
     [[languages.en.menu.nav]]
-      name = "Index"
-      url = "/index/"
+      name = "Articles"
+      url = "/list/"
       weight = 2
 
     [[languages.en.menu.nav]]
