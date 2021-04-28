@@ -48,3 +48,5 @@
   translation: Somos miembros de
 - id: js-disabled
   translation: "Error: JavaScript está desactivado."
+- id: see-full-size-image
+  translation: "Ver imagen en tamaño completo"

@@ -1,12 +1,12 @@
 name: /es /en
 
-archivo: archivo, archive
+index: índice, index
 
 tags: temas, topics
 
 tag: tema, topic
 
 COLORS
-- background: #fefefe(original),
-- background nuevo: fffdf3 (~ Floral White)
-- highlight: #cc330a (Sinopia .modificado)
+- background:         #fffdf3 (~ Floral White)
+- background special: #f6ead5 (~ Champagne)
+- highlight:          #cc330a (Sinopia .modificado)

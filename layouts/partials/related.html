@@ -1,35 +1,35 @@
 <br>
 {{ $related := .Site.RegularPages.Related . | first 4 }}
 {{ with $related }}
-<hr>
-<h2>{{ T "related_articles_title" }}</h2>
-	{{ range . }}
-	<article class="related-article">
-		<header>
-			<h3 class="related-header">
-			    <a class="related-header-title" href="{{ .RelPermalink }}" aria-label="post link to {{ .Title | plainify }}">
-			    <svg
-		            class="bookmark"
-		            aria-hidden="true"
-		            viewBox="0 0 40 50"
-		            focusable="false"
-          	    >
-            		<use xlink:href="#bookmark"></use>
-          		</svg>
-      	  		{{ .Title }}</a>
-			    {{ if .Draft }}<div class=""><sup>&nbsp;&nbsp;[draft]</sup></div>{{ end }}
-			</h3>
-			<div class="related-tags">
-				{{ range .Params.tags }}
-				<span>·{{ . }}</span>
-				{{ end }} 
-			</div>
-		</header>
-		<section class="related-summary-text">
-			<p>{{ .Summary | markdownify | plainify | htmlUnescape }}..</p>
-			<p><a href="{{ .RelPermalink }}" aria-label="post link to {{ .Title | plainify }}">{{ T "read_more" }}</a></p>
-		</section>
-	</article>
-	{{ end }}	
-<hr>
+  <hr>
+  <h2>{{ T "related_articles_title" }}</h2>
+  	{{ range . }}
+    	<article class="related-article">
+    		<header>
+    			<h3 class="related-header">
+    			    <a class="related-header-title" href="{{ .RelPermalink }}" aria-label="post link to {{ .Title | plainify }}">
+    			    <svg
+    		            class="bookmark"
+    		            aria-hidden="true"
+    		            viewBox="0 0 40 50"
+    		            focusable="false"
+              	    >
+                		<use xlink:href="#bookmark"></use>
+              		</svg>
+          	  		{{ .Title }}</a>
+    			    {{ if .Draft }}<div class=""><sup>&nbsp;&nbsp;[draft]</sup></div>{{ end }}
+    			</h3>
+    			<div class="related-tags">
+    				{{ range .Params.tags }}
+    				<span>·{{ . }}</span>
+    				{{ end }} 
+    			</div>
+    		</header>
+    		<section class="related-summary-text">
+    			<p>{{ .Summary | markdownify | plainify | htmlUnescape }}..</p>
+    			<p><a href="{{ .RelPermalink }}" aria-label="post link to {{ .Title | plainify }}">{{ T "read_more" }}</a></p>
+    		</section>
+    	</article>
+  	{{ end }}	
+  <hr>
 {{ end }}

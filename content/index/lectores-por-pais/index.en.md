@@ -11,7 +11,7 @@ toc: false
 description: Percentage of adult readers of books by country.
 ---
 
-{{< figureCupper 
+{{< infografia 
 img="readers-per-country-1.0.png" 
 caption="Percentage of adult readers of books by country"
 width="1080" 

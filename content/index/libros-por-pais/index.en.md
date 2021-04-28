@@ -11,7 +11,7 @@ toc: false
 description: Number of books read in each country, per-capita.
 ---
 
-{{< figureCupper 
+{{< infografia 
 img="books-read-by-country-1.3.png" 
 caption="Number of books read in each country, per-capita."
 width="1080" 
@@ -23,7 +23,7 @@ The average number of books read per inhabitant in a year is indicated for each 
 
 The figures are presented based on data provided by research centers or government institutions in charge of culture and education in the respective country. Sources are indicated in the endnotes.
 
-| Country | Anual average |
+| Country                 | Anual average  |
 |-----------------------------------|------|
 | Argentina [^Argentina]            | 1,6  |
 | Brazil [^Brazil]                  | 2,5  |

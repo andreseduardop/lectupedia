@@ -11,7 +11,7 @@ toc: false
 description: Para cada país, se indica el porcentaje de adultos lectores de libros.
 ---
 
-{{< figureCupper 
+{{< infografia 
 img="lectores-por-pais-1.0.png" 
 caption="Porcentaje de lectores de libros en cada país."
 width="1080" 

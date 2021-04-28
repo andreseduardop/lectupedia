@@ -16,14 +16,14 @@ summaryLength = 35
 [menu]
 
   [[menu.nav]]
+    name = "Índice"
+    url = "/index/"
+    weight = 2
+
+  [[menu.nav]]
     name = "Temas"
     url = "/tags/"
     weight = 3
-
-  [[menu.nav]]
-    name = "Archivo"
-    url = "/archive/"
-    weight = 4
 
 [languages]
   [languages.es]
@@ -42,14 +42,14 @@ summaryLength = 35
     footer = "2021· Lectupedia by [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en)"
 
     [[languages.en.menu.nav]]
+      name = "Index"
+      url = "/index/"
+      weight = 2
+
+    [[languages.en.menu.nav]]
       name = "Topics"
       url = "/tags/"
       weight = 3
-
-    [[languages.en.menu.nav]]
-      name = "Archive"
-      url = "/archive/"
-      weight = 4
 
 
 [taxonomies]
@@ -58,7 +58,7 @@ summaryLength = 35
   tag = "tags"
 
 [permalinks]
-  archive = "/:slug/"
+  index = "/:slug/"
 
 [related]
   includeNewer = true
