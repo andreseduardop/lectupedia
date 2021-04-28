@@ -15,7 +15,7 @@
   />
   {{ end }}
   <ul class="patterns-list" id="list">
-    {{ range .Pages.ByPublishDate.Reverse }}
+    {{ range .Pages.ByTitle }}
     <li>
       <h2>
         <a href="{{ .RelPermalink }}">

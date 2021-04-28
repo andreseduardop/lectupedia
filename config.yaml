@@ -1,0 +1,99 @@
+baseURL: 'https://lectupedia.com'
+title: Lectupedia
+theme: cupper-hugo-theme
+googleAnalytics: G-P3QZ0WPV28
+languageCode: es-co
+defaultContentLanguage: es
+defaultContentLanguageInSubdir: true
+disableLanguages:
+  - fr
+disqusShortname: lectupedia
+enableGitInfo: true
+removePathAccents: true
+pluralizeListTitles: false
+summaryLength: 35
+menu:
+  nav:
+    - name: Artículos
+      url: /list/
+      weight: 2
+    - name: Temas
+      url: /tags/
+      weight: 3
+languages:
+  es:
+    languageName: Español
+    weight: 1
+  fr:
+    languageName: Français
+    weight: 3
+  en:
+    languageName: English
+    weight: 2
+    description: "Let's talk about reading. Mundus excolitur legendo."
+    homeMetaContent: "Let's talk about reading. Mundus excolitur legendo."
+    footer: "2021· Lectupedia by [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en)"
+    menu:
+      nav:
+        - name: Articles
+          url: /list/
+          weight: 2
+        - name: Topics
+          url: /tags/
+          weight: 3
+taxonomies:
+  tag: tags
+permalinks:
+  list: '/:slug/'
+related:
+  includeNewer: true
+  threshold: 100
+  toLower: true
+  indices:
+    - name: tags
+      weight: 100
+    - name: date
+      weight: 50
+imaging:
+  quality: 85
+params:
+  description: Hablemos sobre lectura. Mundus excolitur legendo.
+  homeMetaContent: Hablemos sobre lectura. Mundus excolitur legendo.
+  footer: "2021· Lectupedia, por [Andrés Peña](https://www.linkedin.com/in/andreseduardop/), está disponible bajo licencia [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.es)"
+  footer2: "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme) (Mod). Deployed to [Netlify](https://www.netlify.com/)."
+  dateFormat: 'Jan 2, 2006'
+  author: Andrés Peña
+  images:
+    - images/site-feature-image.jpg
+  katex: false
+  darkThemeAsDefault: false
+  headingLinks: false
+  showThemeSwitcher: false
+  moveFooterToHeader: false
+  search: false
+  facebook: Lectupedia
+  twitter: andreseduardop_
+  linkedin: andreseduardop
+markup:
+  defaultMarkdownHandler: goldmark
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xHTML: false
+  tableOfContents:
+    startLevel: 2
+    endLevel: 2
+    ordered: true
