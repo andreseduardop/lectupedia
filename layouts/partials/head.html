@@ -4,6 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   {{ hugo.Generator }}
   <link rel="canonical" href="{{ .Permalink }}">
+  <meta name="robots" content="max-image-preview:large">
 
   <!-- Precarga de fuentes -->
   {{ if not .IsHome }}
@@ -46,8 +47,8 @@
 
   <!-- Cargar estilos -->
   {{ $templateStyles := resources.Get "css/template-styles.css" }}
-  {{ $styles := $templateStyles | resources.ExecuteAsTemplate "css/styles.css" . | resources.Minify }}
-  <link rel="stylesheet" type="text/css" href="{{ $styles.RelPermalink }}">
+  {{ $styles := $templateStyles | resources.ExecuteAsTemplate "css/styles.css" . | resources.Minify | resources.Fingerprint "sha384" }}
+  <link rel="stylesheet" type="text/css" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}">
 
   <!-- Cargar otros estilos custom desde /assets/ -->
   {{ with .Site.Params.customCss }}
