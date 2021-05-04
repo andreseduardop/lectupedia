@@ -53,8 +53,8 @@
   <!-- Cargar otros estilos custom desde /assets/ -->
   {{ with .Site.Params.customCss }}
     {{ $customStyles := resources.Get . }}
-      {{ $styles01 := $customStyles | resources.ExecuteAsTemplate "css/custom-1.css" . | resources.Minify }}
-        <link rel="stylesheet" type="text/css" href="{{ $styles01.RelPermalink }}">
+      {{ $styles01 := $customStyles | resources.ExecuteAsTemplate "css/custom-1.css" . | resources.Minify | resources.Fingerprint "sha384" }}
+        <link rel="stylesheet" type="text/css" href="{{ $styles01.RelPermalink }}" integrity="{{ $styles01.Data.Integrity }}">
   {{ end }}
 
   <!-- Title -->

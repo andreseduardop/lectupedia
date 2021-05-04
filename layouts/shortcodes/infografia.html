@@ -1,33 +1,23 @@
-{{ $img := .Get "img" }}
+<!-- Obtener variables del shortcode -->
+{{ $src := .Get "src" }}
 {{ $alt := .Get "alt" }}
 {{ $caption := .Get "caption" }}
-{{ $command := .Get "command" }}
-{{ $options := .Get "options" }}
-{{ $width := .Get "width" }}
-{{ $height := .Get "height" }}
 
-{{ $original := .Page.Resources.GetMatch (printf "*%s*" $img) }}
-{{ $new := "" }}
+<!-- obtener recurso -->
+{{ $image := .Page.Resources.GetMatch (printf "*%s*" $src) }}
 
-{{ if eq $command "Fit" }}
-  {{ $new = $original.Fit $options }}
-{{ else if eq $command "Fill" }}
-  {{ $new = $original.Fill $options }}
-{{ else if eq $command "Resize" }}
-  {{ $new = $original.Resize $options }}
-{{ else if eq $command "Original" }}
-  {{ $new = $original }}
-{{ else }}
-  {{ errorf "Invalid image processing command: Must be one of Fit, Fill, Resize, Original." }}
-{{ end }}
-
+<!-- salida html -->
 <figure role="group" aria-describedby="caption-{{ $caption | md5 }}">
-  <a href="{{ $original.RelPermalink }}" class="img-link">
-    <img class="figure-shortcode" src="{{ $new.RelPermalink | absLangURL }}" alt="{{ $alt | plainify }}" width="{{ $width }}" height="{{ $height }}">
+  <a href="{{ $image.RelPermalink }}" class="img-link">
+    <img class="infografia-shortcode" 
+      src="{{ $image.RelPermalink | absLangURL }}" 
+      alt="{{ $alt | plainify }}" 
+      width="{{ $image.Width }}" 
+      height="{{ $image.Height }}">
   </a>
   <figcaption id="caption-{{ $caption | md5 }}">
     {{ $caption | markdownify }}<br>
-    <a href="{{ $original.RelPermalink }}">
+    <a href="{{ $image.RelPermalink }}">
       [{{ T "see-full-size-image" }}]
     </a>
   </figcaption>

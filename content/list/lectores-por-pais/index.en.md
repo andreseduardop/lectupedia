@@ -12,12 +12,9 @@ description: Percentage of adult readers of books by country.
 ---
 
 {{< infografia 
-img="readers-per-country-1.0.png" 
-caption="Percentage of adult readers of books by country"
-width="1080" 
-height="1920"
-alt="World map with percentage of adult readers of books by country."
-command="Original" >}}
+  src="readers-per-country-1.0.png" 
+  alt="World map with percentage of adult readers of books by country."
+  caption="Percentage of adult readers of books by country" >}}
 
 Percentage of adult readers of books is indicated for each country. The figure corresponds to the percentage of people who read at least one book a year.
 
