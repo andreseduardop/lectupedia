@@ -12,6 +12,8 @@ enableGitInfo: true
 removePathAccents: true
 pluralizeListTitles: false
 summaryLength: 35
+enableInlineShortcodes: true
+
 menu:
   nav:
     - name: Artículos
