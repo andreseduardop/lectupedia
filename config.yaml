@@ -49,7 +49,7 @@ permalinks:
   list: '/:slug/'
 related:
   includeNewer: true
-  threshold: 100
+  threshold: 70
   toLower: true
   indices:
     - name: tags
