@@ -16,7 +16,7 @@ description: Average number of books read in each country, per-capita.
   alt="World map with average reading by country."
   caption="Number of books read in each country, per-capita." >}}
 
-The average number of books read per inhabitant in a year is indicated for each country.
+The average number of books read per capita in a year is indicated for each country.
 
 The figures are presented based on data provided by research centers or government institutions in charge of culture and education in the respective country. Sources are indicated in the endnotes.
 
