@@ -1,5 +1,5 @@
 ---
-title: "Books read by country"
+title: "Average books read per year by country"
 date: 2020-12-21T10:26:12-05:00
 slug: "number-of-books-read-in-each-country"
 tags: 
@@ -8,7 +8,7 @@ tags:
 draft: false
 
 toc: false
-description: Number of books read in each country, per-capita.
+description: Average number of books read in each country, per-capita.
 ---
 
 {{< infografia 
