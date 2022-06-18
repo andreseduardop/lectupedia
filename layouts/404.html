@@ -5,7 +5,27 @@
       	{{ T "page_no_found" }}
       </div>
       <div>
-       <h1 id="title"><a href="{{ .Site.BaseURL | relLangURL }}">{{ T "go_to_home" }}</a></h1>
+       <h1 id="title">{{ T "other-articles" }}:</h1>
       </div>
+
+      <ul class="patterns-list" id="list">
+        {{ range .RegularPages.ByTitle }}
+        <li>
+          <h2>
+            <a href="{{ .RelPermalink }}">
+              <svg
+                class="bookmark"
+                aria-hidden="true"
+                viewBox="0 0 40 50"
+                focusable="false"
+              >
+                <use xlink:href="#bookmark"></use>
+              </svg>
+              {{ .Title }}
+            </a>
+          </h2>
+        </li>
+        {{ end }}
+      </ul>      
     </main>
 {{ end }}

@@ -1,21 +1,12 @@
 <footer>
-  {{- if eq .Site.Params.showThemeSwitcher true -}}
-    <div>
-      <label for="themer">
-        {{ T "dark_theme" }} <input type="checkbox" id="themer" class="vh">
-        <!-- Shows "on" or "off" -->      
-        <span aria-hidden="true"></span>
-      </label>
-    </div>
-  {{- end -}}
-  <div class="badges-footer">
+<!--   <div class="badges-footer">
     <span>
       <a class="badges-gray" href="https://250kb.club/" target="_blank" rel="noopener" title='{{ T "we-are-members" }} The 250KB Club' >THE 250KB CLUB</a>
     </span>
     <span>
       <a class="badges-green" href="https://512kb.club" target="_blank" rel="noopener" title='{{ T "we-are-members" }} The 512KB Club'>THE 512KB CLUB</a>
     </span><br>
-  </div>
+  </div> -->
   <div class="footer1">
     {{- with .Site.Params.footer -}}
       {{- . | markdownify -}}
