@@ -38,8 +38,8 @@
   translation: Ir al inicio.
 - id: page_no_found
   translation: ¡Ups! Ha habido un error. La URL solicitada no se encontró en este servidor.
-- id: other-articles
-  translation: "Otros artículos"
+- id: latest-articles
+  translation: "Artículos más recientes"
 - id: to_top
   translation: Subir
 - id: go_to_top
