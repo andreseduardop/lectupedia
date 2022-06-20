@@ -8,7 +8,7 @@ tags:
 draft: false
 
 toc: false
-description: Para cada país, se indica el porcentaje de adultos lectores de libros.
+description: Compendio estadístico del porcentaje de lectores de libros por país.
 ---
 
 {{< infografia 

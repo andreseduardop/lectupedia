@@ -11,7 +11,7 @@ tags:
 images: 
 - post-cover.png
 
-draft: false
+draft: true
 
 toc: true
 description: Materiales y metodologías para fomentar la lectura.

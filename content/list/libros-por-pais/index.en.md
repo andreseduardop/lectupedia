@@ -8,7 +8,7 @@ tags:
 draft: false
 
 toc: false
-description: Average number of books read in each country, per-capita.
+description: Statistical compendium of the average number of books read in each country, per capita.
 ---
 
 {{< infografia 

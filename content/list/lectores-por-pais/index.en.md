@@ -8,7 +8,7 @@ tags:
 draft: false
 
 toc: false
-description: Percentage of adult readers of books by country.
+description: Statistical compendium of the percentage of adult readers of books, by country.
 ---
 
 {{< infografia 
