@@ -4,8 +4,8 @@
     --color-strong: #cc330a;
     --color-txt: #111;
 }
-/* Fonts */
 
+/* Fonts */
 @font-face {
     font-family: 'Bitter';
     src: url('{{ "css/fonts/Bitter-800.woff2" | absURL }}') format('woff2'),
@@ -76,8 +76,8 @@ abbr {
     cursor: help;
     border-bottom: 1px dashed;
 }
-/* Imágenes */
 
+/* Imágenes */
 img {
     max-width: 100%;
     max-height: 50vh;
@@ -85,8 +85,8 @@ img {
 p img {
     margin: 0.75rem 0;
 }
-/* Shorcode figure (infografías) */
 
+/* Shorcode figure (infografías) */
 img.infografia-shortcode {
     width: auto;
     height: 50vh;
@@ -98,14 +98,14 @@ figure .img-link {
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
 }
-/* highlight selection border */
 
+/* highlight selection border */
 :focus:not([tabindex="-1"]),
 .patterns a:focus .text {
     outline: 4px solid var(--color-bg-spec);
 }
-/* Fix for IE :( */
 
+/* Fix for IE :( */
 [tabindex="-1"]:focus,
 div:not([tabindex]):focus {
     outline: none;
@@ -113,8 +113,8 @@ div:not([tabindex]):focus {
 [hidden] {
     display: none;
 }
-/* Skip link */
 
+/* Skip link */
 [href="#main"] {
     display: block;
     width: 100%;
@@ -130,8 +130,8 @@ div:not([tabindex]):focus {
     top: 0;
     outline: none;
 }
-/* Text styles */
 
+/* Text styles */
 h1,
 h2,
 h3,
@@ -169,8 +169,8 @@ h5>a,
 h6>a {
     font-weight: normal;
 }
-/* Lists */
 
+/* Lists */
 main ul,
 main ol {
     margin-left: 1.5rem;
@@ -202,8 +202,8 @@ dd ul {
 dd li+li {
     margin: 0;
 }
-/* Blockquotes */
 
+/* Blockquotes */
 blockquote {
     border-color: var(--color-strong) !important;
     border-left: 0.5rem solid;
@@ -212,8 +212,8 @@ blockquote {
 blockquote .author {
     font-size: 0.875rem;
 }
-/* Buttons */
 
+/* Buttons */
 button {
     font-size: 1em;
     background: var(--color-strong);
@@ -221,14 +221,14 @@ button {
     padding: .25em 1.5em .35em;
     border: 0;
 }
-/* Forms */
 
+/* Forms */
 label {
     display: inline-block;
     font-weight: bold;
 }
-/* Tables */
 
+/* Tables */
 table {
     text-align: left;
     table-layout: auto;
@@ -253,8 +253,8 @@ th {
 th:empty {
     border: 0;
 }
-/* Page structure */
 
+/* Page structure */
 .wrapper {
     position: relative;
     margin-top: 0;
@@ -305,8 +305,8 @@ footer {
     margin-top: 4rem;
     text-align: center;
 }
-/* Patterns navigation */
 
+/* Patterns navigation */
 .patterns {
     flex: 1 1 auto;
     overflow: auto;
@@ -345,8 +345,8 @@ footer {
 .pattern span {
     margin-left: 0.125rem;
 }
-/* Menu button */
 
+/* Menu button */
 #menu-button {
     display: none;
     width: 100%;
@@ -356,8 +356,8 @@ footer {
     outline: none;
     box-shadow: none;
 }
-/* Tables of contents */
 
+/* Tables of contents */
 .toc {
     font-size: 0.875rem;
     border: 1px solid;
@@ -372,16 +372,16 @@ footer {
     margin-left: 0.75rem;
     margin-top: 0rem;
 }
-/* Disqus Comments */
 
+/* Disqus Comments */
 #disqus-container {
     text-align: center;
 }
 #disqus-comments {
     display: none;
 }
-/* Pattern lists */
 
+/* Pattern lists */
 .patterns-list {
     list-style: none;
     margin-left: 0;
@@ -399,8 +399,8 @@ footer {
 .patterns-list a {
     border: 0;
 }
-/* Tags */
 
+/* Tags */
 .tags {
     margin-top: 0;
 }
@@ -415,13 +415,13 @@ footer {
     white-space: nowrap;
     margin: 0 0.25rem 0 0;
 }
-/* Date */
 
+/* Date */
 .date {
     margin-top: 0;
 }
-/* Notes and warnings */
 
+/* Notes and warnings */
 .note {
     border-left: 0.5rem solid;
     font-size: 0.875rem;
@@ -449,8 +449,8 @@ footer {
 .note.warning>div {
     margin-left: 1.25rem;
 }
-/* Tick lists */
 
+/* Tick lists */
 .ticks li {
     list-style: none;
     position: relative;
@@ -461,8 +461,8 @@ footer {
     margin-right: 0.5rem;
     color: var(--color-strong);
 }
-/* Figures */
 
+/* Figures */
 figure {
     text-align: center;
 }
@@ -476,6 +476,7 @@ figcaption::before {
     content: 'Fig. ' counter(fig) ':\0020';
     font-weight: bold;
 }
+
 /* Code blocks - Suprimido */
 
 /* File tree lists - Suprimido */
@@ -488,12 +489,12 @@ p:empty {
 *:not(p)+p:empty+p {
     margin-top: 2.25rem;
 }
+
 /* WCAG and principles - Suprimido */
 
 /* Site errors - Suprimido  */
 
 /* SVG icons */
-
 a svg,
 button svg,
 h1 svg,
@@ -508,6 +509,7 @@ li>svg {
     white-space: nowrap;
     font-style: normal;
 }
+
 /* Color palettes - Suprimido */
 
 /* Cross references - Suprimido */
@@ -519,15 +521,14 @@ li>svg {
 /* Single page layout - Suprimido */
 
 /* Utilities */
-
 .gallery {
     display: flex;
     justify-content: center;
 }
+
 /* Media queries */
 
 /* auto Dakr Theme */
-
 @media (prefers-color-scheme: dark) {
     html {
         filter: invert(100%);
@@ -540,6 +541,7 @@ li>svg {
         filter: invert(100%);
     }
 }
+
 @media screen and (max-width: 45em) {
     html {
         font-size: 1rem;
@@ -615,6 +617,7 @@ li>svg {
         line-height: 1.5;
     }
 }
+
 @media print {
     @page {
         margin: 1.5cm 2cm;
@@ -677,6 +680,7 @@ li>svg {
 ::selection {
     background: var(--color-bg-spec);
 }
+
 /* MIS PERSONALICIACIONES ADICIONALES AL TEMA */
 
 /* logo */
@@ -684,8 +688,8 @@ li>svg {
 a.logo {
     border-bottom: 0px solid;
 }
-/* Header > Idiomas disponibles */
 
+/* Header > Idiomas disponibles */
 .translations-list {
     flex: 0 0 auto;
     font-size: 0.875rem;
@@ -803,4 +807,10 @@ a.menu-item {
     color: #333333;
     margin: 0.5rem 0rem 1rem;
     text-transform: uppercase;
+}
+
+/* Footnotes */
+[id*="fnref:"], [id*="fn:"] {
+    /* Evita que las referencias queden pegadas al borde superior cuando se llega a ellas mediante un achor # p.e. al hacer clic en un superíndice ¹ que envía a una referencia más abajo. */
+    scroll-margin-top: 1rem;
 }
