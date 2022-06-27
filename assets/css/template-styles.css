@@ -812,5 +812,10 @@ a.menu-item {
 /* Footnotes */
 [id*="fnref:"], [id*="fn:"] {
     /* Evita que las referencias queden pegadas al borde superior cuando se llega a ellas mediante un achor # p.e. al hacer clic en un superíndice ¹ que envía a una referencia más abajo. */
-    scroll-margin-top: 1rem;
+    scroll-margin-top: 0.8rem;
+}
+
+/* Ocultar contenido vía clase CSS */
+.d-none {
+    display: none;
 }

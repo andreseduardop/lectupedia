@@ -9,6 +9,7 @@
       {{ else }}
         {{ partial "svg.html" . }}
     {{ end }}
+    {{ partial "css-load-error.html" . }}
     <div class="wrapper">
       {{ partial "header.html" . }}
       <div class="main-and-footer">
