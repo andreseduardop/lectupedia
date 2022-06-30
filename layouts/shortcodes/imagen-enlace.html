@@ -1,0 +1,26 @@
+<!-- Obtener variables del shortcode -->
+{{ $href := .Get "href" }}
+{{ $src := .Get "src" }}
+{{ $alt := .Get "alt" }}
+{{ $caption := .Get "caption" }}
+
+<!-- salida html -->
+<figure class="imagen-enlace" 
+  role="group">
+  <a href="{{ $href }}" 
+    class="img-link"
+    target="_blank">
+    <img class="" 
+      src="{{ $src }}" 
+      alt="{{ $alt | plainify }}" >
+
+  </a>
+  <figcaption>
+      {{ with $caption }}
+        <a href="{{ $href }}"
+          target="_blank">
+          {{ $caption | markdownify }}
+        </a>
+      {{ end }}
+  </figcaption>
+</figure>

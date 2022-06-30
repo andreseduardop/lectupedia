@@ -77,28 +77,6 @@ abbr {
     border-bottom: 1px dashed;
 }
 
-/* Imágenes */
-img {
-    max-width: 100%;
-    max-height: 50vh;
-}
-p img {
-    margin: 0.75rem 0;
-}
-
-/* Shorcode figure (infografías) */
-img.infografia-shortcode {
-    width: auto;
-    height: 50vh;
-}
-figure .img-link {
-    border-bottom: none;
-    cursor: pointer;
-    cursor: -moz-zoom-in;
-    cursor: -webkit-zoom-in;
-    cursor: zoom-in;
-}
-
 /* highlight selection border */
 :focus:not([tabindex="-1"]),
 .patterns a:focus .text {
@@ -141,7 +119,7 @@ h6 {
     font-family: Bitter, "Arial Black", "Helvetica bold", sans-serif;
     font-weight: 800;
     line-height: 1.25;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
 }
 h1 {
     font-size: 1.75rem;
@@ -367,10 +345,14 @@ footer {
 }
 .toc h2 {
     font-size: 1rem;
+    margin-top: 0rem;
 }
 .toc ol {
     margin-left: 0.75rem;
     margin-top: 0rem;
+}
+#TableOfContents {
+    margin-top: 1rem;
 }
 
 /* Disqus Comments */
@@ -818,4 +800,40 @@ a.menu-item {
 /* Ocultar contenido vía clase CSS */
 .d-none {
     display: none;
+}
+
+/* Botones con enalce */
+a button {
+    cursor: pointer;
+    margin-top: 0;
+}
+
+/* Imágenes */
+img {
+    max-width: 100%;
+    max-height: 50vh;
+}
+p img {
+    margin: 0.75rem 0;
+}
+
+/* Shortcode imagenes (imagne con link) */
+.imagen-enlace .img-link {
+    border: none;
+}
+.imagen-enlace figcaption::before {
+    content: '';
+}
+
+/* Shortcode figure (infografías) */
+.infografia img {
+    width: auto;
+    height: 50vh;
+}
+.infografia .img-link {
+    border: none;
+    cursor: pointer;
+    cursor: -moz-zoom-in;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
 }
