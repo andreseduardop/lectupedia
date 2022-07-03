@@ -8,7 +8,7 @@ tags:
 draft: false
 
 toc: true
-description: Esta página incluye una lista de lecturas recomendadas acerca de la lectura.
+description: Una lista de lecturas recomendadas acerca de la lectura.
 ---
 
 
@@ -94,6 +94,20 @@ Hace algunos años, en su libor _Proust and the Squid_, Maryanne Wolf reveló lo
 
 Basándose profundamente en esta investigación, [este libro](https://amzn.to/3y7bKa7) comprende una serie de cartas que Wolf nos escribe a nosotros, sus amados lectores, para describir sus preocupaciones y sus esperanzas sobre lo que le sucede al cerebro lector a medida que cambia inevitablemente para adaptarse a los medios digitales.
 
+
+
+### Reading in the Brain: The New Science of How We Read
+
+{{< imagen-enlace 
+  href="https://amzn.to/3y5XI8E" 
+  src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0143118056&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=lectupedia-20&language=en_US" 
+  alt="Portada del libro Reading in the Brain." 
+  caption="Ver en Amazon">}}
+
+**Disponible solo en inglés:** [**Dehaene, Stanislas**. 2010. _Reading in the Brain: The New Science of How We Read_. Penguin Books.](https://amzn.to/3y5XI8E)
+
+
+El acto de leer se da por sentado con tanta facilidad que olvidamos lo asombroso que es. ¿Cómo unas pocas marcas negras sobre un papel blanco pueden evocar todo un universo de significados? Es aún más sorprendente cuando consideramos que leemos usando un cerebro de primate que evolucionó para cumplir un propósito completamente diferente. En [esta investigación](https://amzn.to/3y5XI8E), Stanislas Dehaene, autor de _Cómo aprendemos_, explora todos los aspectos de esta invención humana, desde sus orígenes hasta sus bases neuronales. Una autoridad mundial en el tema, Dehaene revela la lógica oculta de la ortografía, describe investigaciones pioneras sobre cómo procesamos los idiomas y nos lleva a una nueva apreciación del cerebro y su maravillosa capacidad de adaptación.
 
 
 ## Promoción de la lectura
