@@ -1,5 +1,5 @@
 ---
-title: "Bibliografía seleccionada"
+title: "Bibliografía Seleccionada"
 date: 2022-06-29T20:00:12-00:00
 slug: "bibliografia-seleccionada"
 tags: 
@@ -29,7 +29,7 @@ Los siguientes textos se aproximan al acto lector desde distintas perspectivas c
 
 [**Cavallo, Guglielmo** y **Roger Chartier**. 2011. _Historia de La lectura en el mundo occidental_. Taurus.](https://amzn.to/3ntQXbI)
 
-Escrito por un distinguido grupo de colaboradores internacionales, este libro analiza las transformaciones de los métodos y materiales de lectura a lo largo de los siglos; mostrando que las revoluciones de la lectura generalmente han precedido a las revoluciones del libro. Los autores examinan no solo las innovaciones técnicas que cambiaron los aspectos físicos de los libros y otros textos, sino también las formas de lectura en evolución y el crecimiento y transformación del público lector. Se detalla la historia de la lectura desde la lectura silenciosa en la Grecia antigua a las novedades introducidas por la imprenta, hasta llegar a la revolución electrónica que estamos viviendo. 
+Escrito por un distinguido grupo de colaboradores internacionales, [este libro](https://amzn.to/3ntQXbI) analiza las transformaciones de los métodos y materiales de lectura a lo largo de los siglos; mostrando que las revoluciones de la lectura generalmente han precedido a las revoluciones del libro. Los autores examinan no solo las innovaciones técnicas que cambiaron los aspectos físicos de los libros y otros textos, sino también las formas de lectura en evolución y el crecimiento y transformación del público lector. Se detalla la historia de la lectura desde la lectura silenciosa en la Grecia antigua a las novedades introducidas por la imprenta, hasta llegar a la revolución electrónica que estamos viviendo. 
 
 
 ### Una historia de la lectura 
@@ -53,7 +53,7 @@ En [Una historia de la lectura](https://amzn.to/3OyWcTw) Alberto Manguel sigue e
   alt="Portada del libro El infinito en un junco." 
   caption="Ver en Amazon">}}
 
-[**Vallejo, Irene**. 2021. El infinito en un junco: La invención de los libros en el mundo antiguo. Siruela.](https://amzn.to/3a1JNIT)
+[**Vallejo, Irene**. 2021. _El infinito en un junco: La invención de los libros en el mundo antiguo_. Siruela.](https://amzn.to/3a1JNIT)
 
 [Este libro](https://amzn.to/3a1JNIT) es un ensayo sobre la historia de los libros. Un recorrido por la vida de ese fascinante artefacto que inventamos para que las palabras pudieran viajar en el espacio y en el tiempo. La historia de su fabricación, de todos los tipos que hemos ensayado a lo largo de casi treinta siglos: libros de humo, de piedra, de arcilla, de juncos, de seda, de piel, de árboles y, los últimos llegados, de plástico y luz.
 
@@ -73,8 +73,9 @@ Es, además, una fabulosa aventura colectiva protagonizada por miles de personas
   alt="Portada del libro Como aprendemos a leer." 
   caption="Ver en Amazon">}}
 
+**En inglés:** [**Wolf, Maryanne**. 2007. _Proust and the Squid : The Story and Science of the Reading Brain_. Harper Collins.](https://amzn.to/3yxecYR)
 
-[**Wolf, Maryanne**. 2008. _Cómo Aprendemos a Leer Historia y Ciencia Del Cerebro y La Lectura_. Ediciones B.](https://amzn.to/3aaBNVL)
+**En español (descatalogado):** [**Wolf, Maryanne**. 2008. _Cómo Aprendemos a Leer Historia y Ciencia Del Cerebro y La Lectura_. Ediciones B.](https://amzn.to/3aaBNVL)
 
 El cerebro de cada nuevo lector posee la extraordinaria capacidad de reorganizarse más allá de sus habilidades originales para comprender los símbolos escritos. Pero, ¿cómo aprende el cerebro a leer? Como explica la neurocientífica cognitiva de renombre mundial y estudiosa de la lectura Maryanne Wolf en [este apasionante libro](https://amzn.to/3aaBNVL), le enseñamos a nuestro cerebro a leer hace solo unos pocos miles de años y, en el proceso, cambiamos la evolución intelectual de nuestra especie. Hay implicaciones críticas para un cerebro en evolución. Así como la escritura redujo la necesidad de memoria, la proliferación de información y los requisitos particulares de la cultura digital pueden provocar un cortocircuito en algunas de las contribuciones únicas del lenguaje escrito, con consecuencias potencialmente profundas para nuestro futuro.
 

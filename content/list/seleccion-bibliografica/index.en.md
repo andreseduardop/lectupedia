@@ -1,5 +1,5 @@
 ---
-title: "Selected bibliography"
+title: "Selected Bibliography"
 date: 2022-06-29T20:00:12-00:00
 slug: "selected-bibliography"
 tags: 
@@ -15,8 +15,9 @@ description: This page includes a list of recommended readings about reading..
 The following texts approach the act of reading from different scientific perspectives from neurology to historical analysis.
 
 
-## Reading history
+## Reading History
 
+------------------
 
 
 ### A History of Reading in the West
@@ -29,7 +30,7 @@ The following texts approach the act of reading from different scientific perspe
 
 [**Cavallo, Guglielmo**, and **Roger Chartier**. 2003. _A History of Reading in the West: Studies in Print Culture and the History of the Book_. University of Massachusetts Press.](https://amzn.to/3NyefIf)
 
-Escrito por un distinguido grupo de colaboradores internacionales, este libro analiza las transformaciones de los métodos y materiales de lectura a lo largo de los siglos; mostrando que las revoluciones de la lectura generalmente han precedido a las revoluciones del libro. Los autores examinan no solo las innovaciones técnicas que cambiaron los aspectos físicos de los libros y otros textos, sino también las formas de lectura en evolución y el crecimiento y transformación del público lector. Se detalla la historia de la lectura desde la lectura silenciosa en la Grecia antigua a las novedades introducidas por la imprenta, hasta llegar a la revolución electrónica que estamos viviendo. 
+Written by a distinguished group of international contributors, [this book](https://amzn.to/3NyefIf) examines the transformations of reading methods and materials over the centuries; showing that reading revolutions have generally preceded book revolutions. The authors examine not only the technical innovations that changed the physical aspects of books and other texts, but also the evolving forms of reading and the growth and transformation of the reading public. The history of reading is detailed from silent reading in ancient Greece to the novelties introduced by the printing press, up to the electronic revolution that we are experiencing.
 
 
 ### A History of Reading 
@@ -60,7 +61,10 @@ In [A History of Reading](https://amzn.to/3bGNsfl), Alberto Manguel follows the 
 It is also a fabulous collective adventure starring thousands of people who, over time, have made possible and protected books: oral narrators, scribes, illuminators, translators, street vendors, teachers, wise men, spies, rebels, nuns, slaves, adventurers... Ordinary people whose names in many cases history does not record, those book saviors who are the true protagonists of this essay.
 
 
-## Reading theory
+## Reading Theory
+
+-----------------
+
 
 ### Proust and the Squid: The Story and Science of the Reading Brain
 
@@ -119,6 +123,6 @@ Millions of parents and educators have turned to this Jim Trelease manual for mo
 
 [**Krashen, Stephen**. 2004. _The Power of Reading: Insights from the Research_. Libraries Unlimited.](https://amzn.to/3OR24Hj)
  
-This updated, and much-looked-for second edition explores new research on the topic, as well as revisits some of the original research reviewed. Krashen also explores in this book research on the role of school and public libraries and research indicating the need for a print-rich environment that provides light reading (comics, teen romance novels, magazines), as well as best in literature to help educate children in reading, comprehension, and second language acquisition. She examines the research around reading incentive/reward programs and, specifically, the research on AR (Accelerated Reader) and other electronic reading products.
+This updated, and much-looked-for second edition explores new research on the topic, as well as revisits some of the original research reviewed. Krashen also explores in this book research on the role of school and public libraries and research indicating the need for a print-rich environment that provides light reading (comics, teen romance novels, magazines), as well as best in literature to help educate children in reading, comprehension, and second language acquisition. He examines the research around reading incentive/reward programs and, specifically, the research on AR (Accelerated Reader) and other electronic reading products.
 
 
