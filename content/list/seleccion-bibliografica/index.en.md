@@ -103,7 +103,7 @@ Drawing deeply on this research, [this book](https://amzn.to/3A94PQm) comprises 
   caption="View on Amazon">}}
 
 
-**Disponible solo en inglés:** [**Dehaene, Stanislas**. 2010. _Reading in the Brain: The New Science of How We Read_. Penguin Books.](https://amzn.to/3y5XI8E)
+[**Dehaene, Stanislas**. 2010. _Reading in the Brain: The New Science of How We Read_. Penguin Books.](https://amzn.to/3y5XI8E)
 
 The act of reading is so easily taken for granted that we forget what an astounding feat it is. How can a few black marks on white paper evoke an entire universe of meanings? It's even more amazing when we consider that we read using a primate brain that evolved to serve an entirely different purpose. In [this riveting investigation](https://amzn.to/3y5XI8E), Stanislas Dehaene, author of How We Learn, explores every aspect of this human invention, from its origins to its neural underpinnings. A world authority on the subject, Dehaene reveals the hidden logic of spelling, describes pioneering research on hiw we process languages, and takes us into a new appreciation of the brain and its wondrous capacity to adapt.
 
