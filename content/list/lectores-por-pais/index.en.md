@@ -12,7 +12,7 @@ description: Statistical compendium of the percentage of adult readers of books,
 ---
 
 {{< infografia 
-  src="readers-per-country-1.0.png" 
+  src="img/readers-per-country-1.0.png" 
   alt="World map with percentage of adult readers of books by country."
   caption="Percentage of adult readers of books by country. <br>[Licensed under CC BY-NC:](https://creativecommons.org/licenses/by-nc/4.0/deed.en) When sharing you must include a link to this page." >}}
 

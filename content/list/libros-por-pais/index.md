@@ -12,7 +12,7 @@ description: Compendio estadístico de la cantidad promedio anual de libros leí
 ---
 
 {{< infografia 
-  src="libros-leidos-por-pais-1.3.png" 
+  src="img/libros-leidos-por-pais-1.4.png" 
   alt="Mapa del mundo con promedio de lectura por país."
   caption="Cantidad promedio anual de libros leídos por habitante en cada país. <br>[Licencia CC BY-NC:](https://creativecommons.org/licenses/by-nc/4.0/deed.es) Al compartir debe incluir un enlace a esta página." >}}
 
@@ -37,6 +37,12 @@ Para cada país, se indica la cantidad promedio (media aritmética) de libros le
 | Venezuela [^Venezuela]            | 2    |
 
 
+## Versiones anteriores 
+
+- **2021/feb/21:** [versión 1.3](img/libros-leidos-por-pais-1.3.png)
+- **2021/ene/31:** [versión 1.2](img/libros-leidos-por-pais-1.2.png)
+
+*********
 
 ## Notas:
 

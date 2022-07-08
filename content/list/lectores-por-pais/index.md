@@ -12,7 +12,7 @@ description: Compendio estadístico del porcentaje de lectores de libros por pa�
 ---
 
 {{< infografia 
-  src="lectores-por-pais-1.0.png" 
+  src="img/lectores-por-pais-1.0.png" 
   alt="Mapa del mundo con porcentaje de lectores por país."
   caption="Porcentaje de lectores de libros en cada país. <br>[Licencia CC BY-NC:](https://creativecommons.org/licenses/by-nc/4.0/deed.es) Al compartir debe incluir un enlace a esta página." >}}
 

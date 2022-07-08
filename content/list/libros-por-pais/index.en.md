@@ -12,7 +12,7 @@ description: Statistical compendium of the mean number of books read per year in
 ---
 
 {{< infografia 
-  src="books-read-by-country-1.3.png" 
+  src="img/books-read-by-country-1.4.png" 
   alt="World map with average reading by country."
   caption="Number of books read in each country, per-capita. <br>[Licensed under CC BY-NC:](https://creativecommons.org/licenses/by-nc/4.0/deed.en) When sharing you must include a link to this page." >}}
 
@@ -37,6 +37,12 @@ Mean number of books read per year is indicated for each country, among adults (
 | Venezuela [^Venezuela]            | 2    |
 
 
+## Older versions
+
+- **02/24/2021:** [version 1.3](img/books-read-by-country-1.3.png)
+- **01/31/2021:** [version 1.2](img/books-read-by-country-1.2.png)
+
+************
 
 ## Endnotes:
 
