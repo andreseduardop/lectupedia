@@ -11,11 +11,12 @@ toc: false
 description: Análisis de la relación entre lectura y PIB.
 ---
 
-Publicación en proceso...
+## Publication in progress...
 
 {{< infografia 
   src="img/lectura-y-PIB-1.0.png" 
-  alt="Mapa del mundo con promedio de lectura por país."
-  caption="Cantidad promedio anual de libros leídos por habitante en cada país. <br>[Licencia CC BY-NC:](https://creativecommons.org/licenses/by-nc/4.0/deed.es) Al compartir debe incluir un enlace a esta página." >}}
+  alt="Graph with figures on reading levels and GDP in various countries."
+  caption="Average number of books read and GDP, per capita. <br>[Licensed under CC BY-NC:](https://creativecommons.org/licenses/by-nc/4.0/deed.en) When sharing you must include a link to this page." >}}
 
-Se propone una relación entre el nivel de lectura de un país y su PIB.
+This article proposes a correlation between the reading level of a country and its GDP.
+Theoretical support, statistical analysis, scatter plot and regression will be included.
