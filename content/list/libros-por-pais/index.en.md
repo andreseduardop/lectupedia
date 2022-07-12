@@ -1,5 +1,5 @@
 ---
-title: "Average books read per year by country"
+title: "Average number of books read per year by country"
 date: 2020-12-21T10:26:12-05:00
 slug: "number-of-books-read-in-each-country"
 tags: 
