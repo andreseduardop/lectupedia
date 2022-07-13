@@ -4,6 +4,7 @@ date: 2022-06-29T20:00:12-00:00
 slug: "bibliografia-seleccionada"
 tags: 
 - bibliografia
+- teoria
 
 draft: false
 

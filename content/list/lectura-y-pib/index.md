@@ -4,6 +4,7 @@ date: 2022-07-11
 slug: "lectura-y-pib"
 tags: 
 - indicadores y estadísticas
+- teoria
 
 draft: false
 

@@ -4,6 +4,7 @@ date: 2022-07-11
 slug: "reading-and-gdp"
 tags: 
 - indicators and statistics
+- theory
 
 draft: false
 
