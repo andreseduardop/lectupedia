@@ -22,7 +22,7 @@
     Content-Security-Policy = "default-src https: 'self' 'unsafe-inline';"
     cache-control = '''
 		public,
-		max-age=86400,
+		max-age=43200,
 		must-revalidate'''
 		X-DNS-Prefetch-Control = "on"
 
