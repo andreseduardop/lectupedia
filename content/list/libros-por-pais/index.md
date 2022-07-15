@@ -1,5 +1,5 @@
 ---
-title: "Cantidad de libros leídos por país"
+title: "Promedio de libros leídos por país"
 date: 2020-12-21T10:26:12-05:00
 slug: "cantidad-de-libros-leidos-por-pais"
 tags: 
