@@ -20,10 +20,6 @@
     X-XSS-Protection = "1; mode=block"
     X-Content-Type-Options = "nosniff"
     Content-Security-Policy = "default-src https: 'self' 'unsafe-inline';"
-    cache-control = '''
-		public,
-		max-age=43200,
-		must-revalidate'''
 		X-DNS-Prefetch-Control = "on"
 
 [build]
