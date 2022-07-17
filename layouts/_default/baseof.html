@@ -4,11 +4,7 @@
   <body>
     <a href="#main">{{ T "skip_to_content" }}</a>
     {{ partial "noscript.html" . }}
-    {{ if .IsHome }}
-        {{ partial "svg-home.html" . }}
-      {{ else }}
-        {{ partial "svg.html" . }}
-    {{ end }}
+    {{ partial "svg.html" . }}
     {{ partial "css-load-error.html" . }}
     <div class="wrapper">
       {{ partial "header.html" . }}

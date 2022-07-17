@@ -810,8 +810,10 @@ a button {
 
 /* Imágenes */
 img {
-    max-width: 100%;
+    width: auto;
+    height: auto;
     max-height: 50vh;
+    max-width: 100%;
 }
 p img {
     margin: 0.75rem 0;
@@ -827,8 +829,7 @@ p img {
 
 /* Shortcode figure (infografías) */
 .infografia img {
-    width: auto;
-    height: 50vh;
+    /*height: 50vh; // Deforma la imagen, por forzar la altura */
 }
 .infografia .img-link {
     border: none;
@@ -836,4 +837,15 @@ p img {
     cursor: -moz-zoom-in;
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
+}
+
+/* Íconos con enlaces a redes sociales */
+a.social-icon:hover {
+    border: 0;
+}
+a.social-icon svg
+{
+    height: 1.75rem;
+    width: 1.75rem;
+    margin-right: 0px;
 }

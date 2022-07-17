@@ -17,7 +17,7 @@ enableInlineShortcodes: true
 menu:
   nav:
     - name: Artículos
-      url: /list/
+      url: /articles/
       weight: 2
     - name: Temas
       url: /tags/
@@ -38,7 +38,7 @@ languages:
     menu:
       nav:
         - name: Articles
-          url: /list/
+          url: /articles/
           weight: 2
         - name: Topics
           url: /tags/
@@ -47,6 +47,7 @@ taxonomies:
   tag: tags
 permalinks:
   list: '/:slug/'
+  articles: '/:slug/'
 related:
   includeNewer: true
   threshold: 70
@@ -58,6 +59,7 @@ related:
       weight: 50
 imaging:
   quality: 85
+  
 params:
   description: Hablemos sobre lectura. Mundus excolitur legendo.
   homeMetaContent: Hablemos sobre lectura. Mundus excolitur legendo.
@@ -76,6 +78,7 @@ params:
   facebook: Lectupedia
   twitter: andreseduardop_
   linkedin: andreseduardop
+
 markup:
   defaultMarkdownHandler: goldmark
   goldmark:

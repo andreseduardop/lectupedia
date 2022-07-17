@@ -14,6 +14,8 @@
     </div>
     <!-- end idiomas disponibles -->
     <hr>
+
+    <!-- Fechas -->
     <div class="date">
       {{ $dateFormat := $.Site.Params.dateFormat | default "Jan 2, 2006" }}
       {{ $publishDate := .PublishDate }}
@@ -26,6 +28,7 @@
       {{ end }}
     </div>
 
+    <!-- Etiquetas -->
     {{ with .Params.tags }}
       <div class="tags">
         <strong>{{ T "tags" -}}</strong>

@@ -11,6 +11,8 @@
     aria-label="{{ T "search_aria_label" }}"
   />
   {{ end }}
+
+  <!-- Lista de páginas -->
   <ul class="patterns-list" id="list">
     {{ range site.RegularPages.ByTitle }}
     <li>
@@ -32,6 +34,7 @@
   </ul>
 
   <!-- Agrego contenido desde el index.md -->
+  <hr>
   {{ .Content }}
 
 </main>
