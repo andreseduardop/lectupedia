@@ -52,3 +52,11 @@
   translation: "Error: JavaScript is disabled."
 - id: see-full-size-image
   translation: "See full-size image"
+- id: licenced-under
+  translation: "Licenced under"
+- id: licenced-link
+  translation: "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
+- id: licenced-caption
+  translation: "When sharing, please include a link to this page"
+- id: permission
+  translation: "You have the permission to use, distribute, and reproduce this material in any medium, provided the source and authors are credited"

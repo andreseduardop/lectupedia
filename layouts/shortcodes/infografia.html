@@ -16,10 +16,22 @@
       width="{{ $image.Width }}" 
       height="{{ $image.Height }}">
   </a>
+  <br>
+  <a href="{{ $image.RelPermalink }}">
+    {{ T "see-full-size-image" }}
+  </a>
   <figcaption id="caption-{{ $caption | md5 }}">
-    {{ $caption | markdownify }}<br>
-    <a href="{{ $image.RelPermalink }}">
-      [{{ T "see-full-size-image" }}]
-    </a>
+    <!-- Publica el caption enviado desde el archivo .md -->
+    {{ $caption | markdownify }}
+    <br>
+    <!-- Info. de Licencia -->
+    <small>
+      <a href="{{ T "licenced-link" }}" 
+        target="_blank" 
+        rel="noopener">
+        {{ T "licenced-under" }} CC BY-NC: 
+      </a>
+        {{ T "licenced-caption" }}.
+    </small>
   </figcaption>
 </figure>

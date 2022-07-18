@@ -26,8 +26,10 @@ _(1639, Francisco de Quevedo)_
   
   
 {{< blockquote >}}
-_Aquella que no detiene el tiempo;  
-más dejándolo pasar, lo aprovecha._
+_La lectura,  
+aquella que no detiene el tiempo;  
+más, dejándolo pasar, lo aprovecha._
 {{< /blockquote >}}
+
 
 [^Johnson]: Translated by [Christopher Johnson](https://poetrysociety.org/features/readinginthedark/pedro-serrano-on "Poetry Society of America")

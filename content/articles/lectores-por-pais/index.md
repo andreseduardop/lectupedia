@@ -14,7 +14,7 @@ description: Compendio estadístico del porcentaje de lectores de libros por pa�
 {{< infografia 
   src="img/lectores-por-pais-1.0.png" 
   alt="Mapa del mundo con porcentaje de lectores por país."
-  caption="Porcentaje de lectores de libros en cada país. <br>[Licencia CC BY-NC:](https://creativecommons.org/licenses/by-nc/4.0/deed.es) Al compartir debe incluir un enlace a esta página." >}}
+  caption="Porcentaje de lectores de libros en cada país." >}}
 
 Para cada país, se indica el porcentaje de adultos lectores de libros. La cifra corresponde al porcentaje de personas que leen al menos un libro al año.
 

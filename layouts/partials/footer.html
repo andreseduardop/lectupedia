@@ -9,51 +9,18 @@
   </div> -->
 
   <!-- Social Icons -->
-  <div class="social-icons">
-    <!-- Facebook -->
-    {{ with .Param "facebook" }}
-      <a href="https://www.facebook.com/{{ . }}" 
-        class="social-icon"
-        target="_blank"
-        rel="noopener">
-        <svg viewBox="0 0 16 16">
-          <use xlink:href="#facebook"></use>
-        </svg>   
-      </a>
-      &thinsp;
-    {{ end }}
-    <!-- Twitter -->
-    {{ with .Param "twitter" }}
-      <a href="https://twitter.com/{{ . }}" 
-        class="social-icon"
-        target="_blank"
-        rel="noopener">
-        <svg viewBox="0 0 16 16">
-          <use xlink:href="#twitter"></use>
-        </svg>   
-      </a>
-      &thinsp;
-    {{ end }}
-    <!-- LindedIn -->
-    {{ with .Param "linkedin" }}
-         
-      <a href="https://www.linkedin.com/in/{{ . }}/" 
-        class="social-icon"
-        target="_blank"
-        rel="noopener"> 
-        <svg viewBox="0 0 16 16">
-          <use xlink:href="#linkedin"></use>
-        </svg>        
-      </a>
-    {{ end }}   
-  </div>
+  {{ partial "social-icons" . }}
 
+  <!-- Lineas de texto  -->
   <div class="footer1">
     {{- with .Site.Params.footer -}}
       {{- . | markdownify -}}
     {{- end -}}
   </div>
   <div class="footer2">
+    {{ T "permission" }}.
+  </div>
+  <div class="footer3">
   {{- with .Site.Params.footer2 -}}
     {{- . | markdownify -}}
   {{- end -}}

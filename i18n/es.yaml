@@ -52,3 +52,11 @@
   translation: "Error: JavaScript está desactivado."
 - id: see-full-size-image
   translation: "Ver imagen en tamaño completo"
+- id: licenced-under
+  translation: Licencia
+- id: licenced-link
+  translation: "https://creativecommons.org/licenses/by-nc/4.0/deed.es"
+- id: licenced-caption
+  translation: "Al compartir, incluya un enlace a esta página"
+- id: permission
+  translation: "Tiene permiso para usar, distribuir y reproducir este material en cualquier medio, siempre que se mencione la fuente y los autores"

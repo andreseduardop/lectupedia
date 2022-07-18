@@ -782,9 +782,13 @@ a.menu-item {
     background-color: #9dd29f;
 }
 .footer1 {
-    margin-top: 1rem;
+    /*margin-top: 1rem;*/
 }
 .footer2 {
+    font-size: 0.75rem;
+    margin: 0;
+}
+.footer3 {
     font-size: 0.625rem;
     color: #333333;
     margin: 0.5rem 0rem 1rem;
@@ -829,23 +833,30 @@ p img {
 
 /* Shortcode figure (infografías) */
 .infografia img {
+    transition: all .3s ease; 
     /*height: 50vh; // Deforma la imagen, por forzar la altura */
+}
+.infografia img:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+    cursor: zoom-in;
+    opacity: .9;    
 }
 .infografia .img-link {
     border: none;
-    cursor: pointer;
-    cursor: -moz-zoom-in;
-    cursor: -webkit-zoom-in;
     cursor: zoom-in;
 }
 
+
 /* Íconos con enlaces a redes sociales */
-a.social-icon:hover {
+.social-icons {
+    text-align: left;
+}
+.social-icons a:hover {
     border: 0;
 }
-a.social-icon svg
+.social-icons a svg
 {
-    height: 1.75rem;
-    width: 1.75rem;
+    height: 1.5rem;
+    width: 1.5rem;
     margin-right: 0px;
 }

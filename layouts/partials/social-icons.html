@@ -1,0 +1,42 @@
+<!-- Social Icons -->
+<div class="social-icons">
+  <!-- Facebook -->
+  {{ with .Param "facebook" }}
+  <p>
+    <a href="https://www.facebook.com/{{ . }}" 
+      class="social-icon"
+      target="_blank"
+      rel="noopener">
+      <svg viewBox="0 0 16 16">
+        <use xlink:href="#facebook"></use>
+      </svg> &thinsp; facebook.com/{{ . }}
+    </a>
+  </p>
+  {{ end }}
+  <!-- Twitter -->
+  {{ with .Param "twitter" }}
+  <p>
+    <a href="https://twitter.com/{{ . }}" 
+      class="social-icon"
+      target="_blank"
+      rel="noopener">
+      <svg viewBox="0 0 16 16">
+        <use xlink:href="#twitter"></use>
+      </svg> &thinsp; @{{ . }}
+    </a>
+  </p>
+  {{ end }}
+  <!-- LindedIn -->
+  {{ with .Param "linkedin" }}
+  <p>
+    <a href="https://www.linkedin.com/in/{{ . }}/" 
+      class="social-icon"
+      target="_blank"
+      rel="noopener"> 
+      <svg viewBox="0 0 16 16">
+        <use xlink:href="#linkedin"></use>
+      </svg> &thinsp; @{{ . }}  
+    </a>
+  </p>
+  {{ end }}   
+</div>

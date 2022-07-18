@@ -14,7 +14,7 @@ description: Statistical compendium of the mean number of books read per year in
 {{< infografia 
   src="img/books-read-by-country-1.4.png" 
   alt="World map with average reading by country."
-  caption="Number of books read in each country, per-capita. <br>[Licensed under CC BY-NC:](https://creativecommons.org/licenses/by-nc/4.0/deed.en) When sharing you must include a link to this page." >}}
+  caption="Number of books read in each country, per-capita." >}}
 
 Mean number of books read per year is indicated for each country, among adults (including non-readers). The figures are presented based on data provided by research centers or government institutions in charge of culture and education in the respective country. Sources are indicated in the endnotes.
 

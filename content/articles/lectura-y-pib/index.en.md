@@ -16,7 +16,7 @@ description: Analysis of the relationship between reading and GDP.
 {{< infografia 
   src="img/reading-and-gdp-1.0a.png" 
   alt="Graph with figures on reading levels and GDP in various countries."
-  caption="Average number of books read and GDP, per capita. <br>[Licensed under CC BY-NC:](https://creativecommons.org/licenses/by-nc/4.0/deed.en) When sharing you must include a link to this page." >}}
+  caption="Average number of books read and GDP, per capita." >}}
 
 There is strong evidence that the cognitive skills of the population are powerfully related to individual earnings, to the distribution of income, and to economic growth. (Hanushek & Woessmann, 2008, p. 607)[^hanushek-woessmann-2008] 
 
@@ -29,11 +29,11 @@ Consistent with these analyses, we display the correlation between reading level
 {{< infografia 
   src="img/scatter-reading-and-gdp-1.0.png" 
   alt="Scatterplot for the Correlation between Reading and GDP."
-  caption="Correlation between Reading and GDP. <br>[Licensed under CC BY-NC:](https://creativecommons.org/licenses/by-nc/4.0/deed.en) When sharing you must include a link to this page." >}}
+  caption="Correlation between Reading and GDP." >}}
 
 
 
-## List of information sources
+## Data sources
 
 Reading figures for each country can be found [here]({{<relref "libros-por-pais">}}).
 
@@ -45,8 +45,8 @@ The values for GDP are obtained from the [website of the International Monetary 
 
 ## Endnotes
 
-[^hanushek-woessmann-2008]: Hanushek, E. A., & Woessmann, L. (2008). The Role of Cognitive Skills in Economic Development. _Journal of Economic Literature_, 46(3), p. 607. [https://doi.org/10.1257/JEL.46.3.607](https://doi.org/10.1257/JEL.46.3.607)
+[^hanushek-woessmann-2008]: Hanushek, E. A., & Woessmann, L. (2008). The Role of Cognitive Skills in Economic Development. _Journal of Economic Literature_, 46(3), 607–668. [https://doi.org/10.1257/JEL.46.3.607](https://doi.org/10.1257/JEL.46.3.607)
 
-[^becker-woessmann-2009]: Becker, S. O., & Woessmann, L. (2009). Was Weber Wrong? A Human Capital Theory of Protestant Economic History. The Quarterly Journal of Economics, 124(2), p. 581. [https://doi.org/10.1162/QJEC.2009.124.2.531](https://doi.org/10.1162/QJEC.2009.124.2.531)
+[^becker-woessmann-2009]: Becker, S. O., & Woessmann, L. (2009). Was Weber Wrong? A Human Capital Theory of Protestant Economic History. _The Quarterly Journal of Economics_, 124(2), 531–596. [https://doi.org/10.1162/QJEC.2009.124.2.531](https://doi.org/10.1162/QJEC.2009.124.2.531)
 
-[^hanushek-2017]: Hanushek, E. A. (2017). For long-term economic development, only skills matter. _IZA World of Labor_, 343, p. 1. [https://doi.org/10.15185/IZAWOL.343](https://doi.org/10.15185/IZAWOL.343)
+[^hanushek-2017]: Hanushek, E. A. (2017). For long-term economic development, only skills matter. _IZA World of Labor_, 343, 1–11. [https://doi.org/10.15185/IZAWOL.343](https://doi.org/10.15185/IZAWOL.343)
