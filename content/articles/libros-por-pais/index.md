@@ -20,7 +20,7 @@ Para cada país, se indica la cantidad promedio (media aritmética) de libros le
 
 
 | País                    | Promedio anual |
-|-----------------------------------|------|
+|-----------------------------------|:----:|
 | Argentina [^Argentina]            | 1,6  |
 | Brasil [^Brasil]                  | 2,5  |
 | Canadá [^Canadá]                  | 17   |

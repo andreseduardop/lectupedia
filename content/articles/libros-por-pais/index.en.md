@@ -20,7 +20,7 @@ Mean number of books read per year is indicated for each country, among adults (
 
 
 | Country                 | Anual average  |
-|-----------------------------------|------|
+|-----------------------------------|:----:|
 | Argentina [^Argentina]            | 1,6  |
 | Brazil [^Brazil]                  | 2,5  |
 | Canada [^Canada]                  | 17   |
