@@ -5,7 +5,7 @@
   <h2>{{ T "related_articles_title" }}</h2>
   	{{ range . }}
     	<article class="related-article">
-    		<header>
+    		<div>
     			<h3 class="related-header">
     			    <a class="related-header-title" href="{{ .RelPermalink }}" aria-label="post link to {{ .Title | plainify }}">
     			    <svg
@@ -24,11 +24,11 @@
     				<span>·{{ . }}</span>
     				{{ end }} 
     			</div>
-    		</header>
-    		<section class="related-summary-text">
+    		</div>
+    		<div class="related-summary-text">
     			<p>{{ .Summary | markdownify | plainify | htmlUnescape }}..</p>
     			<p><a href="{{ .RelPermalink }}" aria-label="post link to {{ .Title | plainify }}">{{ T "read_more" }}</a></p>
-    		</section>
+    		</div>
     	</article>
   	{{ end }}	
   <hr>

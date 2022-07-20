@@ -8,7 +8,7 @@
 
 <!-- salida html -->
 <figure class="infografia" 
-  role="group" aria-describedby="caption-{{ $caption | md5 }}">
+  aria-describedby="caption-{{ $caption | md5 }}">
   <a href="{{ $image.RelPermalink }}" class="img-link">
     <img class="infografia-shortcode" 
       src="{{ $image.RelPermalink | absLangURL }}" 
