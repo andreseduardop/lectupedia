@@ -16,7 +16,7 @@ description: Compendio estadístico de la cantidad promedio anual de libros leí
   alt="Mapa del mundo con promedio de lectura por país."
   caption="Cantidad promedio anual de libros leídos por habitante en cada país." >}}
 
-Para cada país, se indica la cantidad promedio (media aritmética) de libros leídos al año, por habitante. Las cifras se presentan con base en datos suministrados por centros de investigación o instituciones gubernamentales encargadas de cultura y educación en el respectivo país. Las fuentes se indican en las notas al final.
+Para cada país, se indica la cantidad promedio (media aritmética) de libros leídos al año, entre la población de adultos (incluídos los no lectores). Las cifras se presentan con base en datos suministrados por centros de investigación o instituciones gubernamentales encargadas de cultura y educación en el respectivo país. Las fuentes se indican en las notas al final.
 
 
 | País                    | Promedio anual |
@@ -49,7 +49,7 @@ Para cada país, se indica la cantidad promedio (media aritmética) de libros le
 [^Argentina]: **Argentina:** Sistema de información cultural de la Argentina. 2017. _"Encuesta Nacional de Consumos Culturales 2017: Libros"_. [https://encuestadeconsumo.sinca.gob.ar/indicadores/libros/cantidad-de-libros-le%C3%ADdos-en-el-a%C3%B1o/2](https://encuestadeconsumo.sinca.gob.ar/indicadores/libros/cantidad-de-libros-le%C3%ADdos-en-el-a%C3%B1o/2)
 [^Brasil]: **Brasil:** Instituto Pró-Livro - IBOPE. 2019. _"A 5ª edição da Retratos da Leitura no Brasil: O leitor de livros"_. [https://www.prolivro.org.br/5a-edicao-de-retratos-da-leitura-no-brasil-2/a-pesquisa-5a-edicao/](https://www.prolivro.org.br/5a-edicao-de-retratos-da-leitura-no-brasil-2/a-pesquisa-5a-edicao/)
 [^Canadá]: **Canadá:** Department of Canadian Heritage. Booknet Canada. 2005. _"Reading and Buying Books for Pleasure: 2005 National Survey"_. [http://publications.gc.ca/collections/Collection/CH44-61-2005E.pdf](http://publications.gc.ca/collections/Collection/CH44-61-2005E.pdf)
-[^Chile]: **Chile:** Consejo Nacional de la Cultura y las Artes (CNCA). 2014. _"Encuesta de Comportamiento Lector 2014"_. [http://plandelectura.gob.cl/recursos/encuesta-de-comportamiento-lector-2014/](http://plandelectura.gob.cl/recursos/encuesta-de-comportamiento-lector-2014/)
+[^Chile]: **Chile:** Consejo Nacional de la Cultura y las Artes (CNCA). 2014. _"Encuesta de Comportamiento Lector 2014"_. [http://plandelectura.gob.cl/recursos/encuesta-de-comportamiento-lector-2014/](appendix/Chile-2014.pdf)
 [^Colombia]: **Colombia:** Departamento Administrativo Nacional de Estadística (DANE). 2020. _"Encuesta de consumo cultural (ECC). Anexos 12 años y más: Lectura, Cuadro 19"_. [https://www.dane.gov.co/index.php/estadisticas-por-tema/cultura/consumo-cultural](https://www.dane.gov.co/index.php/estadisticas-por-tema/cultura/consumo-cultural)
 [^Corea del Sur]: **Corea del Sur:** China Daily. 2011. _"Reading rate falling in China"_. [http://www.chinadaily.com.cn/china/2013-04/19/content_16423992.htm](http://www.chinadaily.com.cn/china/2013-04/19/content_16423992.htm)
 [^España]: **España:** Federación de Gremios de Editores de España. 2021. _"Hábitos de Lectura y Compra de Libros Año 2021"_. [https://www.federacioneditores.org/documentos.php](https://www.federacioneditores.org/documentos.php)
