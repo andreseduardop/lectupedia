@@ -13,4 +13,4 @@ Una colección de:
   
 Made with [HUGO](https://gohugo.io/). Themed by [CUPPER](https://github.com/zwbetz-gh/cupper-hugo-theme) (Mod). Deployed to [NETLIFY](https://www.netlify.com/).
 
-2021·Lectupedia by [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en)
+2021-2022·Lectupedia by [Andrés Peña](https://www.linkedin.com/in/andreseduardop/) is licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/deed.en)
