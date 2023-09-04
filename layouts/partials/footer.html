@@ -13,9 +13,7 @@
 
   <!-- Lineas de texto  -->
   <div class="footer1">
-    {{- with .Site.Params.footer -}}
-      {{- . | markdownify -}}
-    {{- end -}}
+    {{ T "license" }}.
   </div>
   <div class="footer2">
     {{ T "permission" }}.

@@ -58,5 +58,7 @@
   translation: "https://creativecommons.org/licenses/by-nc/4.0/deed.en"
 - id: licenced-caption
   translation: "When sharing, please include a link to this page"
+- id: license
+  translation: "2021-2023 · Lectupedia, by Andrés Eduardo Peña, is available under the CC BY-NC 4.0 license"
 - id: permission
   translation: "You have the permission to use, distribute, and reproduce this material in any medium, provided the source and authors are credited"
