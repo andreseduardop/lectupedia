@@ -5,13 +5,12 @@
 
 <!-- obtener recurso -->
 {{ $image := .Page.Resources.GetMatch (printf "*%s*" $src) }}
-
 <!-- salida html -->
 <figure class="infografia" 
   aria-describedby="caption-{{ $caption | md5 }}">
   <a href="{{ $image.RelPermalink }}" class="img-link">
     <img class="infografia-shortcode" 
-      src="{{ $image.RelPermalink | absLangURL }}" 
+      src="{{ $image.RelPermalink }}" 
       alt="{{ $alt | plainify }}" 
       width="{{ $image.Width }}" 
       height="{{ $image.Height }}">
