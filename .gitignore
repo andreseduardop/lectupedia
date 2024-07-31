@@ -1,0 +1,3 @@
+# Múdulos node (postcss > autoprefixer, etc.)
+/node_modules
+/public
