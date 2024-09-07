@@ -1,6 +1,5 @@
 baseURL: 'https://lectupedia.com'
 title: Lectupedia
-theme: cupper-hugo-theme
 languageCode: es-co
 defaultContentLanguage: es
 defaultContentLanguageInSubdir: true
