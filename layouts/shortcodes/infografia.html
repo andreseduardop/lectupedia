@@ -4,7 +4,7 @@
 {{ $caption := .Get "caption" }}
 
 <!-- obtener recurso -->
-{{ $image := .Page.Resources.GetMatch (printf "*%s*" $src) }}
+{{ $image := .Page.Resources.GetMatch $src }}
 <!-- salida html -->
 <figure class="infografia" 
   aria-describedby="caption-{{ $caption | md5 }}">

@@ -23,19 +23,6 @@
     <link rel="preload" href='{{ "css/fonts/Bitter-800.woff2" | relURL }}' as="font" type="font/woff2" crossorigin>
   {{ end }}
 
-  <!-- Preconexión a Disqus (para comentarios)  -->
-  {{ if .IsPage }}  
-    {{ with .Site.DisqusShortname }}
-    	{{ $myDisqus := print "https://" . ".disqus.com/" }}
-<!--     	<link rel="preconnect" href="{{ $myDisqus }}" crossorigin>
-    	<link rel="preconnect" href="https://disqus.com/" crossorigin>
-    	<link rel="preconnect" href="https://referrer.disqus.com/" crossorigin>
-    	<link rel="preconnect" href="https://links.services.disqus.com/" crossorigin>
-    	<link rel="preconnect" href="https://c.disquscdn.com/" crossorigin>
-    	<link rel="preconnect" href="https://cdn.viglink.com/" crossorigin> -->
-    {{ end }}
-  {{ end }}
-
   <!-- Descripción meta -->
   {{ if .IsHome }}
       {{ with .Site.Params.homeMetaContent }}
