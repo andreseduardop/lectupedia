@@ -1,7 +1,6 @@
 baseURL: 'https://lectupedia.com'
 title: Lectupedia
 theme: cupper-hugo-theme
-googleAnalytics: G-P3QZ0WPV28
 languageCode: es-co
 defaultContentLanguage: es
 defaultContentLanguageInSubdir: true
@@ -13,6 +12,10 @@ removePathAccents: true
 pluralizeListTitles: false
 summaryLength: 35
 enableInlineShortcodes: true
+
+services:
+  googleAnalytics:
+    id: "G-P3QZ0WPV28"
 
 menu:
   nav:

@@ -1,6 +1,6 @@
 {{ if not hugo.IsServer }}
 	{{ if not .IsHome }}
-    {{ with .Site.GoogleAnalytics }}
+    {{ with .Site.Config.Services.GoogleAnalytics.ID }}
     	<!-- Global site tag (gtag.js) - Google Analytics -->
     	<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
     	<script>
