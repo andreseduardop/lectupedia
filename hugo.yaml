@@ -64,7 +64,6 @@ imaging:
 params:
   description: Hablemos sobre lectura. Mundus excolitur legendo.
   homeMetaContent: Hablemos sobre lectura. Mundus excolitur legendo.
-  footer2: "Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme) (Mod). Deployed to [Netlify](https://www.netlify.com/)."
   dateFormat: 'Jan 2, 2006'
   author: Andrés Eduardo Peña
   images:
