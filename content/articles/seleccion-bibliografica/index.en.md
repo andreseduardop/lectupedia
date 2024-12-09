@@ -23,11 +23,11 @@ The following texts approach the act of reading from different scientific perspe
 
 ### A History of Reading in the West
 
-{{< imagen-enlace 
+<!-- {{< imagen-enlace 
   href="https://amzn.to/3NyefIf" 
   src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1558494111&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=lectupedia-20&language=en_US" 
   alt="Cover of the book A history of reading in the West." 
-  caption="View on Amazon">}}
+  caption="View on Amazon">}} -->
 
 [**Cavallo, Guglielmo**, and **Roger Chartier**. 2003. _A History of Reading in the West: Studies in Print Culture and the History of the Book_. University of Massachusetts Press.](https://amzn.to/3NyefIf)
 
@@ -36,11 +36,11 @@ Written by a distinguished group of international contributors, [this book](http
 
 ### A History of Reading 
 
-{{< imagen-enlace 
+<!-- {{< imagen-enlace 
   href="https://amzn.to/3bGNsfl" 
   src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0143126717&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=lectupedia-20&language=en_US" 
   alt="Cover of the book A history of reading." 
-  caption="View on Amazon">}}
+  caption="View on Amazon">}} -->
 
 [**Manguel, Alberto**. 2014. _A History of Reading_. Penguin Books.](https://amzn.to/3bGNsfl)
 
@@ -49,12 +49,12 @@ In [A History of Reading](https://amzn.to/3bGNsfl), Alberto Manguel follows the 
 
 ### Papyrus: The Invention of Books in the Ancient World
 
-{{< imagen-enlace 
+<!-- {{< imagen-enlace 
   href="https://amzn.to/3I27DRh" 
   src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0593318897&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=lectupedia-20&language=es_US" 
   alt="Cover of the book Papyrus: The Invention of Books in the Ancient World." 
   caption="View on Amazon">}}
-
+ -->
 [**Vallejo, Irene**. 2022. _Papyrus: The Invention of Books in the Ancient World_. Knopf.](https://amzn.to/3I27DRh)
 
 [This book](https://amzn.to/3I27DRh) is an essay on the history of books. A journey through the life of that fascinating device that we invented so that words could travel through space and time. The history of its manufacture, of all the types that we have tested over almost thirty centuries: books of smoke, stone, clay, reeds, silk, leather, trees and, the latest arrivals, plastic and light.
@@ -69,11 +69,11 @@ It is also a fabulous collective adventure starring thousands of people who, ove
 
 ### Proust and the Squid: The Story and Science of the Reading Brain
 
-{{< imagen-enlace 
+<!-- {{< imagen-enlace 
   href="https://amzn.to/3yxecYR" 
   src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0060186399&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=lectupedia-20&language=en_US" 
   alt="Cover of the book Proust and the Squid." 
-  caption="View on Amazon">}}
+  caption="View on Amazon">}} -->
 
 [**Wolf, Maryanne**. 2007. _Proust and the Squid : The Story and Science of the Reading Brain_. Harper Collins.](https://amzn.to/3yxecYR)
  
@@ -82,11 +82,11 @@ The brain of every new reader has the extraordinary ability to reorganize itself
 
 ### Reader, Come Home: The Reading Brain in a Digital World
 
-{{< imagen-enlace 
+<!-- {{< imagen-enlace 
   href="https://amzn.to/3A94PQm" 
   src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0062388789&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=lectupedia-20&language=en_US" 
   alt="Cover of the book Reader, come home." 
-  caption="View on Amazon">}}
+  caption="View on Amazon">}} -->
 
 [**Wolf, Maryanne**. 2018. _Reader, Come Home: The Reading Brain in a Digital World_. Harper.](https://amzn.to/3A94PQm)
  
@@ -97,11 +97,11 @@ Drawing deeply on this research, [this book](https://amzn.to/3A94PQm) comprises 
 
 ### Reading in the Brain: The New Science of How We Read
 
-{{< imagen-enlace 
+<!-- {{< imagen-enlace 
   href="https://amzn.to/3y5XI8E" 
   src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0143118056&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=lectupedia-20&language=en_US" 
   alt="Cover of the book Reading in the Brain." 
-  caption="View on Amazon">}}
+  caption="View on Amazon">}} -->
 
 
 [**Dehaene, Stanislas**. 2010. _Reading in the Brain: The New Science of How We Read_. Penguin Books.](https://amzn.to/3y5XI8E)
@@ -116,11 +116,11 @@ The act of reading is so easily taken for granted that we forget what an astound
 
 ### Read-Aloud Handbook
 
-{{< imagen-enlace 
+<!-- {{< imagen-enlace 
   href="https://amzn.to/3y90p9k" 
   src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0143133799&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=lectupedia-20&language=en_US" 
   alt="Cover of the book Read-Aloud Handbook." 
-  caption="View on Amazon">}}
+  caption="View on Amazon">}} -->
 
 [**Trelease, Jim**, and **Cyndi Giorgis**. 2019. _Read-Aloud Handbook_. 8th ed. Penguin Books.](https://amzn.to/3y90p9k)
  
@@ -129,11 +129,11 @@ Millions of parents and educators have turned to this Jim Trelease manual for mo
 
 ### The Power of Reading
 
-{{< imagen-enlace 
+<!-- {{< imagen-enlace 
   href="https://amzn.to/3OR24Hj" 
   src="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1591581699&Format=_SL250_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=lectupedia-20&language=en_US" 
   alt="Cover of the book The Power of Reading." 
-  caption="View on Amazon">}}
+  caption="View on Amazon">}} -->
 
 [**Krashen, Stephen**. 2004. _The Power of Reading: Insights from the Research_. Libraries Unlimited.](https://amzn.to/3OR24Hj)
  

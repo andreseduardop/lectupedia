@@ -23,7 +23,7 @@
 		X-DNS-Prefetch-Control = "on"
 
 [build.environment]
-HUGO_VERSION = "0.134.1"
+HUGO_VERSION = "0.139.3"
 TZ = "America/Bogota"
 
 [build]
